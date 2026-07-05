@@ -1,0 +1,2151 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-11-04 23:14+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: el\n"
+"Project-Id-Version: resumelite\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-06-18 16:58\n"
+"Last-Translator: \n"
+"Language-Team: Greek\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: resumelite\n"
+"X-Crowdin-Project-ID: 503410\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /apps/web/locales/en-US.po\n"
+"X-Crowdin-File-ID: 545\n"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Last Updated"
+msgstr "Τελευταία ενημέρωση"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Created"
+msgstr "Ημερομηνία δημιουργίας"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Name"
+msgstr "Όνομα"
+
+#. placeholder {0}: section.items.length
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "{0, plural, one {# item} other {# items}}"
+msgstr "{0, plural, one {# στοιχείο} other {# στοιχεία}}"
+
+#. placeholder {0}: item.roles.length
+#: src/routes/builder/$resumeId/-sidebar/left/sections/experience.tsx
+msgid "{0, plural, one {# role} other {# roles}}"
+msgstr "{0, plural, one {# ρόλος} other {# ρόλοι}}"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "{column, plural, one {# Column} other {# Columns}}"
+msgstr "{column, plural, one {# Στήλη} other {# Στήλες}}"
+
+#: src/components/ui/copyright.tsx
+msgid "A passion project by <0>Amruth Pillai</0>."
+msgstr "Ένα έργο πάθους από τον <0>Amruth Pillai</0>."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "A4"
+msgstr "Α4"
+
+#: src/features/project/labels.ts
+msgid "Academic"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Add a custom field"
+msgstr "Προσθέστε ένα προσαρμοσμένο πεδίο"
+
+#: src/components/input/chip-input.tsx
+msgid "Add a keyword..."
+msgstr "Προσθέστε μια λέξη-κλειδί..."
+
+#. Tooltip for action button that opens URL label editor
+#: src/components/input/url-input.tsx
+msgid "Add a label to the URL"
+msgstr "Προσθέστε μια ετικέτα στο URL"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/awards.tsx
+msgid "Add a new award"
+msgstr "Προσθέστε ένα νέο βραβείο"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/certifications.tsx
+msgid "Add a new certification"
+msgstr "Προσθέστε μια νέα πιστοποίηση"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Add a new custom section"
+msgstr "Προσθέστε μια νέα προσαρμοσμένη ενότητα"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/education.tsx
+msgid "Add a new education"
+msgstr "Προσθέστε μια νέα εκπαίδευση"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/experience.tsx
+msgid "Add a new experience"
+msgstr "Προσθέστε μια νέα επαγγελματική εμπειρία"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/interests.tsx
+msgid "Add a new interest"
+msgstr "Προσθέστε ένα νέο ενδιαφέρον"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Add a new item"
+msgstr "Προσθήκη νέου αντικειμένου"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/languages.tsx
+msgid "Add a new language"
+msgstr "Προσθέστε μια νέα γλώσσα"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/profiles.tsx
+msgid "Add a new profile"
+msgstr "Προσθέστε ένα νέο προφίλ"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/projects.tsx
+msgid "Add a new project"
+msgstr "Προσθέστε ένα νέο έργο"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/publications.tsx
+msgid "Add a new publication"
+msgstr "Προσθέστε μια νέα δημοσίευση"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/references.tsx
+msgid "Add a new reference"
+msgstr "Προσθέστε μια νέα σύσταση"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/skills.tsx
+msgid "Add a new skill"
+msgstr "Προσθέστε μια νέα δεξιότητα"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/volunteer.tsx
+msgid "Add a new volunteer experience"
+msgstr "Προσθέστε μια νέα εθελοντική εμπειρία"
+
+#: src/dialogs/project/index.tsx
+#: src/routes/dashboard/experiences/-components/cards/create-card.tsx
+msgid "Add a project experience"
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Add Column After"
+msgstr "Προσθήκη στήλης μετά"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Column Before"
+msgstr "Προσθήκη στήλης πριν"
+
+#: src/components/input/chip-input.tsx
+msgid "Add keyword"
+msgstr "Προσθέστε λέξη-κλειδί"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Add multiple roles to show career progression at the same company."
+msgstr "Προσθέστε πολλαπλούς ρόλους για να εμφανίσετε την επαγγελματική εξέλιξη στην ίδια εταιρεία."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Add Page"
+msgstr "Προσθήκη σελίδας"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Add Role"
+msgstr "Προσθήκη ρόλου"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Row After"
+msgstr "Προσθήκη γραμμής μετά"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Row Before"
+msgstr "Προσθήκη γραμμής πριν"
+
+#: src/libs/locale.ts
+msgid "Afrikaans"
+msgstr "Αφρικάανς"
+
+#: src/libs/locale.ts
+msgid "Albanian"
+msgstr "Αλβανικά"
+
+#: src/libs/locale.ts
+msgid "Amharic"
+msgstr "Αμχαρικά"
+
+#: src/components/layout/error-screen.tsx
+#: src/components/layout/not-found-screen.tsx
+msgid "An error occurred while loading the page."
+msgstr "Προέκυψε σφάλμα κατά τη φόρτωση της σελίδας."
+
+#. Fallback toast when importing a resume fails for an unknown reason
+#: src/dialogs/resume/import.tsx
+msgid "An unknown error occurred while importing your resume."
+msgstr "Προέκυψε άγνωστο σφάλμα κατά την εισαγωγή του βιογραφικού σας σημειώματος."
+
+#: src/routes/dashboard/-components/sidebar.tsx
+msgid "App"
+msgstr "Εφαρμογή"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "Applied Rules"
+msgstr "Εφαρμοσμένοι κανόνες"
+
+#: src/libs/locale.ts
+msgid "Arabic"
+msgstr "Αραβικά"
+
+#: src/features/project/labels.ts
+msgid "Archived"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr "Είστε σίγουροι ότι θέλετε να κλείσετε αυτό το παράθυρο;"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Are you sure you want to delete this custom section?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το προσαρμοσμένο τμήμα;"
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to delete this experience?"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Are you sure you want to delete this item?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το στοιχείο;"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to delete this resume?"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το βιογραφικό σημείωμα;"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to lock this resume?"
+msgstr "Είστε βέβαιοι ότι θέλετε να κλειδώσετε αυτό το βιογραφικό σημείωμα;"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Are you sure you want to reset this section?"
+msgstr "Είστε σίγουροι ότι θέλετε να επαναφέρετε αυτό το τμήμα;"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Area of Study"
+msgstr "Τομέας σπουδών"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Aspect Ratio"
+msgstr "Αναλογία διαστάσεων"
+
+#: src/dialogs/resume/sections/award.tsx
+msgctxt "(noun) person, organization, or entity that gives an award"
+msgid "Awarder"
+msgstr "Βραβευτής"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Awards"
+msgstr "Βραβεία"
+
+#: src/libs/locale.ts
+msgid "Azerbaijani"
+msgstr "Αζερικά"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Background Color"
+msgstr "Χρώμα φόντου"
+
+#: src/libs/resume/section.tsx
+msgid "Basics"
+msgstr "Βασικά στοιχεία"
+
+#: src/libs/locale.ts
+msgid "Bengali"
+msgstr "Μπενγκάλι"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgctxt "Body Text (paragraphs, lists, etc.)"
+msgid "Body"
+msgstr "Κυρίως κείμενο"
+
+#: src/components/input/rich-input.tsx
+msgid "Bold"
+msgstr "Έντονα"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Border Radius"
+msgstr "Ακτίνα περιγράμματος"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Border Width"
+msgstr "Πλάτος περιγράμματος"
+
+#. Screen-reader dialog title for the command palette in the resume builder
+#: src/features/command-palette/index.tsx
+msgid "Builder Command Palette"
+msgstr "Παλέτα εντολών δημιουργού"
+
+#: src/libs/locale.ts
+msgid "Bulgarian"
+msgstr "Βουλγαρικά"
+
+#: src/components/input/rich-input.tsx
+msgid "Bullet List"
+msgstr "Λίστα κουκκίδων"
+
+#. Tagline shown in app footer/about area
+#: src/components/ui/copyright.tsx
+msgid "By the community, for the community."
+msgstr "Από την κοινότητα, για την κοινότητα."
+
+#. Confirmation dialog button label to abort deleting a custom section in resume builder
+#. Confirmation dialog button label to abort deleting a section item in resume builder
+#. Confirmation dialog button label to abort resetting a resume section
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/hooks/use-prompt.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/libs/locale.ts
+msgid "Catalan"
+msgstr "Καταλανικά"
+
+#: src/components/input/rich-input.tsx
+msgid "Center Align"
+msgstr "Στοίχιση στο κέντρο"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Center view"
+msgstr "Κεντράρισμα προβολής"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Certifications"
+msgstr "Πιστοποιήσεις"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Change language to…"
+msgstr "Αλλαγή γλώσσας σε…"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Change theme to…"
+msgstr "Αλλαγή θέματος σε…"
+
+#: src/dialogs/resume/index.tsx
+msgid "Changed your mind? Rename your resume to something more descriptive."
+msgstr "Αλλάξατε γνώμη; Μετονομάστε το βιογραφικό σας σημείωμα σε κάτι πιο περιγραφικό."
+
+#: src/libs/locale.ts
+msgid "Chinese (Simplified)"
+msgstr "Κινέζικα (Απλοποιημένα)"
+
+#: src/libs/locale.ts
+msgid "Chinese (Traditional)"
+msgstr "Κινέζικα (Παραδοσιακά)"
+
+#. Preset or custom shade refer to the color picker
+#. Preset or custom shade refer to the color picker
+#: src/components/input/rich-input.tsx
+msgid "Choose a preset or custom shade."
+msgstr "Επιλέξτε μια προκαθορισμένη ή προσαρμοσμένη απόχρωση."
+
+#: src/components/level/combobox.tsx
+msgid "Circle"
+msgstr "Κύκλος"
+
+#. Clear the highlight color
+#. Clear the text color
+#: src/components/input/rich-input.tsx
+msgid "Clear"
+msgstr "Σαφής"
+
+#: src/components/ui/combobox.tsx
+msgid "Clear selection"
+msgstr "Εκκαθάριση επιλογής"
+
+#: src/dialogs/resume/import.tsx
+msgid "Click here to select a file to import"
+msgstr "Κάντε κλικ εδώ για να επιλέξετε ένα αρχείο προς εισαγωγή"
+
+#: src/components/input/rich-input.tsx
+msgid "Code Block"
+msgstr "Μπλοκ κώδικα"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Columns"
+msgstr "Στήλες"
+
+#. Accessible label for command list region inside command palette
+#. Accessible label for the command palette dialog
+#: src/features/command-palette/index.tsx
+msgid "Command Palette"
+msgstr "Παλέτα εντολών"
+
+#. Accessible label for command palette dialog when browsing a nested command page
+#: src/features/command-palette/index.tsx
+msgid "Command Palette - {currentPage}"
+msgstr "Παλέτα εντολών - {currentPage}"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Company"
+msgstr "Εταιρεία"
+
+#: src/hooks/use-prompt.tsx
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: src/routes/dashboard/resumes/-components/cards/import-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Continue where you left off"
+msgstr "Συνεχίστε από εκεί που σταματήσατε"
+
+#: src/dialogs/resume/import.tsx
+msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
+msgstr ""
+
+#. Fallback title for a custom cover letter item in resume builder when recipient is empty
+#. Fallback title for a custom cover letter item in resume builder when recipient is unavailable
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Cover Letter"
+msgstr "Συνοδευτική επιστολή"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: src/dialogs/resume/sections/award.tsx
+msgid "Create a new award"
+msgstr "Δημιουργία νέου βραβείου"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Create a new certification"
+msgstr "Δημιουργία νέας πιστοποίησης"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Create a new cover letter"
+msgstr "Δημιουργία νέας συνοδευτικής επιστολής"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Create a new custom section"
+msgstr "Δημιουργία νέας προσαρμοσμένης ενότητας"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Create a new education"
+msgstr "Δημιουργία νέας εκπαίδευσης"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Create a new experience"
+msgstr "Δημιουργία νέας εμπειρίας"
+
+#: src/dialogs/resume/sections/interest.tsx
+msgid "Create a new interest"
+msgstr "Δημιουργία νέου ενδιαφέροντος"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Create a new language"
+msgstr "Δημιουργία νέας γλώσσας"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Create a new profile"
+msgstr "Δημιουργία νέου προφίλ"
+
+#: src/dialogs/resume/sections/project.tsx
+msgid "Create a new project"
+msgstr "Δημιουργία νέου έργου"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Create a new publication"
+msgstr "Δημιουργία νέας δημοσίευσης"
+
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Create a new reference"
+msgstr "Δημιουργία νέας σύστασης"
+
+#: src/dialogs/resume/index.tsx
+#: src/features/command-palette/pages/resumes.tsx
+#: src/routes/dashboard/resumes/-components/cards/create-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Create a new resume"
+msgstr "Δημιουργία νέου βιογραφικού σημειώματος"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Create a new skill"
+msgstr "Δημιουργία νέας δεξιότητας"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr "Δημιουργία νέου στοιχείου σύνοψης"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Create a new volunteer experience"
+msgstr "Δημιουργία νέας εθελοντικής εμπειρίας"
+
+#: src/dialogs/resume/index.tsx
+msgid "Create a Sample Resume"
+msgstr "Δημιουργία δείγματος βιογραφικού σημειώματος"
+
+#. Accessible label for create-resume split button group
+#: src/dialogs/resume/index.tsx
+msgid "Create resume with options"
+msgstr "Δημιουργία βιογραφικού σημειώματος με επιλογές"
+
+#: src/dialogs/project/index.tsx
+msgid "Creating your experience..."
+msgstr ""
+
+#: src/dialogs/resume/index.tsx
+msgid "Creating your resume..."
+msgstr "Δημιουργία του βιογραφικού σας σημειώματος..."
+
+#: src/components/input/color-picker.tsx
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+#: src/libs/resume/section.tsx
+msgid "Custom Sections"
+msgstr "Προσαρμοσμένες ενότητες"
+
+#: src/libs/resume/section.tsx
+msgid "Custom Styles"
+msgstr "Προσαρμοσμένα στυλ"
+
+#: src/libs/locale.ts
+msgid "Czech"
+msgstr "Τσεχικά"
+
+#: src/libs/locale.ts
+msgid "Danish"
+msgstr "Δανικά"
+
+#: src/libs/theme.ts
+msgid "Dark"
+msgstr "Σκούρο"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Dark theme"
+msgstr "Σκουρόχρωμο θέμα"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Degree"
+msgstr "Πτυχίο"
+
+#. Destructive confirmation button label when deleting a custom section in resume builder
+#. Destructive confirmation button label when deleting a section item in resume builder
+#. Experience card dropdown destructive action to remove
+#. Resume card context menu destructive action to remove a resume
+#. Resume card dropdown destructive action to remove a resume
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Column"
+msgstr "Διαγραφή στήλης"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Delete Page"
+msgstr "Διαγραφή σελίδας"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Delete picture"
+msgstr "Διαγραφή εικόνας"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Row"
+msgstr "Διαγραφή γραμμής"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Table"
+msgstr "Διαγραφή πίνακα"
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Deleting your experience..."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Deleting your resume..."
+msgstr "Διαγραφή του βιογραφικού σας σημειώματος..."
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: src/libs/resume/section.tsx
+msgid "Design"
+msgstr "Σχεδιασμός"
+
+#: src/dialogs/project/index.tsx
+msgid "Details"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume as a Word document. Use this file to further customize your resume in Microsoft Word or Google Docs."
+msgstr "Κατεβάστε ένα αντίγραφο του βιογραφικού σας σημειώματος σε μορφή εγγράφου Word. Χρησιμοποιήστε αυτό το αρχείο για να προσαρμόσετε περαιτέρω το βιογραφικό σας στο Microsoft Word ή στο Google Docs."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume in JSON format. Use this file for backup or to import your resume into other applications."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume in PDF format. Use this file for printing or to easily share your resume with recruiters."
+msgstr "Κατεβάστε ένα αντίγραφο του βιογραφικού σας σημειώματος σε μορφή PDF. Χρησιμοποιήστε αυτό το αρχείο για εκτύπωση ή για να μοιραστείτε εύκολα το βιογραφικό σας σημείωμα με εργοδότες."
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download DOCX"
+msgstr "Λήψη DOCX"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download JSON"
+msgstr "Λήψη JSON"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download PDF"
+msgstr "Λήψη PDF"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Drag and drop sections here to move them between columns"
+msgstr "Σύρετε και αποθέστε ενότητες εδώ για να τις μετακινήσετε μεταξύ των στηλών"
+
+#. Experience card dropdown action to create a copy
+#. Resume card context menu action to create a copy
+#. Resume card dropdown action to create a copy
+#: src/dialogs/resume/index.tsx
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Duplicate"
+msgstr "Δημιουργία αντιγράφου"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicate Resume"
+msgstr "Δημιουργία αντιγράφου βιογραφικού σημειώματος"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicate your resume to create a new one, just like the original."
+msgstr "Δημιουργήστε ένα αντίγραφο του βιογραφικού σας σημειώματος για να φτιάξετε ένα νέο, πανομοιότυπο με το αρχικό."
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicating your resume..."
+msgstr "Δημιουργία αντιγράφου του βιογραφικού σας σημειώματος..."
+
+#: src/libs/locale.ts
+msgid "Dutch"
+msgstr "Ολλανδικά"
+
+#. Experience card dropdown action to edit
+#: src/components/input/chip-input.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Edit"
+msgstr "Εκδίδω"
+
+#. Screen reader label for button that edits a keyword chip. Variable is the current keyword text.
+#: src/components/input/chip-input.tsx
+msgid "Edit {chip}"
+msgstr "Επεξεργασία {chip}"
+
+#. Screen reader description for the fullscreen rich-text editor dialog
+#: src/components/input/rich-input.tsx
+msgid "Edit content in fullscreen mode"
+msgstr "Επεξεργασία περιεχομένου σε λειτουργία πλήρους οθόνης"
+
+#: src/components/input/chip-input.tsx
+msgid "Edit keyword"
+msgstr "Επεξεργασία λέξης-κλειδιού"
+
+#: src/dialogs/project/index.tsx
+msgid "Edit project experience"
+msgstr ""
+
+#: src/components/input/chip-input.tsx
+msgid "Editing keyword..."
+msgstr "Επεξεργασία λέξης-κλειδί..."
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Education"
+msgstr "Εκπαίδευση"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Email"
+msgstr "Ηλ. ταχυδρομείο"
+
+#: src/libs/locale.ts
+msgid "English"
+msgstr "Αγγλικά"
+
+#: src/libs/locale.ts
+msgid "English (United Kingdom)"
+msgstr "Αγγλικά (Ηνωμένο Βασίλειο)"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Enter the URL to link to"
+msgstr "Εισαγάγετε το URL προς το οποίο θα οδηγεί ο σύνδεσμος"
+
+#: src/components/input/rich-input.tsx
+msgid "Exit Fullscreen"
+msgstr "Έξοδος από πλήρη οθόνη"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Experience"
+msgstr "Εμπειρία"
+
+#: src/routes/dashboard/-components/sidebar.tsx
+msgid "Experiences"
+msgstr ""
+
+#: src/libs/resume/section.tsx
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Failed to load picture. Please try again."
+msgstr ""
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Filter by"
+msgstr "Φιλτράρισμα κατά"
+
+#: src/libs/locale.ts
+msgid "Finnish"
+msgstr "Φινλανδικά"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Fluency"
+msgstr "Ευχέρεια"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Family"
+msgstr "Οικογένεια γραμματοσειράς"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Size"
+msgstr "Μέγεθος γραμματοσειράς"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Weight"
+msgstr "Πάχος γραμματοσειράς"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Weights"
+msgstr "Βάρη γραμματοσειράς"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/notes.tsx
+msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
+msgstr "Για παράδειγμα, πληροφορίες σχετικά με τις εταιρείες στις οποίες στείλατε το βιογραφικό σας σημείωμα ή τους συνδέσμους προς τις περιγραφές θέσεων εργασίας μπορούν να σημειωθούν εδώ."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgctxt "Page Format (A4, Letter, Free-form)"
+msgid "Format"
+msgstr "Μορφή"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Free-form"
+msgstr "Ελεύθερη μορφή"
+
+#: src/features/project/labels.ts
+msgid "Freelance"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "French"
+msgstr "Γαλλικά"
+
+#. Layout editor toggle label that makes a page single-column
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Full Width"
+msgstr "Πλήρες πλάτος"
+
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen"
+msgstr "Πλήρης οθόνη"
+
+#. Screen reader title for the fullscreen rich-text editor dialog
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen Editor"
+msgstr "Επεξεργαστής πλήρους οθόνης"
+
+#: src/dialogs/resume/index.tsx
+msgid "Generate a random name"
+msgstr "Δημιουργία τυχαίου ονόματος"
+
+#: src/libs/locale.ts
+msgid "German"
+msgstr "Γερμανικά"
+
+#: src/components/layout/not-found-screen.tsx
+msgid "Go Back"
+msgstr "Επιστροφή"
+
+#. Accessible label for button navigating from builder to resumes dashboard
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Go to resumes dashboard"
+msgstr "Μεταβείτε στο ταμπλό βιογραφικών σημειωμάτων"
+
+#: src/features/command-palette/pages/navigation.tsx
+msgid "Go to…"
+msgstr "Μεταβείτε στο…"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Grade"
+msgstr "Βαθμός"
+
+#: src/libs/locale.ts
+msgid "Greek"
+msgstr "Ελληνικά"
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Grid"
+msgstr "Πλέγμα"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgctxt "Headings or Titles (H1, H2, H3, H4, H5, H6)"
+msgid "Heading"
+msgstr "Επικεφαλίδα"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 1"
+msgstr "Επικεφαλίδα 1"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 2"
+msgstr "Επικεφαλίδα 2"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 3"
+msgstr "Επικεφαλίδα 3"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 4"
+msgstr "Επικεφαλίδα 4"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 5"
+msgstr "Επικεφαλίδα 5"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 6"
+msgstr "Επικεφαλίδα 6"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Headline"
+msgstr "Επικεφαλίδα θέσης"
+
+#: src/libs/locale.ts
+msgid "Hebrew"
+msgstr "Εβραϊκά"
+
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Here's a range of resume templates for different professions and personalities. Whether you prefer modern or classic, bold or simple, there is a design to match you. Look through the options below and choose a template that fits your style."
+msgstr "Εδώ θα βρείτε μια γκάμα προτύπων βιογραφικού σημειώματος για διαφορετικά επαγγέλματα και προσωπικότητες. Είτε προτιμάτε μοντέρνο ή κλασικό, έντονο ή απλό, υπάρχει ένας σχεδιασμός που σας ταιριάζει. Δείτε τις επιλογές παρακάτω και επιλέξτε το πρότυπο που ταιριάζει στο στυλ σας."
+
+#: src/components/level/combobox.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Hidden"
+msgstr "Κρυφό"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Hide"
+msgstr "Απόκρυψη"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Icons"
+msgstr "Απόκρυψη εικονιδίων"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Link Underline"
+msgstr "Απόκρυψη υπογράμμισης συνδέσμου"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Section Icons"
+msgstr "Απόκρυψη εικονιδίων ενότητας"
+
+#: src/components/input/rich-input.tsx
+msgid "Highlight"
+msgstr "Επισήμανση"
+
+#: src/components/input/rich-input.tsx
+msgid "Highlight Color"
+msgstr "Χρώμα επισήμανσης"
+
+#: src/libs/locale.ts
+msgid "Hindi"
+msgstr "Χίντι"
+
+#: src/features/command-palette/pages/navigation.tsx
+msgid "Home"
+msgstr "Αρχική"
+
+#: src/libs/locale.ts
+msgid "Hungarian"
+msgstr "Ουγγρικά"
+
+#: src/components/level/combobox.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Icon"
+msgstr "Εικονίδιο"
+
+#: src/features/project/labels.ts
+msgid "Idea"
+msgstr ""
+
+#: src/dialogs/resume/import.tsx
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: src/dialogs/resume/import.tsx
+#: src/routes/dashboard/resumes/-components/cards/import-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Import an existing resume"
+msgstr "Εισαγωγή υπάρχοντος βιογραφικού σημειώματος"
+
+#: src/dialogs/resume/import.tsx
+msgid "Importing your resume..."
+msgstr "Εισαγωγή του βιογραφικού σας σημειώματος..."
+
+#: src/dialogs/resume/import.tsx
+msgid "Importing…"
+msgstr "Εισαγωγή…"
+
+#: src/features/project/labels.ts
+msgid "In progress"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "Indonesian"
+msgstr "Ινδονησιακά"
+
+#: src/components/input/rich-input.tsx
+msgid "Inline Code"
+msgstr "Ενσωματωμένος κώδικας"
+
+#: src/components/input/rich-input.tsx
+msgid "Insert Table"
+msgstr "Εισαγωγή πίνακα"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Interests"
+msgstr "Ενδιαφέροντα"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Issuer"
+msgstr "Φορέας πιστοποίησης"
+
+#: src/libs/locale.ts
+msgid "Italian"
+msgstr "Ιταλικά"
+
+#: src/components/input/rich-input.tsx
+msgid "Italic"
+msgstr "Πλάγια"
+
+#: src/libs/locale.ts
+msgid "Japanese"
+msgstr "Ιαπωνικά"
+
+#. Import source option for standard JSON Resume format
+#: src/dialogs/resume/import.tsx
+msgid "JSON Resume"
+msgstr "JSON Βιογραφικό σημείωμα"
+
+#: src/components/input/rich-input.tsx
+msgid "Justify Align"
+msgstr "Πλήρης στοίχιση"
+
+#: src/libs/locale.ts
+msgid "Kannada"
+msgstr "Κανάντα"
+
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Keywords"
+msgstr "Λέξεις-κλειδιά"
+
+#: src/libs/locale.ts
+msgid "Khmer"
+msgstr "Χμερ"
+
+#: src/libs/locale.ts
+msgid "Korean"
+msgstr "Κορεατικά"
+
+#. Short field label for custom display text associated with a URL
+#: src/components/input/url-input.tsx
+msgid "Label"
+msgstr "Ετικέτα"
+
+#. Preset button for setting picture aspect ratio to landscape orientation
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Landscape"
+msgstr "Οριζόντιος προσανατολισμός"
+
+#: src/dialogs/resume/sections/language.tsx
+#: src/features/command-palette/pages/preferences/language.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Languages"
+msgstr "Γλώσσες"
+
+#: src/routes/dashboard/resumes/-components/cards/resume-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Last updated on {updatedAt}"
+msgstr "Τελευταία ενημέρωση στις {updatedAt}"
+
+#: src/libs/locale.ts
+msgid "Latvian"
+msgstr "Λετονικά"
+
+#: src/libs/resume/section.tsx
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr "Αποχώρηση"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Leave empty to reset the title to the original."
+msgstr "Αφήστε το κενό για να επαναφέρετε τον τίτλο στο αρχικό."
+
+#: src/components/input/rich-input.tsx
+msgid "Left Align"
+msgstr "Στοίχιση αριστερά"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Letter"
+msgstr "Letter"
+
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Level"
+msgstr "Επίπεδο"
+
+#. Accessible label for skill/proficiency level indicator, where level is current value out of 5
+#: src/components/level/display.tsx
+msgid "Level {level} of 5"
+msgstr "Επίπεδο {level} από 5"
+
+#: src/components/ui/copyright.tsx
+msgid "Licensed under <0>MIT</0>."
+msgstr "Άδεια χρήσης υπό την άδεια <0>MIT</0>."
+
+#: src/libs/theme.ts
+msgid "Light"
+msgstr "Φωτεινό"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Light theme"
+msgstr "Φωτεινό θέμα"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Line Height"
+msgstr "Ύψος γραμμής"
+
+#: src/dialogs/project/index.tsx
+msgid "Link"
+msgstr ""
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "List"
+msgstr "Λίστα"
+
+#: src/libs/locale.ts
+msgid "Lithuanian"
+msgstr "Λιθουανικά"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Loading picture…"
+msgstr ""
+
+#: src/components/layout/loading-screen.tsx
+#: src/dialogs/project/index.tsx
+msgid "Loading…"
+msgstr "Φόρτωση…"
+
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#. Resume card context menu action to prevent edits
+#. Resume card dropdown action to prevent edits
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Lock"
+msgstr "Κλείδωμα"
+
+#. Layout editor column label for the primary content area
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Main"
+msgstr "Κύρια"
+
+#: src/libs/locale.ts
+msgid "Malay"
+msgstr "Μαλάι"
+
+#: src/libs/locale.ts
+msgid "Malayalam"
+msgstr "Μαλαγιαλάμ"
+
+#: src/libs/locale.ts
+msgid "Marathi"
+msgstr "Μαραθικά"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Margin (Horizontal)"
+msgstr "Περιθώριο (οριζόντιο)"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Margin (Vertical)"
+msgstr "Περιθώριο (κάθετο)"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Move to"
+msgstr "Μετακίνηση σε"
+
+#. Placeholder text for custom link URL field in resume builder
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Must start with https://"
+msgstr "Πρέπει να αρχίζει με https://"
+
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/libs/locale.ts
+msgid "Nepali"
+msgstr "Νεπάλι"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Network"
+msgstr "Δίκτυο"
+
+#: src/components/input/rich-input.tsx
+msgid "New Line"
+msgstr "Νέα γραμμή"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "New Page"
+msgstr "Νέα σελίδα"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "New Section"
+msgstr "Νέα ενότητα"
+
+#: src/components/ui/combobox.tsx
+msgid "No results found."
+msgstr "Δεν βρέθηκαν αποτελέσματα."
+
+#. Error shown when a local resume import file could not be parsed
+#: src/dialogs/resume/import.tsx
+msgid "No resume data could be parsed from the selected file."
+msgstr ""
+
+#. Error shown when a local backup import file contains no resumes
+#: src/dialogs/resume/import.tsx
+msgid "No resumes were found in the selected backup file."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "No style rules yet."
+msgstr "Δεν υπάρχουν ακόμα κανόνες στυλ."
+
+#: src/libs/locale.ts
+msgid "Norwegian"
+msgstr "Νορβηγικά"
+
+#: src/libs/resume/section.tsx
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+#: src/libs/locale.ts
+msgid "Odia"
+msgstr "Οντιά"
+
+#: src/dialogs/project/index.tsx
+msgid "One or two factual sentences: what it is."
+msgstr ""
+
+#. Resume card context menu action to open the resume editor
+#. Resume card dropdown action to open the resume editor
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: src/features/project/labels.ts
+msgid "Open source"
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
+msgid "Options"
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Ordered List"
+msgstr "Αριθμημένη λίστα"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Organization"
+msgstr "Οργανισμός"
+
+#: src/libs/resume/section.tsx
+msgid "Page"
+msgstr "Σελίδα"
+
+#. Layout editor page label with 1-based page number
+#. placeholder {0}: pageIndex + 1
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Page {0}"
+msgstr "Σελίδα {0}"
+
+#: src/components/input/rich-input.tsx
+msgid "Paragraph"
+msgstr "Παράγραφος"
+
+#: src/features/project/labels.ts
+msgid "Paused"
+msgstr ""
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Period"
+msgstr "Περίοδος"
+
+#: src/libs/locale.ts
+msgid "Persian"
+msgstr "Περσικά"
+
+#: src/dialogs/resume/sections/reference.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: src/libs/resume/section.tsx
+msgid "Picture"
+msgstr "Φωτογραφία"
+
+#: src/dialogs/resume/import.tsx
+msgid "Please do not close the window or refresh the page."
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Please enter the URL you want to link to:"
+msgstr "Εισαγάγετε το URL στο οποίο θέλετε να γίνεται ο σύνδεσμος:"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Please wait while your PDF is being generated..."
+msgstr "Περιμένετε όσο δημιουργείται το PDF σας..."
+
+#: src/libs/locale.ts
+msgid "Polish"
+msgstr "Πολωνικά"
+
+#. Preset button for setting picture aspect ratio to portrait orientation
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Portrait"
+msgstr "Κάθετος προσανατολισμός"
+
+#: src/libs/locale.ts
+msgid "Portuguese (Brazil)"
+msgstr "Πορτογαλικά (Βραζιλίας)"
+
+#: src/libs/locale.ts
+msgid "Portuguese (Portugal)"
+msgstr "Πορτογαλικά (Πορτογαλίας)"
+
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Position"
+msgstr "Θέση"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: src/components/input/color-picker.tsx
+msgid "Presets"
+msgstr "Προεπιλογές"
+
+#: src/components/input/chip-input.tsx
+msgid "Press <0>{RETURN_KEY}</0> or <1>{COMMA_KEY}</1> to add or save the current keyword."
+msgstr "Πατήστε <0>{RETURN_KEY}</0> ή <1>{COMMA_KEY}</1> για να προσθέσετε ή να αποθηκεύσετε τη λέξη-κλειδί."
+
+#. Command palette hint that pressing Enter opens the selected resume
+#: src/features/command-palette/pages/resumes.tsx
+msgid "Press <0>Enter</0> to open"
+msgstr "Πατήστε <0>Enter</0> για να ανοίξετε"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Primary Color"
+msgstr "Βασικό χρώμα"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Proficiency"
+msgstr "Επάρκεια"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Profiles"
+msgstr "Προφίλ"
+
+#: src/components/level/combobox.tsx
+msgid "Progress Bar"
+msgstr "Γραμμή προόδου"
+
+#: src/routes/dashboard/experiences/index.tsx
+msgid "Project Experiences"
+msgstr ""
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Projects"
+msgstr "Έργα"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Publications"
+msgstr "Δημοσιεύσεις"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Publisher"
+msgstr "Εκδότης"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Recipient"
+msgstr "Παραλήπτης"
+
+#: src/dialogs/project/index.tsx
+msgid "Record it factually, with evidence — this is your source of truth for writing resumes."
+msgstr ""
+
+#: src/components/level/combobox.tsx
+msgid "Rectangle"
+msgstr "Ορθογώνιο"
+
+#: src/components/level/combobox.tsx
+msgid "Rectangle (Full Width)"
+msgstr "Ορθογώνιο (πλήρους πλάτους)"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "References"
+msgstr "Συστάσεις"
+
+#: src/components/layout/error-screen.tsx
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#. Screen reader label for button that removes a keyword chip. Variable is the current keyword text.
+#: src/components/input/chip-input.tsx
+msgid "Remove {chip}"
+msgstr "Αφαιρέστε το {chip}"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Reorder"
+msgstr "Αναδιάταξη"
+
+#. Destructive confirmation button label when resetting a resume section
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "Reset Style"
+msgstr "Επαναφορά στυλ"
+
+#. Import source option for current ResumeLite JSON format
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite (JSON)"
+msgstr ""
+
+#. Import source option for local ResumeLite backup files
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite local backup (JSON)"
+msgstr ""
+
+#. App version label in footer; includes semantic version variable
+#: src/components/ui/copyright.tsx
+msgid "ResumeLite v{__APP_VERSION__}"
+msgstr ""
+
+#. Import source option for legacy ResumeLite v4 JSON format
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite v4 (JSON)"
+msgstr ""
+
+#: src/features/command-palette/pages/navigation.tsx
+#: src/features/command-palette/pages/resumes.tsx
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Resumes"
+msgstr "Βιογραφικά σημειώματα"
+
+#: src/components/input/rich-input.tsx
+msgid "Right Align"
+msgstr "Στοίχιση δεξιά"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Role Progression"
+msgstr "Εξέλιξη ρόλου"
+
+#: src/libs/locale.ts
+msgid "Romanian"
+msgstr "Ρουμανικά"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Rotation"
+msgstr "Περιστροφή"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "rule"
+msgstr "κανόνας"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "rules"
+msgstr "κανόνες"
+
+#: src/libs/locale.ts
+msgid "Russian"
+msgstr "Ρωσικά"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: src/dialogs/project/index.tsx
+msgid "Saving your experience..."
+msgstr ""
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "School"
+msgstr "Σχολείο"
+
+#. Accessible label for command palette search input
+#: src/features/command-palette/index.tsx
+msgid "Search commands"
+msgstr "Εντολές αναζήτησης"
+
+#. Accessible label for icon picker search input
+#. Placeholder text in icon picker search input
+#: src/components/input/icon-picker.tsx
+msgid "Search for an icon"
+msgstr "Αναζήτηση για εικονίδιο"
+
+#: src/features/command-palette/pages/resumes.tsx
+msgid "Search for…"
+msgstr "Αναζήτηση για…"
+
+#: src/components/ui/combobox.tsx
+msgid "Search..."
+msgstr "Αναζήτηση..."
+
+#. Placeholder in command palette input on nested pages
+#: src/features/command-palette/index.tsx
+msgid "Search…"
+msgstr "Αναζήτηση…"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Section Type"
+msgstr "Τύπος ενότητας"
+
+#: src/components/ui/combobox.tsx
+msgid "Select..."
+msgstr "Επιλογή..."
+
+#: src/components/input/rich-input.tsx
+msgid "Separator"
+msgstr "Διαχωριστικό"
+
+#: src/libs/locale.ts
+msgid "Serbian"
+msgstr "Σερβικά"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Shadow Width"
+msgstr "Πλάτος σκιάς"
+
+#: src/features/project/labels.ts
+msgid "Shipped"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Show"
+msgstr "Εμφάνιση"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Show link in title"
+msgstr "Εμφάνιση συνδέσμου στον τίτλο"
+
+#: src/features/project/labels.ts
+msgid "Side project"
+msgstr ""
+
+#. Layout editor column label for the secondary sidebar area
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Sidebar"
+msgstr "Πλαϊνή μπάρα<<<<<<< HEAD"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/index.tsx
+msgid "Sidebar Width"
+msgstr "Πλάτος πλαϊνής μπάρας"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column Chinese AI product resume with a compact header, portrait, gray section bars, and dense project bullets."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
+msgstr "Μονή στήλη με ματζέντα αριστερό περίγραμμα· συμπαγές και αποδοτικό για αιτήσεις αρχικού επιπέδου ή πρακτικής άσκησης."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a minimal top header and lots of whitespace; clean and modern for designers or content creators."
+msgstr "Μονή στήλη με μίνιμαλ επάνω κεφαλίδα και πολύ κενό χώρο· καθαρό και μοντέρνο για σχεδιαστές ή δημιουργούς περιεχομένου."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a sidebar and clean grid layout; versatile for any professional or technical role."
+msgstr "Μονή στήλη με πλαϊνή μπάρα και καθαρή διάταξη πλέγματος· ευέλικτο για κάθε επαγγελματικό ή τεχνικό ρόλο."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with an inline three-column entry header (position · organization · period); compact and ATS-friendly, well-suited for Asian resume conventions (CN/JP/KR)."
+msgstr "Μονόστηλο με γραμμική κεφαλίδα εισόδου τριών στηλών (θέση - οργάνωση - περίοδος)- συμπαγές και φιλικό προς την ATS, κατάλληλο για τις ασιατικές συμβάσεις βιογραφικού σημειώματος (CN/JP/KR)."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with uppercase section headings and a primary-color top rule on every page; polished for executive, consulting, or startup resumes."
+msgstr "Μονόστηλο με κεφαλαία γράμματα στις επικεφαλίδες και κύριο χρώμα στο πάνω μέρος σε κάθε σελίδα. Βελτιωμένο για βιογραφικά στελεχών, συμβούλων ή νεοσύστατων επιχειρήσεων."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column; polished and serious for senior or enterprise-level positions."
+msgstr "Μονή στήλη· προσεγμένο και σοβαρό για ανώτερες ή θέσεις εταιρικού επιπέδου."
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Skills"
+msgstr "Δεξιότητες"
+
+#: src/libs/locale.ts
+msgid "Slovak"
+msgstr "Σλοβακικά"
+
+#: src/libs/locale.ts
+msgid "Slovenian"
+msgstr "Σλοβενικά"
+
+#: src/dialogs/resume/index.tsx
+msgid "Slug"
+msgstr "Slug"
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Sort by"
+msgstr "Ταξινόμηση κατά"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Spacing (Horizontal)"
+msgstr "Κενό (οριζόντιο)"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Spacing (Vertical)"
+msgstr "Κενό (κάθετο)"
+
+#: src/libs/locale.ts
+msgid "Spanish"
+msgstr "Ισπανικά"
+
+#. Preset button for setting picture aspect ratio to square
+#: src/components/level/combobox.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Square"
+msgstr "Τετράγωνο"
+
+#: src/dialogs/project/index.tsx
+msgid "Stage"
+msgstr ""
+
+#: src/components/input/github-stars-button.tsx
+msgid "Star us on GitHub (opens in new tab)"
+msgstr "Κάντε μας star στο GitHub (ανοίγει σε νέα καρτέλα)"
+
+#: src/dialogs/resume/index.tsx
+msgid "Start building your resume by giving it a name."
+msgstr "Ξεκινήστε να φτιάχνετε το βιογραφικό σας σημείωμα δίνοντάς του ένα όνομα."
+
+#: src/routes/dashboard/resumes/-components/cards/create-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Start building your resume from scratch"
+msgstr "Ξεκινήστε να φτιάχνετε το βιογραφικό σας σημείωμα από την αρχή"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
+msgstr "Παραμονή"
+
+#: src/components/input/rich-input.tsx
+msgid "Strike"
+msgstr "Διακριτική διαγραφή"
+
+#. Fallback title for a custom summary item in resume builder when content is empty
+#. Fallback title for a custom summary item in resume builder when content is unavailable
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: src/libs/locale.ts
+msgid "Swedish"
+msgstr "Σουηδικά"
+
+#: src/features/theme/toggle-button.tsx
+msgid "Switch to dark theme"
+msgstr "Εναλλαγή σε σκοτεινό θέμα"
+
+#: src/features/theme/toggle-button.tsx
+msgid "Switch to light theme"
+msgstr "Εναλλαγή σε φωτεινό θέμα"
+
+#: src/components/input/rich-input.tsx
+msgid "Table"
+msgstr "Πίνακας"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: src/dialogs/resume/index.tsx
+msgid "Tags can be used to categorize your resume by keywords."
+msgstr "Οι ετικέτες μπορούν να χρησιμοποιηθούν για να κατηγοριοποιήσετε το βιογραφικό σας σημείωμα με βάση λέξεις-κλειδιά."
+
+#: src/libs/locale.ts
+msgid "Tamil"
+msgstr "Ταμίλ"
+
+#: src/dialogs/project/index.tsx
+msgid "Tech & methods"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "Telugu"
+msgstr "Τελούγκου"
+
+#: src/libs/resume/section.tsx
+msgid "Template"
+msgstr "Πρότυπο"
+
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Template Gallery"
+msgstr "Συλλογή προτύπων"
+
+#: src/components/input/rich-input.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Text Color"
+msgstr "Χρώμα κειμένου"
+
+#: src/libs/locale.ts
+msgid "Thai"
+msgstr "Ταϊλανδικά"
+
+#. Empty-state message when no command palette results match the search query
+#: src/features/command-palette/index.tsx
+msgid "The command you're looking for doesn't exist."
+msgstr "Η εντολή που αναζητάτε δεν υπάρχει."
+
+#: src/components/input/rich-input.tsx
+msgid "The URL you entered is not valid."
+msgstr "Το URL που εισαγάγατε δεν είναι έγκυρο."
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Theme"
+msgstr "Θέμα"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "There was a problem while generating the DOCX, please try again."
+msgstr "Υπήρξε ένα πρόβλημα κατά τη δημιουργία του DOCX, παρακαλώ δοκιμάστε ξανά."
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "There was a problem while generating the PDF, please try again."
+msgstr "Παρουσιάστηκε πρόβλημα κατά τη δημιουργία του PDF, δοκιμάστε ξανά."
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "This action cannot be undone."
+msgstr "Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: src/dialogs/resume/index.tsx
+msgid "This is a URL-friendly name for your resume."
+msgstr "Αυτό είναι ένα φιλικό προς το URL όνομα για το βιογραφικό σας σημείωμα."
+
+#: src/features/resume/builder/draft.ts
+msgid "This resume is locked and cannot be updated."
+msgstr "Αυτό το βιογραφικό σημείωμα είναι κλειδωμένο και δεν μπορεί να ενημερωθεί."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/notes.tsx
+msgid "This section is reserved for your personal notes specific to this resume. The content here remains private and is not shared with anyone else."
+msgstr "Αυτή η ενότητα προορίζεται για τις προσωπικές σας σημειώσεις ειδικά για το συγκεκριμένο βιογραφικό σημείωμα. Το περιεχόμενο εδώ παραμένει ιδιωτικό και δεν κοινοποιείται σε κανέναν άλλον."
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "This will remove all items from this section."
+msgstr "Αυτό θα αφαιρέσει όλα τα στοιχεία από αυτό το τμήμα."
+
+#: src/dialogs/resume/index.tsx
+msgid "Tip: You can name the resume referring to the position you are applying for."
+msgstr "Συμβουλή: Μπορείτε να ονομάσετε το βιογραφικό σημείωμα ανάλογα με τη θέση για την οποία υποβάλλετε αίτηση."
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Title"
+msgstr "Τίτλος"
+
+#. Screen-reader label for opening or closing the left sidebar in resume builder
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Toggle left sidebar"
+msgstr "Εναλλαγή αριστερής πλευρικής γραμμής"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Toggle page stacking"
+msgstr "Εναλλαγή στοίβαξης σελίδων"
+
+#. Screen-reader label for opening or closing the right sidebar in resume builder
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Toggle right sidebar"
+msgstr "Εναλλαγή δεξιάς πλευρικής γραμμής"
+
+#: src/libs/locale.ts
+msgid "Turkish"
+msgstr "Τουρκικά"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a bold colored sidebar and skill bars; great for creative or tech roles where visual flair is welcome."
+msgstr "Διπλή στήλη με έντονη, χρωματιστή πλαϊνή μπάρα και μπάρες δεξιοτήτων· ιδανικό για δημιουργικούς ή τεχνολογικούς ρόλους όπου το οπτικό στυλ είναι ευπρόσδεκτο."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a dark teal sidebar and skills grid; modern feel for developers, data scientists, or technical PMs."
+msgstr "Διπλή στήλη με σκούρα τιρκουάζ πλαϊνή μπάρα και πλέγμα δεξιοτήτων· μοντέρνα αίσθηση για προγραμματιστές, επιστήμονες δεδομένων ή τεχνικούς PM."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a left margin color; simple and approachable for creative, editorial, or junior roles."
+msgstr "Διπλή στήλη με χρώμα στο αριστερό περιθώριο· απλό και φιλικό για δημιουργικούς, συντακτικούς ή ρόλους αρχικού επιπέδου."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a muted color sidebar; earthy and calm, suits sustainability, healthcare, or nonprofit sectors."
+msgstr "Διπλή στήλη με απαλή, χρωματιστή πλαϊνή μπάρα· γήινο και ήρεμο, ταιριάζει σε τομείς βιωσιμότητας, υγειονομικής περίθαλψης ή μη κερδοσκοπικών οργανισμών."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a soft header accent and circular profile photo; ideal for marketing, HR, or client-facing roles."
+msgstr "Διπλή στήλη με απαλή έμφαση στην κεφαλίδα και κυκλική φωτογραφία προφίλ· ιδανικό για μάρκετινγκ, HR ή ρόλους με άμεση επαφή με πελάτες."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with accent colors and clean typography; balanced choice for business analysts or operations roles."
+msgstr "Διπλή στήλη με χρωματικές πινελιές και καθαρή τυπογραφία· ισορροπημένη επιλογή για business analysts ή ρόλους λειτουργιών."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, clean and professional with subtle section dividers; suits corporate, finance, or consulting positions."
+msgstr "Διπλή στήλη, καθαρή και επαγγελματική με διακριτικούς διαχωριστές ενοτήτων· ταιριάζει σε εταιρικές, χρηματοοικονομικές ή συμβουλευτικές θέσεις."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, minimal and text-dense with no decorative elements; perfect for traditional industries or ATS-heavy applications."
+msgstr "Διπλή στήλη, μίνιμαλ και πυκνή σε κείμενο χωρίς διακοσμητικά στοιχεία· ιδανική για παραδοσιακούς κλάδους ή αιτήσεις με έντονη χρήση ATS."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, minimal with light gray sidebar and subtle icons; professional and understated for legal, finance, or executive roles."
+msgstr "Διπλή στήλη, μίνιμαλ με ανοιχτό γκρι πλαϊνή μπάρα και διακριτικά εικονίδια· επαγγελματικό και λιτό για νομικούς, χρηματοοικονομικούς ή διευθυντικούς ρόλους."
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/import.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Type"
+msgstr "Τύπος"
+
+#. Placeholder in command palette input on root page
+#. Screen-reader dialog description instructing users how to use the command palette
+#: src/features/command-palette/index.tsx
+msgid "Type a command or search…"
+msgstr "Πληκτρολογήστε μια εντολή ή αναζητήστε…"
+
+#: src/libs/resume/section.tsx
+msgid "Typography"
+msgstr "Τυπογραφία"
+
+#: src/libs/locale.ts
+msgid "Ukrainian"
+msgstr "Ουκρανικά"
+
+#: src/components/input/rich-input.tsx
+msgid "Underline"
+msgstr "Υπογράμμιση"
+
+#. Resume card context menu action to remove edit lock
+#. Resume card dropdown action to remove edit lock
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Unlock"
+msgstr "Ξεκλείδωμα"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: src/dialogs/resume/sections/award.tsx
+msgid "Update an existing award"
+msgstr "Ενημέρωση υπάρχοντος βραβείου"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Update an existing certification"
+msgstr "Ενημέρωση υπάρχουσας πιστοποίησης"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Update an existing cover letter"
+msgstr "Ενημέρωση υπάρχουσας συνοδευτικής επιστολής"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Update an existing custom section"
+msgstr "Ενημέρωση υπάρχουσας προσαρμοσμένης ενότητας"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Update an existing education"
+msgstr "Ενημέρωση υπάρχουσας εκπαίδευσης"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Update an existing experience"
+msgstr "Ενημέρωση υπάρχουσας εμπειρίας"
+
+#: src/dialogs/resume/sections/interest.tsx
+msgid "Update an existing interest"
+msgstr "Ενημέρωση υπάρχοντος ενδιαφέροντος"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Update an existing language"
+msgstr "Ενημέρωση υπάρχουσας γλώσσας"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Update an existing profile"
+msgstr "Ενημέρωση υπάρχοντος προφίλ"
+
+#: src/dialogs/resume/sections/project.tsx
+msgid "Update an existing project"
+msgstr "Ενημέρωση υπάρχοντος έργου"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Update an existing publication"
+msgstr "Ενημέρωση υπάρχουσας δημοσίευσης"
+
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Update an existing reference"
+msgstr "Ενημέρωση υπάρχουσας σύστασης"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Update an existing skill"
+msgstr "Ενημέρωση υπάρχουσας δεξιότητας"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr "Ενημέρωση υπάρχοντος στοιχείου σύνοψης"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Update an existing volunteer experience"
+msgstr "Ενημέρωση υπάρχουσας εθελοντικής εμπειρίας"
+
+#: src/dialogs/resume/index.tsx
+msgid "Update Resume"
+msgstr "Ενημέρωση βιογραφικού σημειώματος"
+
+#: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
+msgid "Updated {updatedAt}"
+msgstr ""
+
+#: src/dialogs/resume/index.tsx
+msgid "Updating your resume..."
+msgstr "Ενημέρωση του βιογραφικού σας σημειώματος..."
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Upload picture"
+msgstr "Ανέβασμα εικόνας"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "URL"
+msgstr "URL"
+
+#: src/components/input/color-picker.tsx
+msgid "Use color {color}"
+msgstr "Χρήση χρώματος {color}"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: src/libs/locale.ts
+msgid "Uzbek"
+msgstr "Ουζμπεκικά"
+
+#: src/components/input/rich-input.tsx
+msgid "Valid URLs must start with http:// or https://."
+msgstr "Τα έγκυρα URLs πρέπει να ξεκινούν με http:// ή https://."
+
+#: src/libs/locale.ts
+msgid "Vietnamese"
+msgstr "Βιετναμέζικα"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/features/project/labels.ts
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Volunteer"
+msgstr "Εθελοντική εργασία"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Website"
+msgstr "Ιστότοπος"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "What do you want to rename this section to?"
+msgstr "Πώς θέλετε να μετονομάσετε αυτή την ενότητα;"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "When locked, the resume cannot be updated or deleted."
+msgstr "Όταν είναι κλειδωμένο, το βιογραφικό σημείωμα δεν μπορεί να ενημερωθεί ή να διαγραφεί."
+
+#: src/features/project/labels.ts
+msgid "Work"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr "Έχετε μη αποθηκευμένες αλλαγές που θα χαθούν."
+
+#: src/routes/builder/$resumeId/-components/preview-page.tsx
+msgid "Your changes are saved automatically."
+msgstr "Οι αλλαγές σας αποθηκεύονται αυτόματα."
+
+#: src/dialogs/project/index.tsx
+msgid "Your experience has been created."
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Your experience has been deleted successfully."
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Your experience has been duplicated successfully."
+msgstr ""
+
+#: src/dialogs/project/index.tsx
+msgid "Your experience has been saved."
+msgstr ""
+
+#: src/features/resume/builder/draft.ts
+msgid "Your latest changes could not be saved."
+msgstr "Δεν ήταν δυνατή η αποθήκευση των τελευταίων αλλαγών σας."
+
+#: src/dialogs/resume/index.tsx
+msgid "Your resume has been created successfully."
+msgstr "Το βιογραφικό σας σημείωμα δημιουργήθηκε με επιτυχία."
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Your resume has been deleted successfully."
+msgstr "Το βιογραφικό σας σημείωμα διαγράφηκε με επιτυχία."
+
+#: src/dialogs/resume/index.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Your resume has been duplicated successfully."
+msgstr "Το βιογραφικό σας σημείωμα αντιγράφηκε με επιτυχία."
+
+#: src/dialogs/resume/import.tsx
+msgid "Your resume has been imported successfully."
+msgstr "Το βιογραφικό σας σημείωμα εισήχθη με επιτυχία."
+
+#: src/dialogs/resume/index.tsx
+msgid "Your resume has been updated successfully."
+msgstr "Το βιογραφικό σας σημείωμα ενημερώθηκε με επιτυχία."
+
+#: src/dialogs/project/index.tsx
+msgid "Your role"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Zoom in"
+msgstr "Μεγέθυνση"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Zoom out"
+msgstr "Σμίκρυνση"
+
+#: src/libs/locale.ts
+msgid "Zulu"
+msgstr "Ζουλού"

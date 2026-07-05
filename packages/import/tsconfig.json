@@ -1,0 +1,7 @@
+{
+	"extends": "@resumelite/config/tsconfig.base.json",
+	"compilerOptions": {
+		"jsx": "preserve",
+		"lib": ["ESNext", "DOM"]
+	}
+}

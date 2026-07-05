@@ -1,0 +1,68 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build Outputs
+dist
+electron-dist
+release-desktop
+.vercel
+.wrangler
+
+# Environment Variables
+.env*
+!.env.example
+
+# IDEs and Editors
+*~
+*.swp
+*.swo
+.DS_Store
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Log Files
+logs
+*.log*
+
+# Turborepo
+.turbo
+
+# TanStack Start
+.tanstack
+
+# Testing
+coverage
+reports
+playwright-report
+test-results
+.playwright-cli
+
+# Local scratch / dev-server output
+/output
+
+# Cache
+tmp
+temp
+.cache
+
+# AI
+.codex
+.agents
+# Ignore local Claude state, but track repo-shared skills so they travel with the project.
+.claude/*
+!.claude/skills/
+.cursor
+.codegraph
+.superpowers
+
+# Local Storage Data
+/data
+/apps/web/data
+
+# Git Hooks
+.vite-hooks/

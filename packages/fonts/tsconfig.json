@@ -1,0 +1,3 @@
+{
+	"extends": "@resumelite/config/tsconfig.base.json"
+}

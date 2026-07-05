@@ -1,0 +1,2151 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-11-04 23:14+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: hi\n"
+"Project-Id-Version: resumelite\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-06-18 16:58\n"
+"Last-Translator: \n"
+"Language-Team: Hindi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: resumelite\n"
+"X-Crowdin-Project-ID: 503410\n"
+"X-Crowdin-Language: hi\n"
+"X-Crowdin-File: /apps/web/locales/en-US.po\n"
+"X-Crowdin-File-ID: 545\n"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Last Updated"
+msgstr "आखिरी बार अपडेट किया गया"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Created"
+msgstr "बनाया गया"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Name"
+msgstr "नाम"
+
+#. placeholder {0}: section.items.length
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "{0, plural, one {# item} other {# items}}"
+msgstr "{0, plural, one {# आइटम} other {# आइटम}}"
+
+#. placeholder {0}: item.roles.length
+#: src/routes/builder/$resumeId/-sidebar/left/sections/experience.tsx
+msgid "{0, plural, one {# role} other {# roles}}"
+msgstr "{0, plural, one {# भूमिका} other {# भूमिकाएं}}"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "{column, plural, one {# Column} other {# Columns}}"
+msgstr "{column, plural, one {# स्तंभ} other {# स्तम्भ}}"
+
+#: src/components/ui/copyright.tsx
+msgid "A passion project by <0>Amruth Pillai</0>."
+msgstr "<0>अमृत पिल्लई</0> का एक जुनूनी प्रोजेक्ट।"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "A4"
+msgstr "ए4"
+
+#: src/features/project/labels.ts
+msgid "Academic"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Add a custom field"
+msgstr "नया कस्टम फ़ील्ड जोड़ें"
+
+#: src/components/input/chip-input.tsx
+msgid "Add a keyword..."
+msgstr "एक कीवर्ड जोड़ें..."
+
+#. Tooltip for action button that opens URL label editor
+#: src/components/input/url-input.tsx
+msgid "Add a label to the URL"
+msgstr "URL में एक लेबल जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/awards.tsx
+msgid "Add a new award"
+msgstr "एक नया पुरस्कार जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/certifications.tsx
+msgid "Add a new certification"
+msgstr "एक नया प्रमाणपत्र जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Add a new custom section"
+msgstr "एक नया कस्टम अनुभाग जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/education.tsx
+msgid "Add a new education"
+msgstr "नई शिक्षा जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/experience.tsx
+msgid "Add a new experience"
+msgstr "नया अनुभव जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/interests.tsx
+msgid "Add a new interest"
+msgstr "नई रुचि जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Add a new item"
+msgstr "एक नया आइटम जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/languages.tsx
+msgid "Add a new language"
+msgstr "नई भाषा जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/profiles.tsx
+msgid "Add a new profile"
+msgstr "नया प्रोफ़ाइल जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/projects.tsx
+msgid "Add a new project"
+msgstr "नया प्रोजेक्ट जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/publications.tsx
+msgid "Add a new publication"
+msgstr "नई प्रकाशन जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/references.tsx
+msgid "Add a new reference"
+msgstr "नई रेफ़रेंस जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/skills.tsx
+msgid "Add a new skill"
+msgstr "नई कौशल जोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/volunteer.tsx
+msgid "Add a new volunteer experience"
+msgstr "नया स्वयंसेवी अनुभव जोड़ें"
+
+#: src/dialogs/project/index.tsx
+#: src/routes/dashboard/experiences/-components/cards/create-card.tsx
+msgid "Add a project experience"
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Add Column After"
+msgstr "इसके बाद कॉलम जोड़ें"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Column Before"
+msgstr "इसके पहले कॉलम जोड़ें"
+
+#: src/components/input/chip-input.tsx
+msgid "Add keyword"
+msgstr "कीवर्ड जोड़ें"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Add multiple roles to show career progression at the same company."
+msgstr "एक ही कंपनी में करियर प्रगति दिखाने के लिए कई भूमिकाएं जोड़ें।"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Add Page"
+msgstr "पेज जोड़ें"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Add Role"
+msgstr "भूमिका जोड़ें"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Row After"
+msgstr "इसके बाद पंक्ति जोड़ें"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Row Before"
+msgstr "इसके पहले पंक्ति जोड़ें"
+
+#: src/libs/locale.ts
+msgid "Afrikaans"
+msgstr "अफ्रीकान्स"
+
+#: src/libs/locale.ts
+msgid "Albanian"
+msgstr "अल्बानियाई"
+
+#: src/libs/locale.ts
+msgid "Amharic"
+msgstr "अमहारी"
+
+#: src/components/layout/error-screen.tsx
+#: src/components/layout/not-found-screen.tsx
+msgid "An error occurred while loading the page."
+msgstr "पेज लोड करते समय कोई त्रुटि हुई।"
+
+#. Fallback toast when importing a resume fails for an unknown reason
+#: src/dialogs/resume/import.tsx
+msgid "An unknown error occurred while importing your resume."
+msgstr "आपका रेज़्यूमे इम्पोर्ट करते समय कोई अज्ञात त्रुटि हुई।"
+
+#: src/routes/dashboard/-components/sidebar.tsx
+msgid "App"
+msgstr "ऐप"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "Applied Rules"
+msgstr "लागू नियम"
+
+#: src/libs/locale.ts
+msgid "Arabic"
+msgstr "अरबी"
+
+#: src/features/project/labels.ts
+msgid "Archived"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr "क्या आप वाकई इस डायलॉग को बंद करना चाहते हैं?"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Are you sure you want to delete this custom section?"
+msgstr "क्या आप इस कस्टम अनुभाग को हटाना चाहते हैं?"
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to delete this experience?"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Are you sure you want to delete this item?"
+msgstr "क्या आप इस आइटम को हटाना चाहते हैं?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to delete this resume?"
+msgstr "क्या आप वाकई इस रेज़्यूमे को हटाना चाहते हैं?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to lock this resume?"
+msgstr "क्या आप वाकई इस रेज़्यूमे को लॉक करना चाहते हैं?"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Are you sure you want to reset this section?"
+msgstr "क्या आप इस अनुभाग को रीसेट करना चाहते हैं?"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Area of Study"
+msgstr "अध्ययन का क्षेत्र"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Aspect Ratio"
+msgstr "आकार अनुपात"
+
+#: src/dialogs/resume/sections/award.tsx
+msgctxt "(noun) person, organization, or entity that gives an award"
+msgid "Awarder"
+msgstr "पुरस्कार देने वाला"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Awards"
+msgstr "पुरस्कार"
+
+#: src/libs/locale.ts
+msgid "Azerbaijani"
+msgstr "अज़रबैजानी"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Background Color"
+msgstr "पृष्ठभूमि रंग"
+
+#: src/libs/resume/section.tsx
+msgid "Basics"
+msgstr "बुनियादी"
+
+#: src/libs/locale.ts
+msgid "Bengali"
+msgstr "बंगाली"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgctxt "Body Text (paragraphs, lists, etc.)"
+msgid "Body"
+msgstr "बॉडी"
+
+#: src/components/input/rich-input.tsx
+msgid "Bold"
+msgstr "बोल्ड"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Border Radius"
+msgstr "सीमा त्रिज्या"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Border Width"
+msgstr "बॉर्डर चौड़ाई"
+
+#. Screen-reader dialog title for the command palette in the resume builder
+#: src/features/command-palette/index.tsx
+msgid "Builder Command Palette"
+msgstr "बिल्डर कमांड पैलेट"
+
+#: src/libs/locale.ts
+msgid "Bulgarian"
+msgstr "बुल्गारियाई"
+
+#: src/components/input/rich-input.tsx
+msgid "Bullet List"
+msgstr "बुलेट सूची"
+
+#. Tagline shown in app footer/about area
+#: src/components/ui/copyright.tsx
+msgid "By the community, for the community."
+msgstr "समुदाय द्वारा, समुदाय के लिए।"
+
+#. Confirmation dialog button label to abort deleting a custom section in resume builder
+#. Confirmation dialog button label to abort deleting a section item in resume builder
+#. Confirmation dialog button label to abort resetting a resume section
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/hooks/use-prompt.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: src/libs/locale.ts
+msgid "Catalan"
+msgstr "कातालान"
+
+#: src/components/input/rich-input.tsx
+msgid "Center Align"
+msgstr "मध्य में संरेखित करें"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Center view"
+msgstr "दृश्य को केंद्र में करें"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Certifications"
+msgstr "प्रमाणपत्र"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Change language to…"
+msgstr "भाषा बदलें…"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Change theme to…"
+msgstr "थीम को… में बदलें"
+
+#: src/dialogs/resume/index.tsx
+msgid "Changed your mind? Rename your resume to something more descriptive."
+msgstr "मन बदल गया? अपने रेज़्यूमे का नाम बदलकर उसे और वर्णनात्मक बनाएं।"
+
+#: src/libs/locale.ts
+msgid "Chinese (Simplified)"
+msgstr "चीनी (सरलीकृत)"
+
+#: src/libs/locale.ts
+msgid "Chinese (Traditional)"
+msgstr "चीनी (परंपरागत)"
+
+#. Preset or custom shade refer to the color picker
+#. Preset or custom shade refer to the color picker
+#: src/components/input/rich-input.tsx
+msgid "Choose a preset or custom shade."
+msgstr "एक प्रीसेट या कस्टम शेड चुनें।"
+
+#: src/components/level/combobox.tsx
+msgid "Circle"
+msgstr "गोला"
+
+#. Clear the highlight color
+#. Clear the text color
+#: src/components/input/rich-input.tsx
+msgid "Clear"
+msgstr "स्पष्ट"
+
+#: src/components/ui/combobox.tsx
+msgid "Clear selection"
+msgstr "चयन साफ़ करें"
+
+#: src/dialogs/resume/import.tsx
+msgid "Click here to select a file to import"
+msgstr "इम्पोर्ट करने के लिए फ़ाइल चुनने हेतु यहाँ क्लिक करें"
+
+#: src/components/input/rich-input.tsx
+msgid "Code Block"
+msgstr "कोड ब्लॉक"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Columns"
+msgstr "कॉलम"
+
+#. Accessible label for command list region inside command palette
+#. Accessible label for the command palette dialog
+#: src/features/command-palette/index.tsx
+msgid "Command Palette"
+msgstr "कमांड पैलेट"
+
+#. Accessible label for command palette dialog when browsing a nested command page
+#: src/features/command-palette/index.tsx
+msgid "Command Palette - {currentPage}"
+msgstr "कमांड पैलेट - {currentPage}"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Company"
+msgstr "कंपनी"
+
+#: src/hooks/use-prompt.tsx
+msgid "Confirm"
+msgstr "पुष्टि करें"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr "सामग्री"
+
+#: src/routes/dashboard/resumes/-components/cards/import-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Continue where you left off"
+msgstr "जहाँ आपने छोड़ा था वहीं से जारी रखें"
+
+#: src/dialogs/resume/import.tsx
+msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
+msgstr ""
+
+#. Fallback title for a custom cover letter item in resume builder when recipient is empty
+#. Fallback title for a custom cover letter item in resume builder when recipient is unavailable
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Cover Letter"
+msgstr "कवर लेटर"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Create"
+msgstr "बनाएँ"
+
+#: src/dialogs/resume/sections/award.tsx
+msgid "Create a new award"
+msgstr "एक नया पुरस्कार बनाएँ"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Create a new certification"
+msgstr "नया प्रमाणपत्र बनाएँ"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Create a new cover letter"
+msgstr "नया कवर लेटर बनाएं"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Create a new custom section"
+msgstr "नया कस्टम अनुभाग बनाएँ"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Create a new education"
+msgstr "नई शिक्षा बनाएँ"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Create a new experience"
+msgstr "नया अनुभव बनाएँ"
+
+#: src/dialogs/resume/sections/interest.tsx
+msgid "Create a new interest"
+msgstr "नई रुचि बनाएँ"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Create a new language"
+msgstr "नई भाषा बनाएँ"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Create a new profile"
+msgstr "नया प्रोफ़ाइल बनाएँ"
+
+#: src/dialogs/resume/sections/project.tsx
+msgid "Create a new project"
+msgstr "नया प्रोजेक्ट बनाएँ"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Create a new publication"
+msgstr "नई प्रकाशन बनाएँ"
+
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Create a new reference"
+msgstr "नई रेफ़रेंस बनाएँ"
+
+#: src/dialogs/resume/index.tsx
+#: src/features/command-palette/pages/resumes.tsx
+#: src/routes/dashboard/resumes/-components/cards/create-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Create a new resume"
+msgstr "नया रेज़्यूमे बनाएँ"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Create a new skill"
+msgstr "नई कौशल बनाएँ"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr "नया सारांश आइटम बनाएं"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Create a new volunteer experience"
+msgstr "नया स्वयंसेवी अनुभव बनाएँ"
+
+#: src/dialogs/resume/index.tsx
+msgid "Create a Sample Resume"
+msgstr "नमूना रेज़्यूमे बनाएँ"
+
+#. Accessible label for create-resume split button group
+#: src/dialogs/resume/index.tsx
+msgid "Create resume with options"
+msgstr "विकल्पों के साथ रिज़्यूमे बनाएँ"
+
+#: src/dialogs/project/index.tsx
+msgid "Creating your experience..."
+msgstr ""
+
+#: src/dialogs/resume/index.tsx
+msgid "Creating your resume..."
+msgstr "आपका रेज़्यूमे बनाया जा रहा है..."
+
+#: src/components/input/color-picker.tsx
+msgid "Custom"
+msgstr "अनुकूलित"
+
+#: src/libs/resume/section.tsx
+msgid "Custom Sections"
+msgstr "कस्टम अनुभाग"
+
+#: src/libs/resume/section.tsx
+msgid "Custom Styles"
+msgstr "कस्टम शैलियाँ"
+
+#: src/libs/locale.ts
+msgid "Czech"
+msgstr "चेक"
+
+#: src/libs/locale.ts
+msgid "Danish"
+msgstr "डेनिश"
+
+#: src/libs/theme.ts
+msgid "Dark"
+msgstr "डार्क"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Dark theme"
+msgstr "डार्क थीम"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Date"
+msgstr "दिनांक"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Degree"
+msgstr "डिग्री"
+
+#. Destructive confirmation button label when deleting a custom section in resume builder
+#. Destructive confirmation button label when deleting a section item in resume builder
+#. Experience card dropdown destructive action to remove
+#. Resume card context menu destructive action to remove a resume
+#. Resume card dropdown destructive action to remove a resume
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Delete"
+msgstr "हटाएँ"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Column"
+msgstr "कॉलम हटाएँ"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Delete Page"
+msgstr "पेज हटाएँ"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Delete picture"
+msgstr "तस्वीर हटाएँ"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Row"
+msgstr "पंक्ति हटाएँ"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Table"
+msgstr "तालिका हटाएँ"
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Deleting your experience..."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Deleting your resume..."
+msgstr "आपका रेज़्यूमे हटाया जा रहा है..."
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Description"
+msgstr "विवरण"
+
+#: src/libs/resume/section.tsx
+msgid "Design"
+msgstr "डिज़ाइन"
+
+#: src/dialogs/project/index.tsx
+msgid "Details"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume as a Word document. Use this file to further customize your resume in Microsoft Word or Google Docs."
+msgstr "अपने रिज़्यूमे की एक प्रति Word दस्तावेज़ के रूप में डाउनलोड करें। Microsoft Word या Google Docs में अपने रिज़्यूमे को और अधिक अनुकूलित करने के लिए इस फ़ाइल का उपयोग करें।"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume in JSON format. Use this file for backup or to import your resume into other applications."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume in PDF format. Use this file for printing or to easily share your resume with recruiters."
+msgstr "अपने रेज़्यूमे की PDF फ़ॉर्मेट में एक कॉपी डाउनलोड करें। इस फ़ाइल का उपयोग प्रिंट करने के लिए या रिक्रूटर्स के साथ आसानी से अपना रेज़्यूमे साझा करने के लिए करें।"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download DOCX"
+msgstr "DOCX डाउनलोड करें"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download JSON"
+msgstr "JSON डाउनलोड करें"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download PDF"
+msgstr "PDF डाउनलोड करें"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Drag and drop sections here to move them between columns"
+msgstr "सेक्शन को कॉलम के बीच स्थानांतरित करने के लिए उन्हें यहाँ ड्रैग और ड्रॉप करें"
+
+#. Experience card dropdown action to create a copy
+#. Resume card context menu action to create a copy
+#. Resume card dropdown action to create a copy
+#: src/dialogs/resume/index.tsx
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Duplicate"
+msgstr "प्रतिरूप"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicate Resume"
+msgstr "रेज़्यूमे की प्रति बनाएँ"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicate your resume to create a new one, just like the original."
+msgstr "नया रेज़्यूमे बनाने के लिए अपने रेज़्यूमे की एक प्रति बनाएँ, जो बिल्कुल मूल जैसा होगा।"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicating your resume..."
+msgstr "आपका रेज़्यूमे डुप्लिकेट किया जा रहा है..."
+
+#: src/libs/locale.ts
+msgid "Dutch"
+msgstr "डच"
+
+#. Experience card dropdown action to edit
+#: src/components/input/chip-input.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Edit"
+msgstr "संपादन करना"
+
+#. Screen reader label for button that edits a keyword chip. Variable is the current keyword text.
+#: src/components/input/chip-input.tsx
+msgid "Edit {chip}"
+msgstr "संपादित करें {chip}"
+
+#. Screen reader description for the fullscreen rich-text editor dialog
+#: src/components/input/rich-input.tsx
+msgid "Edit content in fullscreen mode"
+msgstr "पूर्ण स्क्रीन मोड में सामग्री संपादित करें"
+
+#: src/components/input/chip-input.tsx
+msgid "Edit keyword"
+msgstr "संपादित कीवर्ड"
+
+#: src/dialogs/project/index.tsx
+msgid "Edit project experience"
+msgstr ""
+
+#: src/components/input/chip-input.tsx
+msgid "Editing keyword..."
+msgstr "संपादन कीवर्ड..."
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Education"
+msgstr "शिक्षा"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Email"
+msgstr "ई‑मेल"
+
+#: src/libs/locale.ts
+msgid "English"
+msgstr "अंग्रेज़ी"
+
+#: src/libs/locale.ts
+msgid "English (United Kingdom)"
+msgstr "अंग्रेज़ी (यूनाइटेड किंगडम)"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Enter the URL to link to"
+msgstr "लिंक करने के लिए URL दर्ज करें"
+
+#: src/components/input/rich-input.tsx
+msgid "Exit Fullscreen"
+msgstr "पूर्ण स्क्रीन से बाहर निकलें"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Experience"
+msgstr "अनुभव"
+
+#: src/routes/dashboard/-components/sidebar.tsx
+msgid "Experiences"
+msgstr ""
+
+#: src/libs/resume/section.tsx
+msgid "Export"
+msgstr "निर्यात"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Failed to load picture. Please try again."
+msgstr ""
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Filter by"
+msgstr "फ़िल्टर करें"
+
+#: src/libs/locale.ts
+msgid "Finnish"
+msgstr "फिनिश"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Fluency"
+msgstr "धाराप्रवाहता"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Family"
+msgstr "फ़ॉन्ट फ़ैमिली"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Size"
+msgstr "फ़ॉन्ट आकार"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Weight"
+msgstr "फ़ॉन्ट वज़न"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Weights"
+msgstr "फ़ॉन्ट वज़न"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/notes.tsx
+msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
+msgstr "उदाहरण के लिए, आपने किन कंपनियों को यह रेज़्यूमे भेजा है, इसकी जानकारी या नौकरी विवरण के लिंक यहां नोट किए जा सकते हैं।"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgctxt "Page Format (A4, Letter, Free-form)"
+msgid "Format"
+msgstr "फॉर्मेट"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Free-form"
+msgstr "मुफ्त फॉर्म"
+
+#: src/features/project/labels.ts
+msgid "Freelance"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "French"
+msgstr "फ़्रेंच"
+
+#. Layout editor toggle label that makes a page single-column
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Full Width"
+msgstr "पूर्ण चौड़ाई"
+
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen"
+msgstr "पूर्ण स्क्रीन"
+
+#. Screen reader title for the fullscreen rich-text editor dialog
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen Editor"
+msgstr "पूर्ण स्क्रीन संपादक"
+
+#: src/dialogs/resume/index.tsx
+msgid "Generate a random name"
+msgstr "कोई रैंडम नाम बनाएँ"
+
+#: src/libs/locale.ts
+msgid "German"
+msgstr "जर्मन"
+
+#: src/components/layout/not-found-screen.tsx
+msgid "Go Back"
+msgstr "वापस जाएँ"
+
+#. Accessible label for button navigating from builder to resumes dashboard
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Go to resumes dashboard"
+msgstr "रिज़्यूमे डैशबोर्ड पर जाएँ"
+
+#: src/features/command-palette/pages/navigation.tsx
+msgid "Go to…"
+msgstr "… पर जाएं"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Grade"
+msgstr "ग्रेड"
+
+#: src/libs/locale.ts
+msgid "Greek"
+msgstr "ग्रीक"
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Grid"
+msgstr "ग्रिड"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgctxt "Headings or Titles (H1, H2, H3, H4, H5, H6)"
+msgid "Heading"
+msgstr "शीर्षक पाठ"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 1"
+msgstr "शीर्षक 1"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 2"
+msgstr "शीर्षक 2"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 3"
+msgstr "शीर्षक 3"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 4"
+msgstr "शीर्षक 4"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 5"
+msgstr "शीर्षक 5"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 6"
+msgstr "शीर्षक 6"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Headline"
+msgstr "हेडलाइन"
+
+#: src/libs/locale.ts
+msgid "Hebrew"
+msgstr "हीब्रू"
+
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Here's a range of resume templates for different professions and personalities. Whether you prefer modern or classic, bold or simple, there is a design to match you. Look through the options below and choose a template that fits your style."
+msgstr "यहाँ विभिन्न पेशों और व्यक्तित्वों के लिए रेज़्यूमे खाकों की एक श्रृंखला है। चाहे आपको आधुनिक या क्लासिक, बोल्ड या सरल पसंद हो, आपके लिए एक उपयुक्त डिज़ाइन मौजूद है। नीचे दिए गए विकल्पों को देखें और अपने स्टाइल के अनुरूप खाका चुनें।"
+
+#: src/components/level/combobox.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Hidden"
+msgstr "छुपा हुआ"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Hide"
+msgstr "छुपायें"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Icons"
+msgstr "आइकन छिपाएँ"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Link Underline"
+msgstr "लिंक के नीचे की रेखा छिपाएँ"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Section Icons"
+msgstr "सेक्शन आइकन छिपाएँ"
+
+#: src/components/input/rich-input.tsx
+msgid "Highlight"
+msgstr "हाइलाइट"
+
+#: src/components/input/rich-input.tsx
+msgid "Highlight Color"
+msgstr "हाइलाइट रंग"
+
+#: src/libs/locale.ts
+msgid "Hindi"
+msgstr "हिन्दी"
+
+#: src/features/command-palette/pages/navigation.tsx
+msgid "Home"
+msgstr "होम"
+
+#: src/libs/locale.ts
+msgid "Hungarian"
+msgstr "हंगेरियन"
+
+#: src/components/level/combobox.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Icon"
+msgstr "आइकॉन"
+
+#: src/features/project/labels.ts
+msgid "Idea"
+msgstr ""
+
+#: src/dialogs/resume/import.tsx
+msgid "Import"
+msgstr "आयात"
+
+#: src/dialogs/resume/import.tsx
+#: src/routes/dashboard/resumes/-components/cards/import-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Import an existing resume"
+msgstr "मौजूदा रेज़्यूमे आयात करें"
+
+#: src/dialogs/resume/import.tsx
+msgid "Importing your resume..."
+msgstr "आपका रेज़्यूमे आयात किया जा रहा है..."
+
+#: src/dialogs/resume/import.tsx
+msgid "Importing…"
+msgstr "आयात करना…"
+
+#: src/features/project/labels.ts
+msgid "In progress"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "Indonesian"
+msgstr "इंडोनेशियाई"
+
+#: src/components/input/rich-input.tsx
+msgid "Inline Code"
+msgstr "इनलाइन कोड"
+
+#: src/components/input/rich-input.tsx
+msgid "Insert Table"
+msgstr "तालिका डालें"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Interests"
+msgstr "रुचियाँ"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Issuer"
+msgstr "ज़ारीकर्ता"
+
+#: src/libs/locale.ts
+msgid "Italian"
+msgstr "इतालवी"
+
+#: src/components/input/rich-input.tsx
+msgid "Italic"
+msgstr "इटैलिक"
+
+#: src/libs/locale.ts
+msgid "Japanese"
+msgstr "जापानी"
+
+#. Import source option for standard JSON Resume format
+#: src/dialogs/resume/import.tsx
+msgid "JSON Resume"
+msgstr "जेएसओएन रिज़्यूमे"
+
+#: src/components/input/rich-input.tsx
+msgid "Justify Align"
+msgstr "जस्टिफ़ाई अलाइन"
+
+#: src/libs/locale.ts
+msgid "Kannada"
+msgstr "कन्नड़"
+
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Keywords"
+msgstr "खोजशब्द"
+
+#: src/libs/locale.ts
+msgid "Khmer"
+msgstr "खमेर"
+
+#: src/libs/locale.ts
+msgid "Korean"
+msgstr "कोरियाई"
+
+#. Short field label for custom display text associated with a URL
+#: src/components/input/url-input.tsx
+msgid "Label"
+msgstr "लेबल"
+
+#. Preset button for setting picture aspect ratio to landscape orientation
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Landscape"
+msgstr "लैंडस्केप"
+
+#: src/dialogs/resume/sections/language.tsx
+#: src/features/command-palette/pages/preferences/language.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Language"
+msgstr "भाषा"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Languages"
+msgstr "भाषाएँ"
+
+#: src/routes/dashboard/resumes/-components/cards/resume-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Last updated on {updatedAt}"
+msgstr "अंतिम अद्यतन {updatedAt}"
+
+#: src/libs/locale.ts
+msgid "Latvian"
+msgstr "लातवियाई"
+
+#: src/libs/resume/section.tsx
+msgid "Layout"
+msgstr "लेआउट"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr "छोड़ें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Leave empty to reset the title to the original."
+msgstr "शीर्षक को मूल पर रीसेट करने के लिए खाली छोड़ दें।"
+
+#: src/components/input/rich-input.tsx
+msgid "Left Align"
+msgstr "बाएँ संरेखित करें"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Letter"
+msgstr "अक्षर"
+
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Level"
+msgstr "स्तर"
+
+#. Accessible label for skill/proficiency level indicator, where level is current value out of 5
+#: src/components/level/display.tsx
+msgid "Level {level} of 5"
+msgstr "5 में से स्तर {level}"
+
+#: src/components/ui/copyright.tsx
+msgid "Licensed under <0>MIT</0>."
+msgstr "<0>एमआईटी के तहत लाइसेंस प्राप्त</0>।"
+
+#: src/libs/theme.ts
+msgid "Light"
+msgstr "हल्का रंग"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Light theme"
+msgstr "लाइट थीम"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Line Height"
+msgstr "पंक्ति ऊँचाई"
+
+#: src/dialogs/project/index.tsx
+msgid "Link"
+msgstr ""
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "List"
+msgstr "सूची"
+
+#: src/libs/locale.ts
+msgid "Lithuanian"
+msgstr "लिथुआनियाई"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Loading picture…"
+msgstr ""
+
+#: src/components/layout/loading-screen.tsx
+#: src/dialogs/project/index.tsx
+msgid "Loading…"
+msgstr "लोडिंग…"
+
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Location"
+msgstr "स्थान"
+
+#. Resume card context menu action to prevent edits
+#. Resume card dropdown action to prevent edits
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Lock"
+msgstr "लॉक करें"
+
+#. Layout editor column label for the primary content area
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Main"
+msgstr "मुख्‍य"
+
+#: src/libs/locale.ts
+msgid "Malay"
+msgstr "मलय"
+
+#: src/libs/locale.ts
+msgid "Malayalam"
+msgstr "मलयालम"
+
+#: src/libs/locale.ts
+msgid "Marathi"
+msgstr "मराठी"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Margin (Horizontal)"
+msgstr "मार्जिन (क्षैतिज)"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Margin (Vertical)"
+msgstr "मार्जिन (ऊर्ध्वाधर)"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Move to"
+msgstr "स्थानांतरित करें"
+
+#. Placeholder text for custom link URL field in resume builder
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Must start with https://"
+msgstr "https:// से शुरू करना अनिवार्य है।"
+
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Name"
+msgstr "नाम"
+
+#: src/libs/locale.ts
+msgid "Nepali"
+msgstr "नेपाली"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Network"
+msgstr "नेटवर्क"
+
+#: src/components/input/rich-input.tsx
+msgid "New Line"
+msgstr "नई पंक्ति"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "New Page"
+msgstr "नया पेज"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "New Section"
+msgstr "नया अनुभाग"
+
+#: src/components/ui/combobox.tsx
+msgid "No results found."
+msgstr "कोई परिणाम नहीं मिला।"
+
+#. Error shown when a local resume import file could not be parsed
+#: src/dialogs/resume/import.tsx
+msgid "No resume data could be parsed from the selected file."
+msgstr ""
+
+#. Error shown when a local backup import file contains no resumes
+#: src/dialogs/resume/import.tsx
+msgid "No resumes were found in the selected backup file."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "No style rules yet."
+msgstr "अभी तक कोई शैली संबंधी नियम नहीं हैं।"
+
+#: src/libs/locale.ts
+msgid "Norwegian"
+msgstr "नॉर्वेजियन"
+
+#: src/libs/resume/section.tsx
+msgid "Notes"
+msgstr "टिप्पणियाँ"
+
+#: src/libs/locale.ts
+msgid "Odia"
+msgstr "ओड़िया"
+
+#: src/dialogs/project/index.tsx
+msgid "One or two factual sentences: what it is."
+msgstr ""
+
+#. Resume card context menu action to open the resume editor
+#. Resume card dropdown action to open the resume editor
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Open"
+msgstr "खोलें"
+
+#: src/features/project/labels.ts
+msgid "Open source"
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
+msgid "Options"
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Ordered List"
+msgstr "क्रमबद्ध सूची"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Organization"
+msgstr "संगठन"
+
+#: src/libs/resume/section.tsx
+msgid "Page"
+msgstr "पृष्ठ"
+
+#. Layout editor page label with 1-based page number
+#. placeholder {0}: pageIndex + 1
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Page {0}"
+msgstr "पृष्ठ {0}"
+
+#: src/components/input/rich-input.tsx
+msgid "Paragraph"
+msgstr "अनुच्छेद"
+
+#: src/features/project/labels.ts
+msgid "Paused"
+msgstr ""
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Period"
+msgstr "अवधि"
+
+#: src/libs/locale.ts
+msgid "Persian"
+msgstr "फ़ारसी"
+
+#: src/dialogs/resume/sections/reference.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Phone"
+msgstr "फ़ोन"
+
+#: src/libs/resume/section.tsx
+msgid "Picture"
+msgstr "चित्र"
+
+#: src/dialogs/resume/import.tsx
+msgid "Please do not close the window or refresh the page."
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Please enter the URL you want to link to:"
+msgstr "कृपया वह URL दर्ज करें जिससे आप लिंक करना चाहते हैं:"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Please wait while your PDF is being generated..."
+msgstr "कृपया प्रतीक्षा करें, आपका PDF जेनरेट किया जा रहा है..."
+
+#: src/libs/locale.ts
+msgid "Polish"
+msgstr "पोलिश"
+
+#. Preset button for setting picture aspect ratio to portrait orientation
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Portrait"
+msgstr "व्यक्तिचित्र"
+
+#: src/libs/locale.ts
+msgid "Portuguese (Brazil)"
+msgstr "पुर्तगाली (ब्राज़ील)"
+
+#: src/libs/locale.ts
+msgid "Portuguese (Portugal)"
+msgstr "पुर्तगाली (पुर्तगाल)"
+
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Position"
+msgstr "पद"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Preferences"
+msgstr "प्राथमिकताएँ"
+
+#: src/components/input/color-picker.tsx
+msgid "Presets"
+msgstr "पूर्वनिर्धारित सेटिंग्स"
+
+#: src/components/input/chip-input.tsx
+msgid "Press <0>{RETURN_KEY}</0> or <1>{COMMA_KEY}</1> to add or save the current keyword."
+msgstr "वर्तमान कीवर्ड जोड़ने या सहेजने के लिए <0>{RETURN_KEY}</0> या <1>{COMMA_KEY}</1> दबाएँ।"
+
+#. Command palette hint that pressing Enter opens the selected resume
+#: src/features/command-palette/pages/resumes.tsx
+msgid "Press <0>Enter</0> to open"
+msgstr "खोलने के लिए <0>Enter</0> दबाएँ"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Primary Color"
+msgstr "प्राथमिक रंग"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Proficiency"
+msgstr "दक्षता"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Profiles"
+msgstr "प्रोफ़ाइल"
+
+#: src/components/level/combobox.tsx
+msgid "Progress Bar"
+msgstr "प्रगति पट्टी"
+
+#: src/routes/dashboard/experiences/index.tsx
+msgid "Project Experiences"
+msgstr ""
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Projects"
+msgstr "प्रोजेक्ट्स"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Publications"
+msgstr "प्रकाशन"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Publisher"
+msgstr "प्रकाशक"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Recipient"
+msgstr "प्राप्तकर्ता"
+
+#: src/dialogs/project/index.tsx
+msgid "Record it factually, with evidence — this is your source of truth for writing resumes."
+msgstr ""
+
+#: src/components/level/combobox.tsx
+msgid "Rectangle"
+msgstr "आयत"
+
+#: src/components/level/combobox.tsx
+msgid "Rectangle (Full Width)"
+msgstr "आयत (पूर्ण चौड़ाई)"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "References"
+msgstr "रेफ़रेंस"
+
+#: src/components/layout/error-screen.tsx
+msgid "Refresh"
+msgstr "रिफ़्रेश"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Remove"
+msgstr "हटाएं"
+
+#. Screen reader label for button that removes a keyword chip. Variable is the current keyword text.
+#: src/components/input/chip-input.tsx
+msgid "Remove {chip}"
+msgstr "हटाएँ {chip}"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Rename"
+msgstr "नाम बदलें"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Reorder"
+msgstr "पुनर्क्रमित करें"
+
+#. Destructive confirmation button label when resetting a resume section
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Reset"
+msgstr "रीसेट"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "Reset Style"
+msgstr "शैली रीसेट करें"
+
+#. Import source option for current ResumeLite JSON format
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite (JSON)"
+msgstr ""
+
+#. Import source option for local ResumeLite backup files
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite local backup (JSON)"
+msgstr ""
+
+#. App version label in footer; includes semantic version variable
+#: src/components/ui/copyright.tsx
+msgid "ResumeLite v{__APP_VERSION__}"
+msgstr ""
+
+#. Import source option for legacy ResumeLite v4 JSON format
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite v4 (JSON)"
+msgstr ""
+
+#: src/features/command-palette/pages/navigation.tsx
+#: src/features/command-palette/pages/resumes.tsx
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Resumes"
+msgstr "रेज़्यूमे"
+
+#: src/components/input/rich-input.tsx
+msgid "Right Align"
+msgstr "दाएँ संरेखित करें"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Role Progression"
+msgstr "भूमिका प्रगति"
+
+#: src/libs/locale.ts
+msgid "Romanian"
+msgstr "रोमानियाई"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Rotation"
+msgstr "रोटेशन"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "rule"
+msgstr "नियम"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "rules"
+msgstr "नियम"
+
+#: src/libs/locale.ts
+msgid "Russian"
+msgstr "रूसी"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Save Changes"
+msgstr "परिवर्तन सेव करें"
+
+#: src/dialogs/project/index.tsx
+msgid "Saving your experience..."
+msgstr ""
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "School"
+msgstr "स्कूल"
+
+#. Accessible label for command palette search input
+#: src/features/command-palette/index.tsx
+msgid "Search commands"
+msgstr "खोज कमांड्स"
+
+#. Accessible label for icon picker search input
+#. Placeholder text in icon picker search input
+#: src/components/input/icon-picker.tsx
+msgid "Search for an icon"
+msgstr "किसी आइकॉन के लिए खोजें"
+
+#: src/features/command-palette/pages/resumes.tsx
+msgid "Search for…"
+msgstr "… खोजें"
+
+#: src/components/ui/combobox.tsx
+msgid "Search..."
+msgstr "खोजें..."
+
+#. Placeholder in command palette input on nested pages
+#: src/features/command-palette/index.tsx
+msgid "Search…"
+msgstr "खोजें…"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Section Type"
+msgstr "अनुभाग प्रकार"
+
+#: src/components/ui/combobox.tsx
+msgid "Select..."
+msgstr "चुनें..."
+
+#: src/components/input/rich-input.tsx
+msgid "Separator"
+msgstr "सेपरेटर"
+
+#: src/libs/locale.ts
+msgid "Serbian"
+msgstr "सर्बियाई"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Shadow Width"
+msgstr "शैडो चौड़ाई"
+
+#: src/features/project/labels.ts
+msgid "Shipped"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Show"
+msgstr "दिखाएँ"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Show link in title"
+msgstr "शीर्षक में लिंक दिखाएं"
+
+#: src/features/project/labels.ts
+msgid "Side project"
+msgstr ""
+
+#. Layout editor column label for the secondary sidebar area
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Sidebar"
+msgstr "साइडबार<<<<<<< HEAD"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/index.tsx
+msgid "Sidebar Width"
+msgstr "साइडबार चौड़ाई"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column Chinese AI product resume with a compact header, portrait, gray section bars, and dense project bullets."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
+msgstr "मैजेंटा बाएँ बॉर्डर एक्सेंट के साथ सिंगल‑कॉलम; एंट्री‑लेवल या इंटर्नशिप एप्लिकेशन के लिए कॉम्पैक्ट और प्रभावी।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a minimal top header and lots of whitespace; clean and modern for designers or content creators."
+msgstr "न्यूनतम शीर्ष हेडर और बहुत खाली जगह के साथ सिंगल‑कॉलम; डिज़ाइनर या कंटेंट क्रिएटर्स के लिए साफ़ और आधुनिक।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a sidebar and clean grid layout; versatile for any professional or technical role."
+msgstr "साइडबार और साफ़ ग्रिड लेआउट के साथ सिंगल‑कॉलम; किसी भी पेशेवर या तकनीकी भूमिका के लिए बहुउद्देश्यीय।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with an inline three-column entry header (position · organization · period); compact and ATS-friendly, well-suited for Asian resume conventions (CN/JP/KR)."
+msgstr "एकल-स्तंभ, जिसमें इनलाइन तीन-स्तंभ प्रविष्टि शीर्षक (स्थिति · संगठन · अवधि) शामिल है; संक्षिप्त और ATS-अनुकूल, एशियाई रिज्यूमे परंपराओं (CN/JP/KR) के लिए उपयुक्त।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with uppercase section headings and a primary-color top rule on every page; polished for executive, consulting, or startup resumes."
+msgstr "प्रत्येक पृष्ठ पर प्राथमिक रंग की शीर्ष रेखा के साथ बड़े अक्षरों में लिखे गए अनुभाग शीर्षकों वाला एकल-स्तंभ; कार्यकारी, परामर्शदाता या स्टार्टअप के रिज्यूमे के लिए उपयुक्त।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column; polished and serious for senior or enterprise-level positions."
+msgstr "सिंगल‑कॉलम; वरिष्ठ या एंटरप्राइज़‑स्तरीय पदों के लिए परिष्कृत और गंभीर।"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Size"
+msgstr "आकार"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Skills"
+msgstr "कौशल"
+
+#: src/libs/locale.ts
+msgid "Slovak"
+msgstr "स्लोवाक"
+
+#: src/libs/locale.ts
+msgid "Slovenian"
+msgstr "स्लोवेनियाई"
+
+#: src/dialogs/resume/index.tsx
+msgid "Slug"
+msgstr "काउंटर"
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Sort by"
+msgstr "क्रमबद्ध करें"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Spacing (Horizontal)"
+msgstr "स्पेसिंग (क्षैतिज)"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Spacing (Vertical)"
+msgstr "स्पेसिंग (ऊर्ध्वाधर)"
+
+#: src/libs/locale.ts
+msgid "Spanish"
+msgstr "स्पेनिश"
+
+#. Preset button for setting picture aspect ratio to square
+#: src/components/level/combobox.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Square"
+msgstr "वर्ग"
+
+#: src/dialogs/project/index.tsx
+msgid "Stage"
+msgstr ""
+
+#: src/components/input/github-stars-button.tsx
+msgid "Star us on GitHub (opens in new tab)"
+msgstr "GitHub पर हमें स्टार दें (नए टैब में खुलता है)"
+
+#: src/dialogs/resume/index.tsx
+msgid "Start building your resume by giving it a name."
+msgstr "अपने रेज़्यूमे को नाम देकर बनाना शुरू करें।"
+
+#: src/routes/dashboard/resumes/-components/cards/create-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Start building your resume from scratch"
+msgstr "शुरुआत से अपना रेज़्यूमे बनाना शुरू करें"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
+msgstr "रहें"
+
+#: src/components/input/rich-input.tsx
+msgid "Strike"
+msgstr "स्ट्राइक"
+
+#. Fallback title for a custom summary item in resume builder when content is empty
+#. Fallback title for a custom summary item in resume builder when content is unavailable
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Summary"
+msgstr "सारांश"
+
+#: src/libs/locale.ts
+msgid "Swedish"
+msgstr "स्वीडिश"
+
+#: src/features/theme/toggle-button.tsx
+msgid "Switch to dark theme"
+msgstr "डार्क थीम पर स्विच करें"
+
+#: src/features/theme/toggle-button.tsx
+msgid "Switch to light theme"
+msgstr "लाइट थीम पर स्विच करें"
+
+#: src/components/input/rich-input.tsx
+msgid "Table"
+msgstr "तालिका"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+msgid "Tags"
+msgstr "टैग्स"
+
+#: src/dialogs/resume/index.tsx
+msgid "Tags can be used to categorize your resume by keywords."
+msgstr "टैग्स का उपयोग आपके रेज़्यूमे को कीवर्ड के आधार पर वर्गीकृत करने के लिए किया जा सकता है।"
+
+#: src/libs/locale.ts
+msgid "Tamil"
+msgstr "तमिल"
+
+#: src/dialogs/project/index.tsx
+msgid "Tech & methods"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "Telugu"
+msgstr "तेलुगु"
+
+#: src/libs/resume/section.tsx
+msgid "Template"
+msgstr "खाका"
+
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Template Gallery"
+msgstr "खाका गैलरी"
+
+#: src/components/input/rich-input.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Text Color"
+msgstr "अक्षरों का रंग"
+
+#: src/libs/locale.ts
+msgid "Thai"
+msgstr "थाई"
+
+#. Empty-state message when no command palette results match the search query
+#: src/features/command-palette/index.tsx
+msgid "The command you're looking for doesn't exist."
+msgstr "जिस कमांड को आप ढूंढ रहे हैं वह मौजूद नहीं है।"
+
+#: src/components/input/rich-input.tsx
+msgid "The URL you entered is not valid."
+msgstr "आपके द्वारा दर्ज किया गया URL मान्य नहीं है।"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Theme"
+msgstr "थीम"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "There was a problem while generating the DOCX, please try again."
+msgstr "DOCX उत्पन्न करते समय एक समस्या हुई, कृपया फिर से प्रयास करें।"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "There was a problem while generating the PDF, please try again."
+msgstr "पीडीएफ जनरेट करने में समस्या आ रही है, कृपया पुनः प्रयास करें।"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "This action cannot be undone."
+msgstr "इस कार्रवाई को पूर्ववत नहीं किया जा सकता।"
+
+#: src/dialogs/resume/index.tsx
+msgid "This is a URL-friendly name for your resume."
+msgstr "यह आपके रेज़्यूमे के लिए एक URL‑फ्रेंडली नाम है।"
+
+#: src/features/resume/builder/draft.ts
+msgid "This resume is locked and cannot be updated."
+msgstr "यह रेज़्यूमे लॉक है और इसे अपडेट नहीं किया जा सकता।"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/notes.tsx
+msgid "This section is reserved for your personal notes specific to this resume. The content here remains private and is not shared with anyone else."
+msgstr "यह अनुभाग इस रेज़्यूमे से संबंधित आपके व्यक्तिगत नोट्स के लिए आरक्षित है। यहां की सामग्री निजी रहती है और किसी अन्य के साथ साझा नहीं की जाती है।"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "This will remove all items from this section."
+msgstr "यह इस अनुभाग से सभी आइटम हटा देगा।"
+
+#: src/dialogs/resume/index.tsx
+msgid "Tip: You can name the resume referring to the position you are applying for."
+msgstr "युक्ति: आप जिस पद के लिए आवेदन कर रहे हैं, उसका संदर्भ देते हुए आप रेज़्यूमे को नाम दे सकते हैं।"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Title"
+msgstr "शीर्षक"
+
+#. Screen-reader label for opening or closing the left sidebar in resume builder
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Toggle left sidebar"
+msgstr "बाएँ साइडबार को टॉगल करें"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Toggle page stacking"
+msgstr "पेज स्टैकिंग को टॉगल करें"
+
+#. Screen-reader label for opening or closing the right sidebar in resume builder
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Toggle right sidebar"
+msgstr "दाएँ साइडबार टॉगल करें"
+
+#: src/libs/locale.ts
+msgid "Turkish"
+msgstr "तुर्की"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a bold colored sidebar and skill bars; great for creative or tech roles where visual flair is welcome."
+msgstr "बोल्ड रंगीन साइडबार और स्किल बार के साथ दो‑कॉलम; उन क्रिएटिव या टेक रोल्स के लिए बेहतरीन जहाँ विज़ुअल फ्लेयर का स्वागत है।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a dark teal sidebar and skills grid; modern feel for developers, data scientists, or technical PMs."
+msgstr "डार्क टील साइडबार और स्किल्स ग्रिड के साथ दो‑कॉलम; डेवलपर्स, डेटा साइंटिस्ट या टेक्निकल PMs के लिए आधुनिक अहसास।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a left margin color; simple and approachable for creative, editorial, or junior roles."
+msgstr "बाएँ मार्जिन रंग के साथ दो‑कॉलम; क्रिएटिव, एडिटोरियल या जूनियर रोल्स के लिए सरल और अपनाने योग्य।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a muted color sidebar; earthy and calm, suits sustainability, healthcare, or nonprofit sectors."
+msgstr "म्यूटेड रंग साइडबार के साथ दो‑कॉलम; धरती से जुड़ा और शांत, स्थिरता, हेल्थकेयर या गैर‑लाभकारी क्षेत्रों के लिए उपयुक्त।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a soft header accent and circular profile photo; ideal for marketing, HR, or client-facing roles."
+msgstr "हल्के हेडर एक्सेंट और गोल प्रोफ़ाइल फ़ोटो के साथ दो‑कॉलम; मार्केटिंग, HR या क्लाइंट‑फेसिंग रोल्स के लिए आदर्श।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with accent colors and clean typography; balanced choice for business analysts or operations roles."
+msgstr "एक्सेंट रंगों और साफ़ टाइपोग्राफी के साथ दो‑कॉलम; बिज़नेस एनालिस्ट या ऑपरेशंस रोल्स के लिए संतुलित विकल्प।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, clean and professional with subtle section dividers; suits corporate, finance, or consulting positions."
+msgstr "सूक्ष्म सेक्शन डिवाइडर के साथ साफ़ और पेशेवर दो‑कॉलम; कॉर्पोरेट, फ़ाइनेंस या कंसल्टिंग पदों के लिए उपयुक्त।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, minimal and text-dense with no decorative elements; perfect for traditional industries or ATS-heavy applications."
+msgstr "कोई सजावटी तत्व नहीं होने के साथ न्यूनतम और टेक्स्ट‑घना दो‑कॉलम; पारंपरिक उद्योगों या ATS‑केंद्रित एप्लिकेशन के लिए बिल्कुल उपयुक्त।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, minimal with light gray sidebar and subtle icons; professional and understated for legal, finance, or executive roles."
+msgstr "हल्के ग्रे साइडबार और सूक्ष्म आइकॉन के साथ न्यूनतम दो‑कॉलम; कानूनी, फ़ाइनेंस या एग्ज़ीक्यूटिव रोल्स के लिए पेशेवर और संयत।"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/import.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Type"
+msgstr "प्रकार"
+
+#. Placeholder in command palette input on root page
+#. Screen-reader dialog description instructing users how to use the command palette
+#: src/features/command-palette/index.tsx
+msgid "Type a command or search…"
+msgstr "कोई कमांड टाइप करें या खोजें…"
+
+#: src/libs/resume/section.tsx
+msgid "Typography"
+msgstr "टाइपोग्राफी"
+
+#: src/libs/locale.ts
+msgid "Ukrainian"
+msgstr "यूक्रेनी"
+
+#: src/components/input/rich-input.tsx
+msgid "Underline"
+msgstr "रेखांकित"
+
+#. Resume card context menu action to remove edit lock
+#. Resume card dropdown action to remove edit lock
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Unlock"
+msgstr "खोले"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Update"
+msgstr "अपडेट करें"
+
+#: src/dialogs/resume/sections/award.tsx
+msgid "Update an existing award"
+msgstr "मौजूदा पुरस्कार अपडेट करें"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Update an existing certification"
+msgstr "मौजूदा प्रमाणपत्र अपडेट करें"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Update an existing cover letter"
+msgstr "मौजूदा कवर लेटर अपडेट करें"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Update an existing custom section"
+msgstr "मौजूदा कस्टम अनुभाग अपडेट करें"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Update an existing education"
+msgstr "मौजूदा शिक्षा अपडेट करें"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Update an existing experience"
+msgstr "मौजूदा अनुभव अपडेट करें"
+
+#: src/dialogs/resume/sections/interest.tsx
+msgid "Update an existing interest"
+msgstr "मौजूदा रुचि अपडेट करें"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Update an existing language"
+msgstr "मौजूदा भाषा अपडेट करें"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Update an existing profile"
+msgstr "मौजूदा प्रोफ़ाइल अपडेट करें"
+
+#: src/dialogs/resume/sections/project.tsx
+msgid "Update an existing project"
+msgstr "मौजूदा प्रोजेक्ट अपडेट करें"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Update an existing publication"
+msgstr "मौजूदा प्रकाशन अपडेट करें"
+
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Update an existing reference"
+msgstr "मौजूदा रेफ़रेंस अपडेट करें"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Update an existing skill"
+msgstr "मौजूदा कौशल अपडेट करें"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr "मौजूदा सारांश आइटम अपडेट करें"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Update an existing volunteer experience"
+msgstr "मौजूदा स्वयंसेवी अनुभव अपडेट करें"
+
+#: src/dialogs/resume/index.tsx
+msgid "Update Resume"
+msgstr "रेज़्यूमे अपडेट करें"
+
+#: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
+msgid "Updated {updatedAt}"
+msgstr ""
+
+#: src/dialogs/resume/index.tsx
+msgid "Updating your resume..."
+msgstr "आपका रेज़्यूमे अपडेट किया जा रहा है..."
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Upload picture"
+msgstr "तस्वीर अपलोड करें"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "URL"
+msgstr "यूआरएल"
+
+#: src/components/input/color-picker.tsx
+msgid "Use color {color}"
+msgstr "रंग का उपयोग करें {color}"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: src/libs/locale.ts
+msgid "Uzbek"
+msgstr "उज़्बेक"
+
+#: src/components/input/rich-input.tsx
+msgid "Valid URLs must start with http:// or https://."
+msgstr "मान्य URL http:// या https:// से शुरू होना चाहिए।"
+
+#: src/libs/locale.ts
+msgid "Vietnamese"
+msgstr "वियतनामी"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/features/project/labels.ts
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Volunteer"
+msgstr "स्वयंसेवा"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Website"
+msgstr "वेबसाइट"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "What do you want to rename this section to?"
+msgstr "आप इस अनुभाग का नाम किसमें बदलना चाहते हैं?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "When locked, the resume cannot be updated or deleted."
+msgstr "जब लॉक किया गया हो, तो रेज़्यूमे को न तो अपडेट किया जा सकता है और न ही हटाया जा सकता है।"
+
+#: src/features/project/labels.ts
+msgid "Work"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr "आपके सहेजे न गए परिवर्तन खो जाएंगे।"
+
+#: src/routes/builder/$resumeId/-components/preview-page.tsx
+msgid "Your changes are saved automatically."
+msgstr "आपके बदलाव अपने आप सेव हो जाते हैं।"
+
+#: src/dialogs/project/index.tsx
+msgid "Your experience has been created."
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Your experience has been deleted successfully."
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Your experience has been duplicated successfully."
+msgstr ""
+
+#: src/dialogs/project/index.tsx
+msgid "Your experience has been saved."
+msgstr ""
+
+#: src/features/resume/builder/draft.ts
+msgid "Your latest changes could not be saved."
+msgstr "आपके नवीनतम परिवर्तन सहेजे नहीं जा सके।"
+
+#: src/dialogs/resume/index.tsx
+msgid "Your resume has been created successfully."
+msgstr "आपका रेज़्यूमे सफलतापूर्वक बनाया गया है।"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Your resume has been deleted successfully."
+msgstr "आपका रेज़्यूमे सफलतापूर्वक हटा दिया गया है।"
+
+#: src/dialogs/resume/index.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Your resume has been duplicated successfully."
+msgstr "आपका रेज़्यूमे सफलतापूर्वक डुप्लिकेट कर दिया गया है।"
+
+#: src/dialogs/resume/import.tsx
+msgid "Your resume has been imported successfully."
+msgstr "आपका रेज़्यूमे सफलतापूर्वक आयात कर लिया गया है।"
+
+#: src/dialogs/resume/index.tsx
+msgid "Your resume has been updated successfully."
+msgstr "आपका रेज़्यूमे सफलतापूर्वक अपडेट कर दिया गया है।"
+
+#: src/dialogs/project/index.tsx
+msgid "Your role"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Zoom in"
+msgstr "ज़ूम इन"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Zoom out"
+msgstr "ज़ूम आउट"
+
+#: src/libs/locale.ts
+msgid "Zulu"
+msgstr "ज़ुलु"

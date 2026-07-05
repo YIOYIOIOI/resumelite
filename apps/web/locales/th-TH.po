@@ -1,0 +1,2151 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-11-04 23:14+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: th\n"
+"Project-Id-Version: resumelite\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-06-18 16:58\n"
+"Last-Translator: \n"
+"Language-Team: Thai\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: resumelite\n"
+"X-Crowdin-Project-ID: 503410\n"
+"X-Crowdin-Language: th\n"
+"X-Crowdin-File: /apps/web/locales/en-US.po\n"
+"X-Crowdin-File-ID: 545\n"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Last Updated"
+msgstr "อัปเดตล่าสุด"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Created"
+msgstr "สร้าง"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Name"
+msgstr "ชื่อ"
+
+#. placeholder {0}: section.items.length
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "{0, plural, one {# item} other {# items}}"
+msgstr "{0, plural, other {# รายการ}}"
+
+#. placeholder {0}: item.roles.length
+#: src/routes/builder/$resumeId/-sidebar/left/sections/experience.tsx
+msgid "{0, plural, one {# role} other {# roles}}"
+msgstr "{0, plural, one {# ตำแหน่ง} other {# ตำแหน่ง}}"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "{column, plural, one {# Column} other {# Columns}}"
+msgstr "{column, plural, other {# คอลัมน์}}"
+
+#: src/components/ui/copyright.tsx
+msgid "A passion project by <0>Amruth Pillai</0>."
+msgstr "โครงการทำด้วยใจจาก <0>Amruth Pillai</0>."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "A4"
+msgstr "A4"
+
+#: src/features/project/labels.ts
+msgid "Academic"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Add a custom field"
+msgstr "เพิ่มช่องข้อมูลที่กำหนดเอง"
+
+#: src/components/input/chip-input.tsx
+msgid "Add a keyword..."
+msgstr "เพิ่มคำค้นหา..."
+
+#. Tooltip for action button that opens URL label editor
+#: src/components/input/url-input.tsx
+msgid "Add a label to the URL"
+msgstr "เพิ่มป้ายกำกับให้กับ URL"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/awards.tsx
+msgid "Add a new award"
+msgstr "เพิ่มรางวัลใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/certifications.tsx
+msgid "Add a new certification"
+msgstr "เพิ่มใบรับรองใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Add a new custom section"
+msgstr "เพิ่มส่วนที่กำหนดเองใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/education.tsx
+msgid "Add a new education"
+msgstr "เพิ่มการศึกษาใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/experience.tsx
+msgid "Add a new experience"
+msgstr "เพิ่มประสบการณ์ใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/interests.tsx
+msgid "Add a new interest"
+msgstr "เพิ่มความสนใจใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Add a new item"
+msgstr "เพิ่มรายการใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/languages.tsx
+msgid "Add a new language"
+msgstr "เพิ่มภาษาใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/profiles.tsx
+msgid "Add a new profile"
+msgstr "เพิ่มโปรไฟล์ใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/projects.tsx
+msgid "Add a new project"
+msgstr "เพิ่มโปรเจกต์ใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/publications.tsx
+msgid "Add a new publication"
+msgstr "เพิ่มผลงานตีพิมพ์ใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/references.tsx
+msgid "Add a new reference"
+msgstr "เพิ่มบุคคลอ้างอิงใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/skills.tsx
+msgid "Add a new skill"
+msgstr "เพิ่มทักษะใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/volunteer.tsx
+msgid "Add a new volunteer experience"
+msgstr "เพิ่มประสบการณ์อาสาสมัครใหม่"
+
+#: src/dialogs/project/index.tsx
+#: src/routes/dashboard/experiences/-components/cards/create-card.tsx
+msgid "Add a project experience"
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Add Column After"
+msgstr "เพิ่มคอลัมน์หลัง"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Column Before"
+msgstr "เพิ่มคอลัมน์ก่อน"
+
+#: src/components/input/chip-input.tsx
+msgid "Add keyword"
+msgstr "เพิ่มคำค้นหา"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Add multiple roles to show career progression at the same company."
+msgstr "เพิ่มหลายตำแหน่งเพื่อแสดงความก้าวหน้าในอาชีพที่บริษัทเดียวกัน"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Add Page"
+msgstr "เพิ่มหน้าใหม่"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Add Role"
+msgstr "เพิ่มตำแหน่ง"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Row After"
+msgstr "เพิ่มแถวหลัง"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Row Before"
+msgstr "เพิ่มแวก่อน"
+
+#: src/libs/locale.ts
+msgid "Afrikaans"
+msgstr "อาฟรีกานส์"
+
+#: src/libs/locale.ts
+msgid "Albanian"
+msgstr "แอลเบเนีย"
+
+#: src/libs/locale.ts
+msgid "Amharic"
+msgstr "อัมฮาริค"
+
+#: src/components/layout/error-screen.tsx
+#: src/components/layout/not-found-screen.tsx
+msgid "An error occurred while loading the page."
+msgstr "เกิดข้อผิดพลาดขณะโหลดหน้า"
+
+#. Fallback toast when importing a resume fails for an unknown reason
+#: src/dialogs/resume/import.tsx
+msgid "An unknown error occurred while importing your resume."
+msgstr "เกิดข้อผิดพลาดที่ไม่ทราบระหว่างนำเข้าเรซูเม่ของคุณ"
+
+#: src/routes/dashboard/-components/sidebar.tsx
+msgid "App"
+msgstr "แอป"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "Applied Rules"
+msgstr "กฎที่ใช้"
+
+#: src/libs/locale.ts
+msgid "Arabic"
+msgstr "อารบิก"
+
+#: src/features/project/labels.ts
+msgid "Archived"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr "คุณแน่ใจหรือว่าต้องการปิดหน้าต่างนี้?"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Are you sure you want to delete this custom section?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบส่วนที่กำหนดเองนี้?"
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to delete this experience?"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Are you sure you want to delete this item?"
+msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการลบรายการนี้?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to delete this resume?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบเรซูเม่นี้?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to lock this resume?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการล็อคเรซูเม่นี้?"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Are you sure you want to reset this section?"
+msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการรีเซ็ตส่วนนี้?"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Area of Study"
+msgstr "สาขาวิชา"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Aspect Ratio"
+msgstr "อัตราส่วนภาพ"
+
+#: src/dialogs/resume/sections/award.tsx
+msgctxt "(noun) person, organization, or entity that gives an award"
+msgid "Awarder"
+msgstr "ผู้มอบรางวัล"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Awards"
+msgstr "รางวัล"
+
+#: src/libs/locale.ts
+msgid "Azerbaijani"
+msgstr "อาเซอร์ไบจาน"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Background Color"
+msgstr "สีพื้นหลัง"
+
+#: src/libs/resume/section.tsx
+msgid "Basics"
+msgstr "พื้นฐาน"
+
+#: src/libs/locale.ts
+msgid "Bengali"
+msgstr "เบงกาลี"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgctxt "Body Text (paragraphs, lists, etc.)"
+msgid "Body"
+msgstr "เนื้อหา"
+
+#: src/components/input/rich-input.tsx
+msgid "Bold"
+msgstr "ตัวหนา"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Border Radius"
+msgstr "รัศมีกรอบ"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Border Width"
+msgstr "ความกว้างของกรอบ"
+
+#. Screen-reader dialog title for the command palette in the resume builder
+#: src/features/command-palette/index.tsx
+msgid "Builder Command Palette"
+msgstr "แผงคำสั่งของตัวสร้าง"
+
+#: src/libs/locale.ts
+msgid "Bulgarian"
+msgstr "บัลแกเรีย"
+
+#: src/components/input/rich-input.tsx
+msgid "Bullet List"
+msgstr "รายการหัวข้อย่อย"
+
+#. Tagline shown in app footer/about area
+#: src/components/ui/copyright.tsx
+msgid "By the community, for the community."
+msgstr "โดยชุมชน เพื่อชุมชน"
+
+#. Confirmation dialog button label to abort deleting a custom section in resume builder
+#. Confirmation dialog button label to abort deleting a section item in resume builder
+#. Confirmation dialog button label to abort resetting a resume section
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/hooks/use-prompt.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: src/libs/locale.ts
+msgid "Catalan"
+msgstr "คาตาลัน"
+
+#: src/components/input/rich-input.tsx
+msgid "Center Align"
+msgstr "จัดกึ่งกลาง"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Center view"
+msgstr "ศูนย์กลางมุมมอง"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Certifications"
+msgstr "ใบรับรอง"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Change language to…"
+msgstr "เปลี่ยนภาษาเป็น…"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Change theme to…"
+msgstr "เปลี่ยนธีมเป็น…"
+
+#: src/dialogs/resume/index.tsx
+msgid "Changed your mind? Rename your resume to something more descriptive."
+msgstr "เปลี่ยนใจหรือไม่? เปลี่ยนชื่อเรซูเม่ของคุณให้อธิบายมากขึ้น"
+
+#: src/libs/locale.ts
+msgid "Chinese (Simplified)"
+msgstr "จีน (ตัวย่อ)"
+
+#: src/libs/locale.ts
+msgid "Chinese (Traditional)"
+msgstr "จีน (ตัวเต็ม)"
+
+#. Preset or custom shade refer to the color picker
+#. Preset or custom shade refer to the color picker
+#: src/components/input/rich-input.tsx
+msgid "Choose a preset or custom shade."
+msgstr "เลือกเฉดสีที่กำหนดไว้ล่วงหน้าหรือกำหนดเอง"
+
+#: src/components/level/combobox.tsx
+msgid "Circle"
+msgstr "วงกลม"
+
+#. Clear the highlight color
+#. Clear the text color
+#: src/components/input/rich-input.tsx
+msgid "Clear"
+msgstr "ชัดเจน"
+
+#: src/components/ui/combobox.tsx
+msgid "Clear selection"
+msgstr "การเลือกที่ชัดเจน"
+
+#: src/dialogs/resume/import.tsx
+msgid "Click here to select a file to import"
+msgstr "คลิกที่นี่เพื่อเลือกไฟล์ที่จะนำเข้า"
+
+#: src/components/input/rich-input.tsx
+msgid "Code Block"
+msgstr "บล็อกโค้ด"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Columns"
+msgstr "คอลัมน์"
+
+#. Accessible label for command list region inside command palette
+#. Accessible label for the command palette dialog
+#: src/features/command-palette/index.tsx
+msgid "Command Palette"
+msgstr "พาเลตต์คำสั่ง"
+
+#. Accessible label for command palette dialog when browsing a nested command page
+#: src/features/command-palette/index.tsx
+msgid "Command Palette - {currentPage}"
+msgstr "พาเลตต์คำสั่ง - {currentPage}"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Company"
+msgstr "บริษัท"
+
+#: src/hooks/use-prompt.tsx
+msgid "Confirm"
+msgstr "ยืนยัน"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr "เนื้อหา"
+
+#: src/routes/dashboard/resumes/-components/cards/import-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Continue where you left off"
+msgstr "ดำเนินการต่อจากที่ค้างไว้"
+
+#: src/dialogs/resume/import.tsx
+msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
+msgstr ""
+
+#. Fallback title for a custom cover letter item in resume builder when recipient is empty
+#. Fallback title for a custom cover letter item in resume builder when recipient is unavailable
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Cover Letter"
+msgstr "จดหมายสมัครงาน"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Create"
+msgstr "สร้าง"
+
+#: src/dialogs/resume/sections/award.tsx
+msgid "Create a new award"
+msgstr "สร้างรางวัลใหม่"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Create a new certification"
+msgstr "สร้างใบรับรองใหม่"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Create a new cover letter"
+msgstr "สร้างจดหมายสมัครงานใหม่"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Create a new custom section"
+msgstr "สร้างส่วนที่กำหนดเองใหม่"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Create a new education"
+msgstr "สร้างการศึกษาใหม่"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Create a new experience"
+msgstr "สร้างประสบการณ์ใหม่"
+
+#: src/dialogs/resume/sections/interest.tsx
+msgid "Create a new interest"
+msgstr "สร้างความสนใจใหม่"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Create a new language"
+msgstr "สร้างภาษาใหม่"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Create a new profile"
+msgstr "สร้างโปรไฟล์ใหม่"
+
+#: src/dialogs/resume/sections/project.tsx
+msgid "Create a new project"
+msgstr "สร้างโปรเจกต์ใหม่"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Create a new publication"
+msgstr "สร้างสิ่งพิมพ์ใหม่"
+
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Create a new reference"
+msgstr "สร้างบุคคลอ้างอิงใหม่"
+
+#: src/dialogs/resume/index.tsx
+#: src/features/command-palette/pages/resumes.tsx
+#: src/routes/dashboard/resumes/-components/cards/create-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Create a new resume"
+msgstr "สร้างเรซูเม่ใหม่"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Create a new skill"
+msgstr "สร้างทักษะใหม่"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr "สร้างรายการสรุปใหม่"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Create a new volunteer experience"
+msgstr "สร้างประสบการณ์อาสาสมัครใหม่"
+
+#: src/dialogs/resume/index.tsx
+msgid "Create a Sample Resume"
+msgstr "สร้างเรซูเม่ตัวอย่าง"
+
+#. Accessible label for create-resume split button group
+#: src/dialogs/resume/index.tsx
+msgid "Create resume with options"
+msgstr "สร้างประวัติย่อพร้อมตัวเลือก"
+
+#: src/dialogs/project/index.tsx
+msgid "Creating your experience..."
+msgstr ""
+
+#: src/dialogs/resume/index.tsx
+msgid "Creating your resume..."
+msgstr "กำลังสร้างเรซูเม่ของคุณ..."
+
+#: src/components/input/color-picker.tsx
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+#: src/libs/resume/section.tsx
+msgid "Custom Sections"
+msgstr "ส่วนที่กำหนดเอง"
+
+#: src/libs/resume/section.tsx
+msgid "Custom Styles"
+msgstr "สไตล์ที่กำหนดเอง"
+
+#: src/libs/locale.ts
+msgid "Czech"
+msgstr "เช็ก"
+
+#: src/libs/locale.ts
+msgid "Danish"
+msgstr "เดนมาร์ก"
+
+#: src/libs/theme.ts
+msgid "Dark"
+msgstr "มืด"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Dark theme"
+msgstr "ธีมมืด"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Date"
+msgstr "วันที่"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Degree"
+msgstr "ปริญญา"
+
+#. Destructive confirmation button label when deleting a custom section in resume builder
+#. Destructive confirmation button label when deleting a section item in resume builder
+#. Experience card dropdown destructive action to remove
+#. Resume card context menu destructive action to remove a resume
+#. Resume card dropdown destructive action to remove a resume
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Delete"
+msgstr "ลบ"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Column"
+msgstr "ลบคอลัมน์"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Delete Page"
+msgstr "ลบหน้า"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Delete picture"
+msgstr "ลบรูปภาพ"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Row"
+msgstr "ลบแถว"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Table"
+msgstr "ลบตาราง"
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Deleting your experience..."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Deleting your resume..."
+msgstr "กำลังลบเรซูเม่ของคุณ..."
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Description"
+msgstr "รายละเอียด"
+
+#: src/libs/resume/section.tsx
+msgid "Design"
+msgstr "ออกแบบ"
+
+#: src/dialogs/project/index.tsx
+msgid "Details"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume as a Word document. Use this file to further customize your resume in Microsoft Word or Google Docs."
+msgstr "ดาวน์โหลดสำเนาของประวัติย่อของคุณในรูปแบบเอกสาร Word ใช้ไฟล์นี้เพื่อปรับแต่งประวัติย่อของคุณเพิ่มเติมใน Microsoft Word หรือ Google Docs"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume in JSON format. Use this file for backup or to import your resume into other applications."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume in PDF format. Use this file for printing or to easily share your resume with recruiters."
+msgstr "ดาวน์โหลดสำเนาเรซูเม่ของคุณในรูปแบบ PDF ใช้ไฟล์นี้สำหรับพิมพ์หรือแบ่งปันเรซูเม่ของคุณกับผู้สรรหาได้ง่าย"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download DOCX"
+msgstr "ดาวน์โหลด DOCX"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download JSON"
+msgstr "ดาวน์โหลด JSON"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download PDF"
+msgstr "ดาวน์โหลด PDF"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Drag and drop sections here to move them between columns"
+msgstr "ลากและวางส่วนต่าง ๆ ที่นี่เพื่อย้ายระหว่างคอลัมน์"
+
+#. Experience card dropdown action to create a copy
+#. Resume card context menu action to create a copy
+#. Resume card dropdown action to create a copy
+#: src/dialogs/resume/index.tsx
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Duplicate"
+msgstr "คัดลอก"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicate Resume"
+msgstr "คัดลอกเรซูเม่"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicate your resume to create a new one, just like the original."
+msgstr "คัดลอกเรซูเม่ของคุณเพื่อสร้างเรซูเม่ใหม่ที่เหมือนต้นฉบับ"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicating your resume..."
+msgstr "กำลังคัดลอกเรซูเม่ของคุณ..."
+
+#: src/libs/locale.ts
+msgid "Dutch"
+msgstr "ดัตช์"
+
+#. Experience card dropdown action to edit
+#: src/components/input/chip-input.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Edit"
+msgstr "แก้ไข"
+
+#. Screen reader label for button that edits a keyword chip. Variable is the current keyword text.
+#: src/components/input/chip-input.tsx
+msgid "Edit {chip}"
+msgstr "แก้ไข {chip}"
+
+#. Screen reader description for the fullscreen rich-text editor dialog
+#: src/components/input/rich-input.tsx
+msgid "Edit content in fullscreen mode"
+msgstr "แก้ไขเนื้อหาในโหมดเต็มหน้าจอ"
+
+#: src/components/input/chip-input.tsx
+msgid "Edit keyword"
+msgstr "แก้ไขคำค้นหา"
+
+#: src/dialogs/project/index.tsx
+msgid "Edit project experience"
+msgstr ""
+
+#: src/components/input/chip-input.tsx
+msgid "Editing keyword..."
+msgstr "กำลังแก้ไขคำค้นหา..."
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Education"
+msgstr "การศึกษา"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Email"
+msgstr "อีเมล"
+
+#: src/libs/locale.ts
+msgid "English"
+msgstr "ภาษาอังกฤษ"
+
+#: src/libs/locale.ts
+msgid "English (United Kingdom)"
+msgstr "อังกฤษ (สหราชอาณาจักร)"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Enter the URL to link to"
+msgstr "กรอก URL ที่ต้องการลิงก์ไป"
+
+#: src/components/input/rich-input.tsx
+msgid "Exit Fullscreen"
+msgstr "ออกจากเต็มหน้าจอ"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Experience"
+msgstr "ประสบการณ์"
+
+#: src/routes/dashboard/-components/sidebar.tsx
+msgid "Experiences"
+msgstr ""
+
+#: src/libs/resume/section.tsx
+msgid "Export"
+msgstr "ส่งออก"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Failed to load picture. Please try again."
+msgstr ""
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Filter by"
+msgstr "กรองโดย"
+
+#: src/libs/locale.ts
+msgid "Finnish"
+msgstr "ฟินแลนด์"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Fluency"
+msgstr "ความคล่องแคล่ว"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Family"
+msgstr "ตระกูลฟอนต์"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Size"
+msgstr "ขนาดฟอนต์"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Weight"
+msgstr "น้ำหนักฟอนต์"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Weights"
+msgstr "รูปแบบฟอนต์"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/notes.tsx
+msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
+msgstr "ตัวอย่างเช่น ข้อมูลเกี่ยวกับบริษัทที่คุณส่งเรซูเม่นี้ให้หรือลิงก์ไปยังรายละเอียดงานสามารถเขียนไว้ได้ที่นี่"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgctxt "Page Format (A4, Letter, Free-form)"
+msgid "Format"
+msgstr "รูปแบบ"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Free-form"
+msgstr "รูปแบบอิสระ"
+
+#: src/features/project/labels.ts
+msgid "Freelance"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "French"
+msgstr "ฝรั่งเศส"
+
+#. Layout editor toggle label that makes a page single-column
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Full Width"
+msgstr "เต็มความกว้าง"
+
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen"
+msgstr "เต็มหน้าจอ"
+
+#. Screen reader title for the fullscreen rich-text editor dialog
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen Editor"
+msgstr "โปรแกรมแก้ไขแบบเต็มหน้าจอ"
+
+#: src/dialogs/resume/index.tsx
+msgid "Generate a random name"
+msgstr "สร้างชื่อแบบสุ่ม"
+
+#: src/libs/locale.ts
+msgid "German"
+msgstr "ภาษาเยอรมัน"
+
+#: src/components/layout/not-found-screen.tsx
+msgid "Go Back"
+msgstr "ย้อนกลับ"
+
+#. Accessible label for button navigating from builder to resumes dashboard
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Go to resumes dashboard"
+msgstr "ไปที่แดชบอร์ดประวัติย่อ"
+
+#: src/features/command-palette/pages/navigation.tsx
+msgid "Go to…"
+msgstr "ไปที่…"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Grade"
+msgstr "เกรด"
+
+#: src/libs/locale.ts
+msgid "Greek"
+msgstr "กรีก"
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Grid"
+msgstr "ตาราง"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgctxt "Headings or Titles (H1, H2, H3, H4, H5, H6)"
+msgid "Heading"
+msgstr "หัวเรื่อง"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 1"
+msgstr "หัวเรื่อง 1"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 2"
+msgstr "หัวเรื่อง 2"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 3"
+msgstr "หัวเรื่อง 3"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 4"
+msgstr "หัวเรื่อง 4"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 5"
+msgstr "หัวเรื่อง 5"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 6"
+msgstr "หัวเรื่อง 6"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Headline"
+msgstr "พาดหัว"
+
+#: src/libs/locale.ts
+msgid "Hebrew"
+msgstr "ฮิบรู"
+
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Here's a range of resume templates for different professions and personalities. Whether you prefer modern or classic, bold or simple, there is a design to match you. Look through the options below and choose a template that fits your style."
+msgstr "นี่คือชุดเทมเพลตเรซูเม่สำหรับอาชีพและบุคลิกที่แตกต่างกัน ไม่ว่าคุณจะชอบสมัยใหม่หรือคลาสสิก โดดเด่นหรือเรียบง่าย ก็มีดีไซน์ที่เหมาะกับคุณ ลองดูตัวเลือกด้านล่างและเลือกเทมเพลตที่ตรงกับสไตล์ของคุณ"
+
+#: src/components/level/combobox.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Hidden"
+msgstr "ซ่อนไว้"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Hide"
+msgstr "ซ่อน"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Icons"
+msgstr "ซ่อนไอคอน"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Link Underline"
+msgstr "ซ่อนเส้นขีดใต้ลิงก์"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Section Icons"
+msgstr "ซ่อนไอคอนส่วนต่างๆ"
+
+#: src/components/input/rich-input.tsx
+msgid "Highlight"
+msgstr "ไฮไลต์"
+
+#: src/components/input/rich-input.tsx
+msgid "Highlight Color"
+msgstr "สีไฮไลท์"
+
+#: src/libs/locale.ts
+msgid "Hindi"
+msgstr "ฮินดี"
+
+#: src/features/command-palette/pages/navigation.tsx
+msgid "Home"
+msgstr "หน้าแรก"
+
+#: src/libs/locale.ts
+msgid "Hungarian"
+msgstr "ฮังการี"
+
+#: src/components/level/combobox.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Icon"
+msgstr "ไอคอน"
+
+#: src/features/project/labels.ts
+msgid "Idea"
+msgstr ""
+
+#: src/dialogs/resume/import.tsx
+msgid "Import"
+msgstr "นำเข้า"
+
+#: src/dialogs/resume/import.tsx
+#: src/routes/dashboard/resumes/-components/cards/import-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Import an existing resume"
+msgstr "นำเข้าเรซูเม่ที่มีอยู่"
+
+#: src/dialogs/resume/import.tsx
+msgid "Importing your resume..."
+msgstr "กำลังนำเข้าเรซูเม่ของคุณ..."
+
+#: src/dialogs/resume/import.tsx
+msgid "Importing…"
+msgstr "กำลังนำเข้า…"
+
+#: src/features/project/labels.ts
+msgid "In progress"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "Indonesian"
+msgstr "อินโดนีเซีย"
+
+#: src/components/input/rich-input.tsx
+msgid "Inline Code"
+msgstr "โค้ดอินไลน์"
+
+#: src/components/input/rich-input.tsx
+msgid "Insert Table"
+msgstr "แทรกตาราง"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Interests"
+msgstr "ความสนใจ"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Issuer"
+msgstr "ออกโดย"
+
+#: src/libs/locale.ts
+msgid "Italian"
+msgstr "อิตาลี"
+
+#: src/components/input/rich-input.tsx
+msgid "Italic"
+msgstr "ตัวเอียง"
+
+#: src/libs/locale.ts
+msgid "Japanese"
+msgstr "ญี่ปุ่น"
+
+#. Import source option for standard JSON Resume format
+#: src/dialogs/resume/import.tsx
+msgid "JSON Resume"
+msgstr "ประวัติย่อในรูปแบบ JSON"
+
+#: src/components/input/rich-input.tsx
+msgid "Justify Align"
+msgstr "จัดแนวชิดขอบทั้งสองด้าน"
+
+#: src/libs/locale.ts
+msgid "Kannada"
+msgstr "กันนาดา"
+
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Keywords"
+msgstr "คีย์เวิร์ด"
+
+#: src/libs/locale.ts
+msgid "Khmer"
+msgstr "เขมร"
+
+#: src/libs/locale.ts
+msgid "Korean"
+msgstr "เกาหลี"
+
+#. Short field label for custom display text associated with a URL
+#: src/components/input/url-input.tsx
+msgid "Label"
+msgstr "ชื่อกำกับ"
+
+#. Preset button for setting picture aspect ratio to landscape orientation
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Landscape"
+msgstr "แนวนอน"
+
+#: src/dialogs/resume/sections/language.tsx
+#: src/features/command-palette/pages/preferences/language.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Language"
+msgstr "ภาษา"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Languages"
+msgstr "ภาษา"
+
+#: src/routes/dashboard/resumes/-components/cards/resume-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Last updated on {updatedAt}"
+msgstr "อัปเดตล่าสุด {updatedAt}"
+
+#: src/libs/locale.ts
+msgid "Latvian"
+msgstr "ลัตเวีย"
+
+#: src/libs/resume/section.tsx
+msgid "Layout"
+msgstr "เค้าโครง"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr "ออก"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Leave empty to reset the title to the original."
+msgstr "เว้นว่างไว้เพื่อรีเซ็ตชื่อกลับเป็นค่าเดิม"
+
+#: src/components/input/rich-input.tsx
+msgid "Left Align"
+msgstr "จัดชิดซ้าย"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Letter"
+msgstr "จดหมาย"
+
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Level"
+msgstr "ระดับ"
+
+#. Accessible label for skill/proficiency level indicator, where level is current value out of 5
+#: src/components/level/display.tsx
+msgid "Level {level} of 5"
+msgstr "ระดับ {level} จาก 5"
+
+#: src/components/ui/copyright.tsx
+msgid "Licensed under <0>MIT</0>."
+msgstr "จดสัญญาภายใต้ <0>MIT</0>."
+
+#: src/libs/theme.ts
+msgid "Light"
+msgstr "สว่าง"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Light theme"
+msgstr "ธีมสว่าง"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Line Height"
+msgstr "ความสูงของเส้น"
+
+#: src/dialogs/project/index.tsx
+msgid "Link"
+msgstr ""
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "List"
+msgstr "รายการ"
+
+#: src/libs/locale.ts
+msgid "Lithuanian"
+msgstr "ลิทัวเนีย"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Loading picture…"
+msgstr ""
+
+#: src/components/layout/loading-screen.tsx
+#: src/dialogs/project/index.tsx
+msgid "Loading…"
+msgstr "กำลังโหลด…"
+
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Location"
+msgstr "สถานที่"
+
+#. Resume card context menu action to prevent edits
+#. Resume card dropdown action to prevent edits
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Lock"
+msgstr "ล็อค"
+
+#. Layout editor column label for the primary content area
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Main"
+msgstr "ส่วนหลัก"
+
+#: src/libs/locale.ts
+msgid "Malay"
+msgstr "มาเลย์"
+
+#: src/libs/locale.ts
+msgid "Malayalam"
+msgstr "มาลายาลัม"
+
+#: src/libs/locale.ts
+msgid "Marathi"
+msgstr "มราฐี"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Margin (Horizontal)"
+msgstr "ระยะขอบ (แนวนอน)"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Margin (Vertical)"
+msgstr "ระยะขอบ (แนวตั้ง)"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Move to"
+msgstr "ย้ายไปที่"
+
+#. Placeholder text for custom link URL field in resume builder
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Must start with https://"
+msgstr "ต้องเริ่มต้นด้วย https://"
+
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Name"
+msgstr "ชื่อ"
+
+#: src/libs/locale.ts
+msgid "Nepali"
+msgstr "เนปาลี"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Network"
+msgstr "ชื่อเว็บไซต์"
+
+#: src/components/input/rich-input.tsx
+msgid "New Line"
+msgstr "เริ่มบรรทัดใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "New Page"
+msgstr "หน้าใหม่"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "New Section"
+msgstr "เซกชั่นใหม่"
+
+#: src/components/ui/combobox.tsx
+msgid "No results found."
+msgstr "ไม่พบผลลัพธ์"
+
+#. Error shown when a local resume import file could not be parsed
+#: src/dialogs/resume/import.tsx
+msgid "No resume data could be parsed from the selected file."
+msgstr ""
+
+#. Error shown when a local backup import file contains no resumes
+#: src/dialogs/resume/import.tsx
+msgid "No resumes were found in the selected backup file."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "No style rules yet."
+msgstr "ยังไม่มีกฎเกณฑ์ด้านสไตล์ใดๆ"
+
+#: src/libs/locale.ts
+msgid "Norwegian"
+msgstr "นอร์เวย์"
+
+#: src/libs/resume/section.tsx
+msgid "Notes"
+msgstr "โน้ต"
+
+#: src/libs/locale.ts
+msgid "Odia"
+msgstr "โอเดีย"
+
+#: src/dialogs/project/index.tsx
+msgid "One or two factual sentences: what it is."
+msgstr ""
+
+#. Resume card context menu action to open the resume editor
+#. Resume card dropdown action to open the resume editor
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Open"
+msgstr "เปิด"
+
+#: src/features/project/labels.ts
+msgid "Open source"
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
+msgid "Options"
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Ordered List"
+msgstr "ลำดับรายการแบบเรียงลำดับ"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Organization"
+msgstr "องค์กร"
+
+#: src/libs/resume/section.tsx
+msgid "Page"
+msgstr "หน้า"
+
+#. Layout editor page label with 1-based page number
+#. placeholder {0}: pageIndex + 1
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Page {0}"
+msgstr "หน้า {0}"
+
+#: src/components/input/rich-input.tsx
+msgid "Paragraph"
+msgstr "ย่อหน้า"
+
+#: src/features/project/labels.ts
+msgid "Paused"
+msgstr ""
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Period"
+msgstr "ช่วงเวลา"
+
+#: src/libs/locale.ts
+msgid "Persian"
+msgstr "เปอร์เซีย"
+
+#: src/dialogs/resume/sections/reference.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Phone"
+msgstr "เบอร์โทรศัพท์"
+
+#: src/libs/resume/section.tsx
+msgid "Picture"
+msgstr "รูปภาพ"
+
+#: src/dialogs/resume/import.tsx
+msgid "Please do not close the window or refresh the page."
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Please enter the URL you want to link to:"
+msgstr "กรุณากรอก URL ที่คุณต้องการเชื่อมโยง:"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Please wait while your PDF is being generated..."
+msgstr "กรุณารอสักครู่ ขณะกำลังสร้าง PDF ของคุณ..."
+
+#: src/libs/locale.ts
+msgid "Polish"
+msgstr "โปแลนด์"
+
+#. Preset button for setting picture aspect ratio to portrait orientation
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Portrait"
+msgstr "แนวตั้ง"
+
+#: src/libs/locale.ts
+msgid "Portuguese (Brazil)"
+msgstr "โปรตุเกส (บราซิล)"
+
+#: src/libs/locale.ts
+msgid "Portuguese (Portugal)"
+msgstr "โปรตุเกส (โปรตุเกส)"
+
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Position"
+msgstr "ตำแหน่ง"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Preferences"
+msgstr "การตั้งค่าที่ต้องการ"
+
+#: src/components/input/color-picker.tsx
+msgid "Presets"
+msgstr "ค่าที่ตั้งไว้ล่วงหน้า"
+
+#: src/components/input/chip-input.tsx
+msgid "Press <0>{RETURN_KEY}</0> or <1>{COMMA_KEY}</1> to add or save the current keyword."
+msgstr "กด <0>{RETURN_KEY}</0> หรือ <1>{COMMA_KEY}</1> เพื่อเพิ่มหรือบันทึกคีย์เวิร์ดปัจจุบัน"
+
+#. Command palette hint that pressing Enter opens the selected resume
+#: src/features/command-palette/pages/resumes.tsx
+msgid "Press <0>Enter</0> to open"
+msgstr "กด<0>Enter</0>เพื่อเปิด"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Primary Color"
+msgstr "สีหลัก"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Proficiency"
+msgstr "ความชำนาญ"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Profiles"
+msgstr "โปรไฟล์"
+
+#: src/components/level/combobox.tsx
+msgid "Progress Bar"
+msgstr "แถบความคืบหน้า"
+
+#: src/routes/dashboard/experiences/index.tsx
+msgid "Project Experiences"
+msgstr ""
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Projects"
+msgstr "โปรเจกต์"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Publications"
+msgstr "สิ่งตีพิมพ์"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Publisher"
+msgstr "สำนักพิมพ์"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Recipient"
+msgstr "ผู้รับ"
+
+#: src/dialogs/project/index.tsx
+msgid "Record it factually, with evidence — this is your source of truth for writing resumes."
+msgstr ""
+
+#: src/components/level/combobox.tsx
+msgid "Rectangle"
+msgstr "สี่เหลี่ยมผืนผ้า"
+
+#: src/components/level/combobox.tsx
+msgid "Rectangle (Full Width)"
+msgstr "สี่เหลี่ยมผืนผ้า (เต็มความกว้าง)"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "References"
+msgstr "บุคคลอ้างอิง"
+
+#: src/components/layout/error-screen.tsx
+msgid "Refresh"
+msgstr "รีเฟรช"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Remove"
+msgstr "ลบ"
+
+#. Screen reader label for button that removes a keyword chip. Variable is the current keyword text.
+#: src/components/input/chip-input.tsx
+msgid "Remove {chip}"
+msgstr "นำออก {chip}"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Rename"
+msgstr "เปลี่ยนชื่อ"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Reorder"
+msgstr "เรียงลำดับใหม่"
+
+#. Destructive confirmation button label when resetting a resume section
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Reset"
+msgstr "รีเซ็ต"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "Reset Style"
+msgstr "รีเซ็ตสไตล์"
+
+#. Import source option for current ResumeLite JSON format
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite (JSON)"
+msgstr ""
+
+#. Import source option for local ResumeLite backup files
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite local backup (JSON)"
+msgstr ""
+
+#. App version label in footer; includes semantic version variable
+#: src/components/ui/copyright.tsx
+msgid "ResumeLite v{__APP_VERSION__}"
+msgstr ""
+
+#. Import source option for legacy ResumeLite v4 JSON format
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite v4 (JSON)"
+msgstr ""
+
+#: src/features/command-palette/pages/navigation.tsx
+#: src/features/command-palette/pages/resumes.tsx
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Resumes"
+msgstr "เรซูเม่"
+
+#: src/components/input/rich-input.tsx
+msgid "Right Align"
+msgstr "ชิดขวา"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Role Progression"
+msgstr "ความก้าวหน้าในตำแหน่ง"
+
+#: src/libs/locale.ts
+msgid "Romanian"
+msgstr "โรมาเนีย"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Rotation"
+msgstr "การหมุน"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "rule"
+msgstr "กฎ"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "rules"
+msgstr "กฎ"
+
+#: src/libs/locale.ts
+msgid "Russian"
+msgstr "รัสเซีย"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Save Changes"
+msgstr "บันทึกการเปลี่ยนแปลง"
+
+#: src/dialogs/project/index.tsx
+msgid "Saving your experience..."
+msgstr ""
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "School"
+msgstr "โรงเรียน"
+
+#. Accessible label for command palette search input
+#: src/features/command-palette/index.tsx
+msgid "Search commands"
+msgstr "คำสั่งค้นหา"
+
+#. Accessible label for icon picker search input
+#. Placeholder text in icon picker search input
+#: src/components/input/icon-picker.tsx
+msgid "Search for an icon"
+msgstr "ค้นหาไอคอน"
+
+#: src/features/command-palette/pages/resumes.tsx
+msgid "Search for…"
+msgstr "ค้นหา…"
+
+#: src/components/ui/combobox.tsx
+msgid "Search..."
+msgstr "ค้นหา..."
+
+#. Placeholder in command palette input on nested pages
+#: src/features/command-palette/index.tsx
+msgid "Search…"
+msgstr "ค้นหา…"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Section Type"
+msgstr "ประเภทของเซกชั่น"
+
+#: src/components/ui/combobox.tsx
+msgid "Select..."
+msgstr "เลือก..."
+
+#: src/components/input/rich-input.tsx
+msgid "Separator"
+msgstr "ตัวคั่น"
+
+#: src/libs/locale.ts
+msgid "Serbian"
+msgstr "เซอร์เบีย"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Shadow Width"
+msgstr "ความกว้างของเงา"
+
+#: src/features/project/labels.ts
+msgid "Shipped"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Show"
+msgstr "แสดง"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Show link in title"
+msgstr "แสดงลิงก์ในชื่อ"
+
+#: src/features/project/labels.ts
+msgid "Side project"
+msgstr ""
+
+#. Layout editor column label for the secondary sidebar area
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Sidebar"
+msgstr "<<<<<<< HEAD"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/index.tsx
+msgid "Sidebar Width"
+msgstr "ความกว้างของแถบด้านข้าง"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column Chinese AI product resume with a compact header, portrait, gray section bars, and dense project bullets."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
+msgstr "คอลัมน์เดียว มีแถบซ้ายขอบสีม่วงแดง กะทัดรัดและเหมาะสำหรับผู้สมัครระดับเริ่มต้นหรือฝึกงาน"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a minimal top header and lots of whitespace; clean and modern for designers or content creators."
+msgstr "คอลัมน์เดียว มีส่วนหัวบนแบบมินิมอลและพื้นที่ว่างเยอะ สะอาด ทันสมัย เหมาะกับนักออกแบบหรือผู้สร้างเนื้อหา"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a sidebar and clean grid layout; versatile for any professional or technical role."
+msgstr "คอลัมน์เดียว มีแถบข้างและโครงร่างตารางที่สะอาด ใช้ได้กับทุกสายงานมืออาชีพหรือสายเทคนิค"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with an inline three-column entry header (position · organization · period); compact and ATS-friendly, well-suited for Asian resume conventions (CN/JP/KR)."
+msgstr "คอลัมน์เดียวพร้อมหัวรายการสามคอลัมน์แบบอินไลน์ (ตำแหน่ง · องค์กร · ช่วงเวลา); กระชับและเป็นมิตรกับระบบคัดกรองอัตโนมัติ (ATS) เหมาะอย่างยิ่งสำหรับรูปแบบเรซูเม่แบบเอเชีย (จีน/ญี่ปุ่น/เกาหลี)"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with uppercase section headings and a primary-color top rule on every page; polished for executive, consulting, or startup resumes."
+msgstr "รูปแบบคอลัมน์เดียว โดยใช้ตัวพิมพ์ใหญ่สำหรับหัวข้อแต่ละส่วน และมีเส้นขีดด้านบนสีหลักในทุกหน้า เหมาะสำหรับเรซูเม่ของผู้บริหาร ที่ปรึกษา หรือบริษัทสตาร์ทอัพ"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column; polished and serious for senior or enterprise-level positions."
+msgstr "คอลัมน์เดียว มีความเรียบหรูและเป็นทางการ เหมาะสำหรับตำแหน่งผู้บริหารหรือระดับอาวุโส"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Size"
+msgstr "ขนาด"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Skills"
+msgstr "ทักษะ"
+
+#: src/libs/locale.ts
+msgid "Slovak"
+msgstr "สโลวัก"
+
+#: src/libs/locale.ts
+msgid "Slovenian"
+msgstr "ภาษาสโลวีเนีย"
+
+#: src/dialogs/resume/index.tsx
+msgid "Slug"
+msgstr "ชื่อ"
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Sort by"
+msgstr "เรียงตาม"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Spacing (Horizontal)"
+msgstr "ระยะห่าง (แนวนอน)"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Spacing (Vertical)"
+msgstr "ระยะห่าง (แนวตั้ง)"
+
+#: src/libs/locale.ts
+msgid "Spanish"
+msgstr "สเปน"
+
+#. Preset button for setting picture aspect ratio to square
+#: src/components/level/combobox.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Square"
+msgstr "จัตุรัส"
+
+#: src/dialogs/project/index.tsx
+msgid "Stage"
+msgstr ""
+
+#: src/components/input/github-stars-button.tsx
+msgid "Star us on GitHub (opens in new tab)"
+msgstr "กดดาวที่ GitHub ของเรา (เปิดในแท็บใหม่)"
+
+#: src/dialogs/resume/index.tsx
+msgid "Start building your resume by giving it a name."
+msgstr "เริ่มสร้างเรซูเม่ของคุณด้วยการตั้งชื่อ"
+
+#: src/routes/dashboard/resumes/-components/cards/create-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Start building your resume from scratch"
+msgstr "เริ่มสร้างเรซูเม่ตั้งแต่ต้น"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
+msgstr "อยู่ต่อ"
+
+#: src/components/input/rich-input.tsx
+msgid "Strike"
+msgstr "ขีดฆ่า"
+
+#. Fallback title for a custom summary item in resume builder when content is empty
+#. Fallback title for a custom summary item in resume builder when content is unavailable
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Summary"
+msgstr "ภาพรวม"
+
+#: src/libs/locale.ts
+msgid "Swedish"
+msgstr "สวีเดน"
+
+#: src/features/theme/toggle-button.tsx
+msgid "Switch to dark theme"
+msgstr "เปลี่ยนเป็นธีมมืด"
+
+#: src/features/theme/toggle-button.tsx
+msgid "Switch to light theme"
+msgstr "เปลี่ยนเป็นธีมสว่าง"
+
+#: src/components/input/rich-input.tsx
+msgid "Table"
+msgstr "ตาราง"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+msgid "Tags"
+msgstr "แท็ก"
+
+#: src/dialogs/resume/index.tsx
+msgid "Tags can be used to categorize your resume by keywords."
+msgstr "แท็กสามารถใช้เพื่อจัดหมวดหมู่เรซูเม่ของคุณด้วยคีย์เวิร์ด"
+
+#: src/libs/locale.ts
+msgid "Tamil"
+msgstr "ทมิฬ"
+
+#: src/dialogs/project/index.tsx
+msgid "Tech & methods"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "Telugu"
+msgstr "เตลูกู"
+
+#: src/libs/resume/section.tsx
+msgid "Template"
+msgstr "เทมเพลต"
+
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Template Gallery"
+msgstr "แกลเลอรี่เทมเพลต"
+
+#: src/components/input/rich-input.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Text Color"
+msgstr "สีตัวอักษร"
+
+#: src/libs/locale.ts
+msgid "Thai"
+msgstr "ไทย"
+
+#. Empty-state message when no command palette results match the search query
+#: src/features/command-palette/index.tsx
+msgid "The command you're looking for doesn't exist."
+msgstr "คำสั่งที่คุณกำลังมองหาไม่มีอยู่"
+
+#: src/components/input/rich-input.tsx
+msgid "The URL you entered is not valid."
+msgstr "URL ที่คุณกรอกไม่ถูกต้อง"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Theme"
+msgstr "ธีม"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "There was a problem while generating the DOCX, please try again."
+msgstr "เกิดปัญหาในระหว่างการสร้างไฟล์ DOCX กรุณาลองอีกครั้ง"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "There was a problem while generating the PDF, please try again."
+msgstr "เกิดปัญหาขณะสร้างไฟล์ PDF โปรดลองใหม่อีกครั้ง"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "This action cannot be undone."
+msgstr "การดำเนินการนี้ไม่สามารถย้อนกลับได้"
+
+#: src/dialogs/resume/index.tsx
+msgid "This is a URL-friendly name for your resume."
+msgstr "นี่คือชื่อเรซูเม่ที่เหมาะสำหรับใช้ใน URL"
+
+#: src/features/resume/builder/draft.ts
+msgid "This resume is locked and cannot be updated."
+msgstr "เรซูเม่นี้ถูกล็อกและไม่สามารถอัปเดตได้"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/notes.tsx
+msgid "This section is reserved for your personal notes specific to this resume. The content here remains private and is not shared with anyone else."
+msgstr "ส่วนนี้มีไว้สำหรับจดโน้ตส่วนตัวของคุณที่เกี่ยวกับเรซูเม่นี้ เนื้อหาตรงนี้เป็นส่วนตัวและไม่ได้แชร์กับใคร"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "This will remove all items from this section."
+msgstr "นี่จะลบรายการทั้งหมดออกจากส่วนนี้"
+
+#: src/dialogs/resume/index.tsx
+msgid "Tip: You can name the resume referring to the position you are applying for."
+msgstr "เคล็ดลับ: คุณสามารถตั้งชื่อเรซูเม่ตามตำแหน่งงานที่คุณจะสมัครได้"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Title"
+msgstr "ชื่อ"
+
+#. Screen-reader label for opening or closing the left sidebar in resume builder
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Toggle left sidebar"
+msgstr "สลับแถบด้านซ้าย"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Toggle page stacking"
+msgstr "สลับการเรียงซ้อนหน้าเว็บ"
+
+#. Screen-reader label for opening or closing the right sidebar in resume builder
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Toggle right sidebar"
+msgstr "สลับแถบด้านขวา"
+
+#: src/libs/locale.ts
+msgid "Turkish"
+msgstr "ตุรกี"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a bold colored sidebar and skill bars; great for creative or tech roles where visual flair is welcome."
+msgstr "สองคอลัมน์ มีแถบข้างสีโดดเด่นและกราฟแสดงทักษะ เหมาะกับสายงานสร้างสรรค์หรือเทคโนโลยีที่ต้องการความโดดเด่น"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a dark teal sidebar and skills grid; modern feel for developers, data scientists, or technical PMs."
+msgstr "สองคอลัมน์ มีแถบข้างสีฟ้าเขียวเข้มและกริดทักษะ ดูทันสมัย เหมาะกับนักพัฒนา นักวิทยาศาสตร์ข้อมูล หรือ PM สายเทคนิค"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a left margin color; simple and approachable for creative, editorial, or junior roles."
+msgstr "สองคอลัมน์ มีสีที่ขอบซ้าย เรียบง่ายและเป็นมิตร เหมาะกับสายงานสร้างสรรค์ กองบรรณาธิการ หรือระดับจูเนียร์"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a muted color sidebar; earthy and calm, suits sustainability, healthcare, or nonprofit sectors."
+msgstr "สองคอลัมน์ มีแถบข้างสีเอิร์ธโทน ดูสงบ เหมาะกับสายงานความยั่งยืน, สุขภาพ หรือองค์กรไม่แสวงหากำไร"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a soft header accent and circular profile photo; ideal for marketing, HR, or client-facing roles."
+msgstr "สองคอลัมน์ มีแถบส่วนหัวสีอ่อนและรูปโปรไฟล์แบบวงกลม เหมาะสำหรับสายการตลาด HR หรือสายงานที่พบปะลูกค้า"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with accent colors and clean typography; balanced choice for business analysts or operations roles."
+msgstr "สองคอลัมน์ มีสีไฮไลต์และฟอนต์ที่สะอาด เหมาะสำหรับนักวิเคราะห์ธุรกิจหรือฝ่ายปฏิบัติการ"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, clean and professional with subtle section dividers; suits corporate, finance, or consulting positions."
+msgstr "สองคอลัมน์ คลีนและมืออาชีพ มีเส้นแบ่งแบบบาง เหมาะกับองค์กร, การเงิน หรือที่ปรึกษา"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, minimal and text-dense with no decorative elements; perfect for traditional industries or ATS-heavy applications."
+msgstr "สองคอลัมน์ มินิมอล เน้นเนื้อหา ไม่มีองค์ประกอบตกแต่ง เหมาะสำหรับอุตสาหกรรมแบบดั้งเดิมหรือสมัครงานในระบบ ATS"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, minimal with light gray sidebar and subtle icons; professional and understated for legal, finance, or executive roles."
+msgstr "สองคอลัมน์ มินิมอล มีแถบข้างสีเทาอ่อนและไอคอนเล็กน้อย ดูมืออาชีพและสุขุมสำหรับฝ่ายกฎหมาย การเงิน หรือผู้บริหาร"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/import.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Type"
+msgstr "ประเภท"
+
+#. Placeholder in command palette input on root page
+#. Screen-reader dialog description instructing users how to use the command palette
+#: src/features/command-palette/index.tsx
+msgid "Type a command or search…"
+msgstr "พิมพ์คำสั่งหรือค้นหา…"
+
+#: src/libs/resume/section.tsx
+msgid "Typography"
+msgstr "แบบอักษร"
+
+#: src/libs/locale.ts
+msgid "Ukrainian"
+msgstr "ยูเครน"
+
+#: src/components/input/rich-input.tsx
+msgid "Underline"
+msgstr "ขีดเส้นใต้"
+
+#. Resume card context menu action to remove edit lock
+#. Resume card dropdown action to remove edit lock
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Unlock"
+msgstr "ปลดล็อก"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Update"
+msgstr "อัปเดต"
+
+#: src/dialogs/resume/sections/award.tsx
+msgid "Update an existing award"
+msgstr "อัปเดตรางวัลที่มีอยู่"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Update an existing certification"
+msgstr "อัปเดตใบรับรองที่มีอยู่"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Update an existing cover letter"
+msgstr "อัปเดตจดหมายสมัครงานที่มีอยู่"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Update an existing custom section"
+msgstr "อัปเดตส่วนที่กำหนดเองของเรซูเม่ที่มีอยู่"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Update an existing education"
+msgstr "อัปเดตข้อมูลการศึกษาของเรซูเม่ที่มีอยู่"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Update an existing experience"
+msgstr "อัปเดตประสบการณ์ของเรซูเม่ที่มีอยู่"
+
+#: src/dialogs/resume/sections/interest.tsx
+msgid "Update an existing interest"
+msgstr "อัปเดตความสนใจที่มีอยู่"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Update an existing language"
+msgstr "อัปเดตภาษาของเรซูเม่ที่มีอยู่"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Update an existing profile"
+msgstr "อัปเดตโปรไฟล์ของเรซูเม่ที่มีอยู่"
+
+#: src/dialogs/resume/sections/project.tsx
+msgid "Update an existing project"
+msgstr "อัปเดตโปรเจกต์ของเรซูเม่ที่มีอยู่"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Update an existing publication"
+msgstr "อัปเดตสิ่งตีพิมพ์ที่มีอยู่"
+
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Update an existing reference"
+msgstr "อัปเดตบุคคลอ้างอิงของเรซูเม่ที่มีอยู่"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Update an existing skill"
+msgstr "อัปเดตทักษะที่มีอยู่"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr "อัปเดตรายการสรุปที่มีอยู่"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Update an existing volunteer experience"
+msgstr "อัปเดตประสบการณ์อาสาสมัครที่มีอยู่"
+
+#: src/dialogs/resume/index.tsx
+msgid "Update Resume"
+msgstr "อัปเดตประวัติย่อ"
+
+#: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
+msgid "Updated {updatedAt}"
+msgstr ""
+
+#: src/dialogs/resume/index.tsx
+msgid "Updating your resume..."
+msgstr "กำลังอัปเดตประวัติย่อของคุณ..."
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Upload picture"
+msgstr "อัปโหลดรูปภาพ"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "URL"
+msgstr "URL"
+
+#: src/components/input/color-picker.tsx
+msgid "Use color {color}"
+msgstr "ใช้สี {color}"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Username"
+msgstr "ชื่อผู้ใช้"
+
+#: src/libs/locale.ts
+msgid "Uzbek"
+msgstr "อุซเบก"
+
+#: src/components/input/rich-input.tsx
+msgid "Valid URLs must start with http:// or https://."
+msgstr "URL ที่ถูกต้องต้องขึ้นต้นด้วย http:// หรือ https://."
+
+#: src/libs/locale.ts
+msgid "Vietnamese"
+msgstr "เวียดนาม"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/features/project/labels.ts
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Volunteer"
+msgstr "อาสาสมัคร"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Website"
+msgstr "เว็บไซต์"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "What do you want to rename this section to?"
+msgstr "คุณต้องการเปลี่ยนชื่อส่วนนี้เป็นอะไร?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "When locked, the resume cannot be updated or deleted."
+msgstr "เมื่อถูกล็อก ประวัติย่อจะไม่สามารถอัปเดตหรือถูกลบได้."
+
+#: src/features/project/labels.ts
+msgid "Work"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกซึ่งจะสูญหาย"
+
+#: src/routes/builder/$resumeId/-components/preview-page.tsx
+msgid "Your changes are saved automatically."
+msgstr "การเปลี่ยนแปลงของคุณจะถูกบันทึกโดยอัตโนมัติ"
+
+#: src/dialogs/project/index.tsx
+msgid "Your experience has been created."
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Your experience has been deleted successfully."
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Your experience has been duplicated successfully."
+msgstr ""
+
+#: src/dialogs/project/index.tsx
+msgid "Your experience has been saved."
+msgstr ""
+
+#: src/features/resume/builder/draft.ts
+msgid "Your latest changes could not be saved."
+msgstr "ไม่สามารถบันทึกการเปลี่ยนแปลงล่าสุดของคุณได้"
+
+#: src/dialogs/resume/index.tsx
+msgid "Your resume has been created successfully."
+msgstr "ประวัติย่อของคุณถูกสร้างเรียบร้อยแล้ว"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Your resume has been deleted successfully."
+msgstr "ประวัติย่อของคุณถูกลบเรียบร้อยแล้ว"
+
+#: src/dialogs/resume/index.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Your resume has been duplicated successfully."
+msgstr "ประวัติย่อของคุณถูกทำสำเนาเรียบร้อยแล้ว"
+
+#: src/dialogs/resume/import.tsx
+msgid "Your resume has been imported successfully."
+msgstr "ประวัติย่อของคุณถูกนำเข้าเรียบร้อยแล้ว"
+
+#: src/dialogs/resume/index.tsx
+msgid "Your resume has been updated successfully."
+msgstr "ประวัติย่อของคุณได้รับการอัปเดตเรียบร้อยแล้ว"
+
+#: src/dialogs/project/index.tsx
+msgid "Your role"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Zoom in"
+msgstr "ซูมเข้า"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Zoom out"
+msgstr "ซูมออก"
+
+#: src/libs/locale.ts
+msgid "Zulu"
+msgstr "ซูลู"
