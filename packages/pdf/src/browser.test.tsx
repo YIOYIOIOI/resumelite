@@ -8,8 +8,11 @@ const rendererMock = vi.hoisted(() => ({
 	})),
 }));
 
-vi.mock("@react-pdf/renderer", async (importOriginal) => ({
-	...(await importOriginal<typeof import("@react-pdf/renderer")>()),
+// Mock the local re-export module that browser.tsx actually imports from.
+// Mocking "@react-pdf/renderer" directly is unreliable: browser.tsx reaches it
+// through the "#react-pdf-renderer" subpath import, and vitest's mock matching
+// across that indirection is platform-dependent (works on Windows, misses on CI Linux).
+vi.mock("./renderer", () => ({
 	pdf: rendererMock.pdf,
 }));
 
