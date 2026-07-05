@@ -1748,6 +1748,10 @@ msgstr "Ringkasan"
 msgid "Swedish"
 msgstr "Swedia"
 
+#: src/routes/dashboard/-components/language-toggle.tsx
+msgid "Switch language"
+msgstr ""
+
 #: src/features/theme/toggle-button.tsx
 msgid "Switch to dark theme"
 msgstr "Beralih ke tema gelap"

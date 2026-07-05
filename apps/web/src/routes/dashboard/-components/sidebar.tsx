@@ -8,6 +8,7 @@ import { BrandIcon } from "@resumelite/ui/components/brand-icon";
 import {
 	Sidebar,
 	SidebarContent,
+	SidebarFooter,
 	SidebarGroup,
 	SidebarGroupContent,
 	SidebarGroupLabel,
@@ -18,6 +19,7 @@ import {
 	SidebarRail,
 	SidebarSeparator,
 } from "@resumelite/ui/components/sidebar";
+import { LanguageToggle } from "./language-toggle";
 
 type SidebarItem = {
 	icon: React.ReactNode;
@@ -97,6 +99,12 @@ export function DashboardSidebar() {
 					</SidebarGroupContent>
 				</SidebarGroup>
 			</SidebarContent>
+
+			<SidebarFooter>
+				<SidebarMenu>
+					<LanguageToggle />
+				</SidebarMenu>
+			</SidebarFooter>
 
 			<SidebarRail />
 		</Sidebar>

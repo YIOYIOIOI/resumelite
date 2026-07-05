@@ -1743,6 +1743,10 @@ msgstr "Summary"
 msgid "Swedish"
 msgstr "Swedish"
 
+#: src/routes/dashboard/-components/language-toggle.tsx
+msgid "Switch language"
+msgstr "Switch language"
+
 #: src/features/theme/toggle-button.tsx
 msgid "Switch to dark theme"
 msgstr "Switch to dark theme"
