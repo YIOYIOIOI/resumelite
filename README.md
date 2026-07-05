@@ -2,6 +2,8 @@
   <h1>ResumeLite</h1>
 
   <p>A local-first resume builder for personal desktop and browser use.</p>
+
+  <p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 </div>
 
 ---
@@ -37,7 +39,7 @@ The packaged app lands in `apps/web/release-desktop/ResumeLite-<version>-win-x64
 - PDF, DOCX, and JSON export.
 - Multiple templates, page settings, typography, layout, notes, custom sections, rich text, and custom CSS.
 - A **project experience library** (`/dashboard/experiences`) for recording the projects you have worked on as reusable source material for tailoring resumes.
-- Multi-language UI through Lingui catalogs.
+- Bilingual UI — switch between English and Chinese from the sidebar (powered by Lingui).
 
 ## Writing Resumes with an AI Agent
 
