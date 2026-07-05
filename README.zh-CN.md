@@ -4,6 +4,11 @@
   <p>本地优先的简历生成器，适合个人在桌面或浏览器中使用。</p>
 
   <p><a href="README.md">English</a> · <strong>简体中文</strong></p>
+
+  <p>
+    <a href="https://github.com/YIOYIOIOI/resumelite/actions/workflows/ci.yml"><img src="https://github.com/YIOYIOIOI/resumelite/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT">
+  </p>
 </div>
 
 ---
