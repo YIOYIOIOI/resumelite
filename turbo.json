@@ -1,0 +1,68 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"ui": "tui",
+	"boundaries": {
+		"dependencies": {
+			"deny": ["web"]
+		},
+		"implicitDependencies": [
+			"vitest",
+			"@testing-library/jest-dom",
+			"@testing-library/react",
+			"@testing-library/user-event"
+		],
+		"tags": {
+			"runtime:browser": {
+				"dependencies": {
+					"deny": []
+				}
+			},
+			"runtime:universal": {
+				"dependencies": {
+					"deny": ["app:web"]
+				}
+			},
+			"role:domain": {
+				"dependencies": {
+					"deny": ["app:web"]
+				}
+			},
+			"role:ui": {
+				"dependencies": {
+					"deny": ["app:web"]
+				}
+			}
+		}
+	},
+	"globalEnv": [
+		"PORT",
+		"APP_URL",
+		"FLAG_SHOW_SPONSORS",
+		"GOOGLE_CLOUD_API_KEY",
+		"CROWDIN_PROJECT_ID",
+		"CROWDIN_API_TOKEN"
+	],
+	"tasks": {
+		"build": {
+			"inputs": ["$TURBO_DEFAULT$", "$TURBO_ROOT$/.env*"],
+			"outputs": ["dist/**"]
+		},
+		"check": {},
+		"typecheck": {},
+		"typecheck:strict": {},
+		"test": {},
+		"test:coverage": {},
+		"test:ci": {},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		},
+		"start": {
+			"cache": false,
+			"persistent": true
+		},
+		"lingui:extract": {
+			"cache": false
+		}
+	}
+}

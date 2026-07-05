@@ -1,0 +1,2151 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-11-04 23:14+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: sl\n"
+"Project-Id-Version: resumelite\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-06-18 16:58\n"
+"Last-Translator: \n"
+"Language-Team: Slovenian\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Crowdin-Project: resumelite\n"
+"X-Crowdin-Project-ID: 503410\n"
+"X-Crowdin-Language: sl\n"
+"X-Crowdin-File: /apps/web/locales/en-US.po\n"
+"X-Crowdin-File-ID: 545\n"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Last Updated"
+msgstr "Zadnja posodobitev"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Created"
+msgstr "Ustvarjeno"
+
+#. js-lingui-explicit-id
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Name"
+msgstr "Ime"
+
+#. placeholder {0}: section.items.length
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "{0, plural, one {# item} other {# items}}"
+msgstr "{0, plural, one {# postavka} two {# postavki} few {# postavke} other {# postavk}}"
+
+#. placeholder {0}: item.roles.length
+#: src/routes/builder/$resumeId/-sidebar/left/sections/experience.tsx
+msgid "{0, plural, one {# role} other {# roles}}"
+msgstr "{0, plural, one {# vloga} two {# vlogi} few {# vloge} other {# vlog}}"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "{column, plural, one {# Column} other {# Columns}}"
+msgstr "{column, plural, one {# stolpec} two {# stolpca} few {# stolpci} other {# stolpcev}}"
+
+#: src/components/ui/copyright.tsx
+msgid "A passion project by <0>Amruth Pillai</0>."
+msgstr "Projekt iz strasti avtorja <0>Amruth Pillai</0>."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "A4"
+msgstr "A4"
+
+#: src/features/project/labels.ts
+msgid "Academic"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Add a custom field"
+msgstr "Dodaj polje po meri"
+
+#: src/components/input/chip-input.tsx
+msgid "Add a keyword..."
+msgstr "Dodajte ključno besedo..."
+
+#. Tooltip for action button that opens URL label editor
+#: src/components/input/url-input.tsx
+msgid "Add a label to the URL"
+msgstr "Dodajte oznako povezavi URL"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/awards.tsx
+msgid "Add a new award"
+msgstr "Dodaj novo priznanje"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/certifications.tsx
+msgid "Add a new certification"
+msgstr "Dodaj novo potrdilo"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Add a new custom section"
+msgstr "Dodaj novo sekcijo po meri"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/education.tsx
+msgid "Add a new education"
+msgstr "Dodaj novo izobrazbo"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/experience.tsx
+msgid "Add a new experience"
+msgstr "Dodaj novo izkušnjo"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/interests.tsx
+msgid "Add a new interest"
+msgstr "Dodaj novo zanimanje"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Add a new item"
+msgstr "Dodaj nov element"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/languages.tsx
+msgid "Add a new language"
+msgstr "Dodaj nov jezik"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/profiles.tsx
+msgid "Add a new profile"
+msgstr "Dodaj nov profil"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/projects.tsx
+msgid "Add a new project"
+msgstr "Dodaj nov projekt"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/publications.tsx
+msgid "Add a new publication"
+msgstr "Dodaj novo objavo"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/references.tsx
+msgid "Add a new reference"
+msgstr "Dodaj novo referenco"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/skills.tsx
+msgid "Add a new skill"
+msgstr "Dodaj novo veščino"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/volunteer.tsx
+msgid "Add a new volunteer experience"
+msgstr "Dodaj novo prostovoljno izkušnjo"
+
+#: src/dialogs/project/index.tsx
+#: src/routes/dashboard/experiences/-components/cards/create-card.tsx
+msgid "Add a project experience"
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Add Column After"
+msgstr "Dodaj stolpec za"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Column Before"
+msgstr "Dodaj stolpec pred"
+
+#: src/components/input/chip-input.tsx
+msgid "Add keyword"
+msgstr "Dodajte ključno besedo"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Add multiple roles to show career progression at the same company."
+msgstr "Dodajte več vlog za prikaz napredovanja kariere v isti podjetji."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Add Page"
+msgstr "Dodaj stran"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Add Role"
+msgstr "Dodaj vlogo"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Row After"
+msgstr "Dodaj vrstico za"
+
+#: src/components/input/rich-input.tsx
+msgid "Add Row Before"
+msgstr "Dodaj vrstico pred"
+
+#: src/libs/locale.ts
+msgid "Afrikaans"
+msgstr "Afriščina"
+
+#: src/libs/locale.ts
+msgid "Albanian"
+msgstr "Albanščina"
+
+#: src/libs/locale.ts
+msgid "Amharic"
+msgstr "Amharščina"
+
+#: src/components/layout/error-screen.tsx
+#: src/components/layout/not-found-screen.tsx
+msgid "An error occurred while loading the page."
+msgstr "Pri nalaganju strani je prišlo do napake."
+
+#. Fallback toast when importing a resume fails for an unknown reason
+#: src/dialogs/resume/import.tsx
+msgid "An unknown error occurred while importing your resume."
+msgstr "Pri uvozu vašega življenjepisa je prišlo do neznane napake."
+
+#: src/routes/dashboard/-components/sidebar.tsx
+msgid "App"
+msgstr "Aplikacija"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "Applied Rules"
+msgstr "Uporabljena pravila"
+
+#: src/libs/locale.ts
+msgid "Arabic"
+msgstr "Arabščina"
+
+#: src/features/project/labels.ts
+msgid "Archived"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Are you sure you want to close this dialog?"
+msgstr "Ali ste prepričani, da želite zapreti to pogovorno okno?"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Are you sure you want to delete this custom section?"
+msgstr "Ali ste prepričani, da želite izbrisati ta razdelek po meri?"
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to delete this experience?"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Are you sure you want to delete this item?"
+msgstr "Ste prepričani, da želite izbrisati ta element?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to delete this resume?"
+msgstr "Ali ste prepričani, da želite izbrisati ta življenjepis?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Are you sure you want to lock this resume?"
+msgstr "Ali ste prepričani, da želite zakleniti ta življenjepis?"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Are you sure you want to reset this section?"
+msgstr "Ali ste prepričani, da želite ponastaviti ta razdelek?"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Area of Study"
+msgstr "Področje študija"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Aspect Ratio"
+msgstr "Razmerje stranic"
+
+#: src/dialogs/resume/sections/award.tsx
+msgctxt "(noun) person, organization, or entity that gives an award"
+msgid "Awarder"
+msgstr "Podeljevalec"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Awards"
+msgstr "Priznanja"
+
+#: src/libs/locale.ts
+msgid "Azerbaijani"
+msgstr "Azerbajdžanščina"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Background Color"
+msgstr "Barva ozadja"
+
+#: src/libs/resume/section.tsx
+msgid "Basics"
+msgstr "Osnove"
+
+#: src/libs/locale.ts
+msgid "Bengali"
+msgstr "Bengalščina"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgctxt "Body Text (paragraphs, lists, etc.)"
+msgid "Body"
+msgstr "Besedilo"
+
+#: src/components/input/rich-input.tsx
+msgid "Bold"
+msgstr "Krepko"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Border Radius"
+msgstr "Radij obrobe"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Border Width"
+msgstr "Širina obrobe"
+
+#. Screen-reader dialog title for the command palette in the resume builder
+#: src/features/command-palette/index.tsx
+msgid "Builder Command Palette"
+msgstr "Paleta ukazov graditelja"
+
+#: src/libs/locale.ts
+msgid "Bulgarian"
+msgstr "Bolgarščina"
+
+#: src/components/input/rich-input.tsx
+msgid "Bullet List"
+msgstr "Označen seznam"
+
+#. Tagline shown in app footer/about area
+#: src/components/ui/copyright.tsx
+msgid "By the community, for the community."
+msgstr "Od skupnosti, za skupnost."
+
+#. Confirmation dialog button label to abort deleting a custom section in resume builder
+#. Confirmation dialog button label to abort deleting a section item in resume builder
+#. Confirmation dialog button label to abort resetting a resume section
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/hooks/use-prompt.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: src/libs/locale.ts
+msgid "Catalan"
+msgstr "Katalonščina"
+
+#: src/components/input/rich-input.tsx
+msgid "Center Align"
+msgstr "Poravnava na sredino"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Center view"
+msgstr "Poravnaj pogled na sredino"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Certifications"
+msgstr "Certifikati"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Change language to…"
+msgstr "Spremeni jezik v…"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Change theme to…"
+msgstr "Spremeni temo v…"
+
+#: src/dialogs/resume/index.tsx
+msgid "Changed your mind? Rename your resume to something more descriptive."
+msgstr "Ste si premislili? Preimenujte svoj življenjepis v nekaj bolj opisa."
+
+#: src/libs/locale.ts
+msgid "Chinese (Simplified)"
+msgstr "Kitajščina (poenostavljena)"
+
+#: src/libs/locale.ts
+msgid "Chinese (Traditional)"
+msgstr "Kitajščina (tradicionalna)"
+
+#. Preset or custom shade refer to the color picker
+#. Preset or custom shade refer to the color picker
+#: src/components/input/rich-input.tsx
+msgid "Choose a preset or custom shade."
+msgstr "Izberite prednastavljen odtenek ali odtenek po meri."
+
+#: src/components/level/combobox.tsx
+msgid "Circle"
+msgstr "Krog"
+
+#. Clear the highlight color
+#. Clear the text color
+#: src/components/input/rich-input.tsx
+msgid "Clear"
+msgstr "Jasno"
+
+#: src/components/ui/combobox.tsx
+msgid "Clear selection"
+msgstr "Počisti izbor"
+
+#: src/dialogs/resume/import.tsx
+msgid "Click here to select a file to import"
+msgstr "Kliknite tukaj za izbiro datoteke za uvoz"
+
+#: src/components/input/rich-input.tsx
+msgid "Code Block"
+msgstr "Blok kode"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Columns"
+msgstr "Stolpci"
+
+#. Accessible label for command list region inside command palette
+#. Accessible label for the command palette dialog
+#: src/features/command-palette/index.tsx
+msgid "Command Palette"
+msgstr "Paleta ukazov"
+
+#. Accessible label for command palette dialog when browsing a nested command page
+#: src/features/command-palette/index.tsx
+msgid "Command Palette - {currentPage}"
+msgstr "Paleta ukazov - {currentPage}"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Company"
+msgstr "Podjetje"
+
+#: src/hooks/use-prompt.tsx
+msgid "Confirm"
+msgstr "Potrdi"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Content"
+msgstr "Vsebina"
+
+#: src/routes/dashboard/resumes/-components/cards/import-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Continue where you left off"
+msgstr "Nadaljujte tam, kjer ste ostali"
+
+#: src/dialogs/resume/import.tsx
+msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
+msgstr ""
+
+#. Fallback title for a custom cover letter item in resume builder when recipient is empty
+#. Fallback title for a custom cover letter item in resume builder when recipient is unavailable
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Cover Letter"
+msgstr "Spremno pismo"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Create"
+msgstr "Ustvari"
+
+#: src/dialogs/resume/sections/award.tsx
+msgid "Create a new award"
+msgstr "Ustvari novo priznanje"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Create a new certification"
+msgstr "Ustvari novo potrdilo"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Create a new cover letter"
+msgstr "Ustvari novo spremno pismo"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Create a new custom section"
+msgstr "Ustvari novo poljubno sekcijo"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Create a new education"
+msgstr "Ustvari novo izobrazbo"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Create a new experience"
+msgstr "Ustvari novo izkušnjo"
+
+#: src/dialogs/resume/sections/interest.tsx
+msgid "Create a new interest"
+msgstr "Ustvari nov interes"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Create a new language"
+msgstr "Ustvari nov jezik"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Create a new profile"
+msgstr "Ustvari nov profil"
+
+#: src/dialogs/resume/sections/project.tsx
+msgid "Create a new project"
+msgstr "Ustvari nov projekt"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Create a new publication"
+msgstr "Ustvari novo publikacijo"
+
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Create a new reference"
+msgstr "Ustvari novo referenco"
+
+#: src/dialogs/resume/index.tsx
+#: src/features/command-palette/pages/resumes.tsx
+#: src/routes/dashboard/resumes/-components/cards/create-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Create a new resume"
+msgstr "Ustvari nov življenjepis"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Create a new skill"
+msgstr "Ustvari novo veščino"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Create a new summary item"
+msgstr "Ustvari nov element povzetka"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Create a new volunteer experience"
+msgstr "Ustvari novo prostovoljno izkušnjo"
+
+#: src/dialogs/resume/index.tsx
+msgid "Create a Sample Resume"
+msgstr "Ustvari vzorčni življenjepis"
+
+#. Accessible label for create-resume split button group
+#: src/dialogs/resume/index.tsx
+msgid "Create resume with options"
+msgstr "Ustvarite življenjepis z možnostmi"
+
+#: src/dialogs/project/index.tsx
+msgid "Creating your experience..."
+msgstr ""
+
+#: src/dialogs/resume/index.tsx
+msgid "Creating your resume..."
+msgstr "Ustvarjanje vašega življenjepisa..."
+
+#: src/components/input/color-picker.tsx
+msgid "Custom"
+msgstr "Po meri"
+
+#: src/libs/resume/section.tsx
+msgid "Custom Sections"
+msgstr "Poljubni razdelki"
+
+#: src/libs/resume/section.tsx
+msgid "Custom Styles"
+msgstr "Slogi po meri"
+
+#: src/libs/locale.ts
+msgid "Czech"
+msgstr "Češčina"
+
+#: src/libs/locale.ts
+msgid "Danish"
+msgstr "Danščina"
+
+#: src/libs/theme.ts
+msgid "Dark"
+msgstr "Temno"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Dark theme"
+msgstr "Temna tema"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Date"
+msgstr "Datum"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Degree"
+msgstr "Stopnja"
+
+#. Destructive confirmation button label when deleting a custom section in resume builder
+#. Destructive confirmation button label when deleting a section item in resume builder
+#. Experience card dropdown destructive action to remove
+#. Resume card context menu destructive action to remove a resume
+#. Resume card dropdown destructive action to remove a resume
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Delete"
+msgstr "Izbriši"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Column"
+msgstr "Izbriši stolpec"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Delete Page"
+msgstr "Izbriši stran"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Delete picture"
+msgstr "Izbriši sliko"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Row"
+msgstr "Izbriši vrstico"
+
+#: src/components/input/rich-input.tsx
+msgid "Delete Table"
+msgstr "Izbriši tabelo"
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Deleting your experience..."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Deleting your resume..."
+msgstr "Brišem vaš življenjepis..."
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Description"
+msgstr "Opis"
+
+#: src/libs/resume/section.tsx
+msgid "Design"
+msgstr "Oblikovanje"
+
+#: src/dialogs/project/index.tsx
+msgid "Details"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume as a Word document. Use this file to further customize your resume in Microsoft Word or Google Docs."
+msgstr "Prenesite kopijo svojega življenjepisa kot dokument programa Word. To datoteko uporabite za nadaljnje prilagajanje življenjepisa v programu Microsoft Word ali Google Docs."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume in JSON format. Use this file for backup or to import your resume into other applications."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Download a copy of your resume in PDF format. Use this file for printing or to easily share your resume with recruiters."
+msgstr "Prenesite kopijo svojega življenjepisa v formatu PDF. To datoteko uporabite za tiskanje ali preprosto deljenje življenjepisa z delodajalci."
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download DOCX"
+msgstr "Prenos DOCX"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download JSON"
+msgstr "Prenesi JSON"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Download PDF"
+msgstr "Prenesi PDF"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Drag and drop sections here to move them between columns"
+msgstr "Povlecite in spustite razdelke tukaj, da jih premaknete med stolpci"
+
+#. Experience card dropdown action to create a copy
+#. Resume card context menu action to create a copy
+#. Resume card dropdown action to create a copy
+#: src/dialogs/resume/index.tsx
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Duplicate"
+msgstr "Podvoji"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicate Resume"
+msgstr "Podvoji življenjepis"
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicate your resume to create a new one, just like the original."
+msgstr "Podvojite svoj življenjepis, da ustvarite novega, enakega kot original."
+
+#: src/dialogs/resume/index.tsx
+msgid "Duplicating your resume..."
+msgstr "Podvajam vaš življenjepis..."
+
+#: src/libs/locale.ts
+msgid "Dutch"
+msgstr "Nizozemščina"
+
+#. Experience card dropdown action to edit
+#: src/components/input/chip-input.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Edit"
+msgstr "Uredi"
+
+#. Screen reader label for button that edits a keyword chip. Variable is the current keyword text.
+#: src/components/input/chip-input.tsx
+msgid "Edit {chip}"
+msgstr "Uredi {chip}"
+
+#. Screen reader description for the fullscreen rich-text editor dialog
+#: src/components/input/rich-input.tsx
+msgid "Edit content in fullscreen mode"
+msgstr "Urejanje vsebine v celozaslonskem načinu"
+
+#: src/components/input/chip-input.tsx
+msgid "Edit keyword"
+msgstr "Uredi ključno besedo"
+
+#: src/dialogs/project/index.tsx
+msgid "Edit project experience"
+msgstr ""
+
+#: src/components/input/chip-input.tsx
+msgid "Editing keyword..."
+msgstr "Urejanje ključne besede..."
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Education"
+msgstr "Izobrazba"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Email"
+msgstr "E-pošta"
+
+#: src/libs/locale.ts
+msgid "English"
+msgstr "Angleščina"
+
+#: src/libs/locale.ts
+msgid "English (United Kingdom)"
+msgstr "Angleščina (Združeno kraljestvo)"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Enter the URL to link to"
+msgstr "Vnesite URL za povezavo"
+
+#: src/components/input/rich-input.tsx
+msgid "Exit Fullscreen"
+msgstr "Izhod iz celozaslonskega načina"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Experience"
+msgstr "Izkušnje"
+
+#: src/routes/dashboard/-components/sidebar.tsx
+msgid "Experiences"
+msgstr ""
+
+#: src/libs/resume/section.tsx
+msgid "Export"
+msgstr "Izvozi"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Failed to load picture. Please try again."
+msgstr ""
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Filter by"
+msgstr "Filtriraj po"
+
+#: src/libs/locale.ts
+msgid "Finnish"
+msgstr "Finščina"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Fluency"
+msgstr "Stopnja znanja"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Family"
+msgstr "Družina pisav"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Size"
+msgstr "Velikost pisave"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Weight"
+msgstr "Debelina pisave"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Font Weights"
+msgstr "Debeline pisave"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/notes.tsx
+msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
+msgstr "Na primer, tu lahko zapišete informacije o tem, katerim podjetjem ste poslali ta življenjepis ali povezave do opisov delovnih mest."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgctxt "Page Format (A4, Letter, Free-form)"
+msgid "Format"
+msgstr "Format"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Free-form"
+msgstr "Prosta oblika"
+
+#: src/features/project/labels.ts
+msgid "Freelance"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "French"
+msgstr "Francoščina"
+
+#. Layout editor toggle label that makes a page single-column
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Full Width"
+msgstr "Polna širina"
+
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen"
+msgstr "Celozaslonski način"
+
+#. Screen reader title for the fullscreen rich-text editor dialog
+#: src/components/input/rich-input.tsx
+msgid "Fullscreen Editor"
+msgstr "Urejevalnik za celozaslonsko prikazovanje"
+
+#: src/dialogs/resume/index.tsx
+msgid "Generate a random name"
+msgstr "Ustvari naključno ime"
+
+#: src/libs/locale.ts
+msgid "German"
+msgstr "Nemščina"
+
+#: src/components/layout/not-found-screen.tsx
+msgid "Go Back"
+msgstr "Nazaj"
+
+#. Accessible label for button navigating from builder to resumes dashboard
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Go to resumes dashboard"
+msgstr "Pojdite na nadzorno ploščo z življenjepisi"
+
+#: src/features/command-palette/pages/navigation.tsx
+msgid "Go to…"
+msgstr "Pojdi na…"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Grade"
+msgstr "Ocena"
+
+#: src/libs/locale.ts
+msgid "Greek"
+msgstr "Grščina"
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Grid"
+msgstr "Mreža"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgctxt "Headings or Titles (H1, H2, H3, H4, H5, H6)"
+msgid "Heading"
+msgstr "Naslov"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 1"
+msgstr "Naslov 1"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 2"
+msgstr "Naslov 2"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 3"
+msgstr "Naslov 3"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 4"
+msgstr "Naslov 4"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 5"
+msgstr "Naslov 5"
+
+#: src/components/input/rich-input.tsx
+msgid "Heading 6"
+msgstr "Naslov 6"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Headline"
+msgstr "Glava"
+
+#: src/libs/locale.ts
+msgid "Hebrew"
+msgstr "Hebrejščina"
+
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Here's a range of resume templates for different professions and personalities. Whether you prefer modern or classic, bold or simple, there is a design to match you. Look through the options below and choose a template that fits your style."
+msgstr "Tukaj je nabor predlog življenjepisov za različne poklice in osebnosti. Ne glede na to, ali imate raje sodobne ali klasične, drznejše ali enostavne, obstaja dizajn, ki ustreza vam. Poglejte si spodnje možnosti in izberite predlogo, ki ustreza vašemu slogu."
+
+#: src/components/level/combobox.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Hidden"
+msgstr "Skrito"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Hide"
+msgstr "Skrij"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Icons"
+msgstr "Skrij ikone"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Link Underline"
+msgstr "Skrij podčrtano povezavo"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Hide Section Icons"
+msgstr "Skrij ikone razdelkov"
+
+#: src/components/input/rich-input.tsx
+msgid "Highlight"
+msgstr "Označi"
+
+#: src/components/input/rich-input.tsx
+msgid "Highlight Color"
+msgstr "Barva označevanja"
+
+#: src/libs/locale.ts
+msgid "Hindi"
+msgstr "Hindujščina"
+
+#: src/features/command-palette/pages/navigation.tsx
+msgid "Home"
+msgstr "Domov"
+
+#: src/libs/locale.ts
+msgid "Hungarian"
+msgstr "Madžarščina"
+
+#: src/components/level/combobox.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Icon"
+msgstr "Ikona"
+
+#: src/features/project/labels.ts
+msgid "Idea"
+msgstr ""
+
+#: src/dialogs/resume/import.tsx
+msgid "Import"
+msgstr "Uvozi"
+
+#: src/dialogs/resume/import.tsx
+#: src/routes/dashboard/resumes/-components/cards/import-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Import an existing resume"
+msgstr "Uvozi obstoječi življenjepis"
+
+#: src/dialogs/resume/import.tsx
+msgid "Importing your resume..."
+msgstr "Uvažanje vašega življenjepisa..."
+
+#: src/dialogs/resume/import.tsx
+msgid "Importing…"
+msgstr "Uvažanje…"
+
+#: src/features/project/labels.ts
+msgid "In progress"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "Indonesian"
+msgstr "Indonezijščina"
+
+#: src/components/input/rich-input.tsx
+msgid "Inline Code"
+msgstr "Inline koda"
+
+#: src/components/input/rich-input.tsx
+msgid "Insert Table"
+msgstr "Vstavi tabelo"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Interests"
+msgstr "Interesi"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Issuer"
+msgstr "Izdajatelj"
+
+#: src/libs/locale.ts
+msgid "Italian"
+msgstr "Italijanščina"
+
+#: src/components/input/rich-input.tsx
+msgid "Italic"
+msgstr "Ležeče"
+
+#: src/libs/locale.ts
+msgid "Japanese"
+msgstr "Japonščina"
+
+#. Import source option for standard JSON Resume format
+#: src/dialogs/resume/import.tsx
+msgid "JSON Resume"
+msgstr "JSON Resume"
+
+#: src/components/input/rich-input.tsx
+msgid "Justify Align"
+msgstr "Poravnaj obojestransko"
+
+#: src/libs/locale.ts
+msgid "Kannada"
+msgstr "Kannadaščina"
+
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Keywords"
+msgstr "Ključne besede"
+
+#: src/libs/locale.ts
+msgid "Khmer"
+msgstr "Kmerščina"
+
+#: src/libs/locale.ts
+msgid "Korean"
+msgstr "Korejščina"
+
+#. Short field label for custom display text associated with a URL
+#: src/components/input/url-input.tsx
+msgid "Label"
+msgstr "Oznaka"
+
+#. Preset button for setting picture aspect ratio to landscape orientation
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Landscape"
+msgstr "Ležeče (Landscape)"
+
+#: src/dialogs/resume/sections/language.tsx
+#: src/features/command-palette/pages/preferences/language.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Language"
+msgstr "Jezik"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Languages"
+msgstr "Jeziki"
+
+#: src/routes/dashboard/resumes/-components/cards/resume-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Last updated on {updatedAt}"
+msgstr "Nazadnje posodobljeno dne {updatedAt}"
+
+#: src/libs/locale.ts
+msgid "Latvian"
+msgstr "Latvijščina"
+
+#: src/libs/resume/section.tsx
+msgid "Layout"
+msgstr "Postavitev"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Leave"
+msgstr "Zapusti"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Leave empty to reset the title to the original."
+msgstr "Pustite prazno, da ponastavite naslov na izvirnega."
+
+#: src/components/input/rich-input.tsx
+msgid "Left Align"
+msgstr "Poravnaj levo"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Letter"
+msgstr "Letter"
+
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Level"
+msgstr "Raven"
+
+#. Accessible label for skill/proficiency level indicator, where level is current value out of 5
+#: src/components/level/display.tsx
+msgid "Level {level} of 5"
+msgstr "Raven {level} od 5"
+
+#: src/components/ui/copyright.tsx
+msgid "Licensed under <0>MIT</0>."
+msgstr "Licencirano pod <0>MIT</0>."
+
+#: src/libs/theme.ts
+msgid "Light"
+msgstr "Svetlo"
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Light theme"
+msgstr "Svetla tema"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
+msgid "Line Height"
+msgstr "Višina vrstice"
+
+#: src/dialogs/project/index.tsx
+msgid "Link"
+msgstr ""
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "List"
+msgstr "Seznam"
+
+#: src/libs/locale.ts
+msgid "Lithuanian"
+msgstr "Litovščina"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Loading picture…"
+msgstr ""
+
+#: src/components/layout/loading-screen.tsx
+#: src/dialogs/project/index.tsx
+msgid "Loading…"
+msgstr "Nalaganje…"
+
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Location"
+msgstr "Lokacija"
+
+#. Resume card context menu action to prevent edits
+#. Resume card dropdown action to prevent edits
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Lock"
+msgstr "Zakleni"
+
+#. Layout editor column label for the primary content area
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Main"
+msgstr "Glavna"
+
+#: src/libs/locale.ts
+msgid "Malay"
+msgstr "Malajščina"
+
+#: src/libs/locale.ts
+msgid "Malayalam"
+msgstr "malajalamščina"
+
+#: src/libs/locale.ts
+msgid "Marathi"
+msgstr "maratščina"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Margin (Horizontal)"
+msgstr "Rob (vodoravno)"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Margin (Vertical)"
+msgstr "Rob (navpično)"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Move to"
+msgstr "Premakni na"
+
+#. Placeholder text for custom link URL field in resume builder
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
+msgid "Must start with https://"
+msgstr "Začeti je treba z https://"
+
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Name"
+msgstr "Ime"
+
+#: src/libs/locale.ts
+msgid "Nepali"
+msgstr "nepalščina"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Network"
+msgstr "Omrežje"
+
+#: src/components/input/rich-input.tsx
+msgid "New Line"
+msgstr "Nova vrstica"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "New Page"
+msgstr "Nova stran"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "New Section"
+msgstr "Nov razdelek"
+
+#: src/components/ui/combobox.tsx
+msgid "No results found."
+msgstr "Ni rezultatov."
+
+#. Error shown when a local resume import file could not be parsed
+#: src/dialogs/resume/import.tsx
+msgid "No resume data could be parsed from the selected file."
+msgstr ""
+
+#. Error shown when a local backup import file contains no resumes
+#: src/dialogs/resume/import.tsx
+msgid "No resumes were found in the selected backup file."
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "No style rules yet."
+msgstr "Še ni slogovnih pravil."
+
+#: src/libs/locale.ts
+msgid "Norwegian"
+msgstr "norveščina"
+
+#: src/libs/resume/section.tsx
+msgid "Notes"
+msgstr "Opombe"
+
+#: src/libs/locale.ts
+msgid "Odia"
+msgstr "odijščina"
+
+#: src/dialogs/project/index.tsx
+msgid "One or two factual sentences: what it is."
+msgstr ""
+
+#. Resume card context menu action to open the resume editor
+#. Resume card dropdown action to open the resume editor
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Open"
+msgstr "Odpri"
+
+#: src/features/project/labels.ts
+msgid "Open source"
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
+msgid "Options"
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Ordered List"
+msgstr "Oštevilčen seznam"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Organization"
+msgstr "Organizacija"
+
+#: src/libs/resume/section.tsx
+msgid "Page"
+msgstr "Stran"
+
+#. Layout editor page label with 1-based page number
+#. placeholder {0}: pageIndex + 1
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Page {0}"
+msgstr "Stran {0}"
+
+#: src/components/input/rich-input.tsx
+msgid "Paragraph"
+msgstr "Odstavek"
+
+#: src/features/project/labels.ts
+msgid "Paused"
+msgstr ""
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Period"
+msgstr "Obdobje"
+
+#: src/libs/locale.ts
+msgid "Persian"
+msgstr "perzijščina"
+
+#: src/dialogs/resume/sections/reference.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/libs/resume/section.tsx
+msgid "Picture"
+msgstr "Slika"
+
+#: src/dialogs/resume/import.tsx
+msgid "Please do not close the window or refresh the page."
+msgstr ""
+
+#: src/components/input/rich-input.tsx
+msgid "Please enter the URL you want to link to:"
+msgstr "Vnesite URL, na katerega želite povezati:"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "Please wait while your PDF is being generated..."
+msgstr "Prosimo, počakajte, medtem ko se vaš PDF generira ..."
+
+#: src/libs/locale.ts
+msgid "Polish"
+msgstr "poljščina"
+
+#. Preset button for setting picture aspect ratio to portrait orientation
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Portrait"
+msgstr "Portret"
+
+#: src/libs/locale.ts
+msgid "Portuguese (Brazil)"
+msgstr "portugalščina (Brazilija)"
+
+#: src/libs/locale.ts
+msgid "Portuguese (Portugal)"
+msgstr "portugalščina (Portugalska)"
+
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Position"
+msgstr "Položaj"
+
+#: src/features/command-palette/pages/preferences/index.tsx
+msgid "Preferences"
+msgstr "Nastavitve"
+
+#: src/components/input/color-picker.tsx
+msgid "Presets"
+msgstr "Prednastavitve"
+
+#: src/components/input/chip-input.tsx
+msgid "Press <0>{RETURN_KEY}</0> or <1>{COMMA_KEY}</1> to add or save the current keyword."
+msgstr "Pritisnite <0>{RETURN_KEY}</0> ali <1>{COMMA_KEY}</1> za dodajanje ali shranjevanje trenutne ključne besede."
+
+#. Command palette hint that pressing Enter opens the selected resume
+#: src/features/command-palette/pages/resumes.tsx
+msgid "Press <0>Enter</0> to open"
+msgstr "Pritisnite <0>Enter</0>, da odprete"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Primary Color"
+msgstr "Primarna barva"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Proficiency"
+msgstr "Znanje"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Profiles"
+msgstr "Profili"
+
+#: src/components/level/combobox.tsx
+msgid "Progress Bar"
+msgstr "Indikator napredka"
+
+#: src/routes/dashboard/experiences/index.tsx
+msgid "Project Experiences"
+msgstr ""
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Projects"
+msgstr "Projekti"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Publications"
+msgstr "Publikacije"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Publisher"
+msgstr "Založnik"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Recipient"
+msgstr "Prejemnik"
+
+#: src/dialogs/project/index.tsx
+msgid "Record it factually, with evidence — this is your source of truth for writing resumes."
+msgstr ""
+
+#: src/components/level/combobox.tsx
+msgid "Rectangle"
+msgstr "Pravokotnik"
+
+#: src/components/level/combobox.tsx
+msgid "Rectangle (Full Width)"
+msgstr "Pravokotnik (polna širina)"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "References"
+msgstr "Reference"
+
+#: src/components/layout/error-screen.tsx
+msgid "Refresh"
+msgstr "Osveži"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Remove"
+msgstr "Odstrani"
+
+#. Screen reader label for button that removes a keyword chip. Variable is the current keyword text.
+#: src/components/input/chip-input.tsx
+msgid "Remove {chip}"
+msgstr "Odstranite {chip}"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Rename"
+msgstr "Preimenuj"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Reorder"
+msgstr "Preuredi"
+
+#. Destructive confirmation button label when resetting a resume section
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Reset"
+msgstr "Ponastavi"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "Reset Style"
+msgstr "Ponastavi slog"
+
+#. Import source option for current ResumeLite JSON format
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite (JSON)"
+msgstr ""
+
+#. Import source option for local ResumeLite backup files
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite local backup (JSON)"
+msgstr ""
+
+#. App version label in footer; includes semantic version variable
+#: src/components/ui/copyright.tsx
+msgid "ResumeLite v{__APP_VERSION__}"
+msgstr ""
+
+#. Import source option for legacy ResumeLite v4 JSON format
+#: src/dialogs/resume/import.tsx
+msgid "ResumeLite v4 (JSON)"
+msgstr ""
+
+#: src/features/command-palette/pages/navigation.tsx
+#: src/features/command-palette/pages/resumes.tsx
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Resumes"
+msgstr "Življenjepisi"
+
+#: src/components/input/rich-input.tsx
+msgid "Right Align"
+msgstr "Poravnaj desno"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Role Progression"
+msgstr "Napredovanje v vlogi"
+
+#: src/libs/locale.ts
+msgid "Romanian"
+msgstr "romunščina"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Rotation"
+msgstr "Rotacija"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "rule"
+msgstr "pravilo"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
+msgid "rules"
+msgstr "pravila"
+
+#: src/libs/locale.ts
+msgid "Russian"
+msgstr "ruščina"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/cover-letter.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/interest.tsx
+#: src/dialogs/resume/sections/language.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/skill.tsx
+#: src/dialogs/resume/sections/summary-item.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Save Changes"
+msgstr "Shrani spremembe"
+
+#: src/dialogs/project/index.tsx
+msgid "Saving your experience..."
+msgstr ""
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "School"
+msgstr "Šola"
+
+#. Accessible label for command palette search input
+#: src/features/command-palette/index.tsx
+msgid "Search commands"
+msgstr "Ukazi za iskanje"
+
+#. Accessible label for icon picker search input
+#. Placeholder text in icon picker search input
+#: src/components/input/icon-picker.tsx
+msgid "Search for an icon"
+msgstr "Poišči ikono"
+
+#: src/features/command-palette/pages/resumes.tsx
+msgid "Search for…"
+msgstr "Išči…"
+
+#: src/components/ui/combobox.tsx
+msgid "Search..."
+msgstr "Iskanje ..."
+
+#. Placeholder in command palette input on nested pages
+#: src/features/command-palette/index.tsx
+msgid "Search…"
+msgstr "Iskanje…"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Section Type"
+msgstr "Vrsta razdelka"
+
+#: src/components/ui/combobox.tsx
+msgid "Select..."
+msgstr "Izberi ..."
+
+#: src/components/input/rich-input.tsx
+msgid "Separator"
+msgstr "Ločilo"
+
+#: src/libs/locale.ts
+msgid "Serbian"
+msgstr "srbščina"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Shadow Width"
+msgstr "Širina sence"
+
+#: src/features/project/labels.ts
+msgid "Shipped"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "Show"
+msgstr "Prikaži"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Show link in title"
+msgstr "Pokaži povezavo v naslovu"
+
+#: src/features/project/labels.ts
+msgid "Side project"
+msgstr ""
+
+#. Layout editor column label for the secondary sidebar area
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
+msgid "Sidebar"
+msgstr "Stranska vrstica"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/layout/index.tsx
+msgid "Sidebar Width"
+msgstr "Širina stranske vrstice"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column Chinese AI product resume with a compact header, portrait, gray section bars, and dense project bullets."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
+msgstr "Enojen stolpec z magenta obrobo na levi; kompaktno in učinkovito za začetne ali pripravniške prijave."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a minimal top header and lots of whitespace; clean and modern for designers or content creators."
+msgstr "Enojen stolpec z minimalno zgornjo glavo in veliko praznega prostora; čisto in moderno za oblikovalce ali ustvarjalce vsebin."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with a sidebar and clean grid layout; versatile for any professional or technical role."
+msgstr "Enojen stolpec s stransko vrstico in čistim mrežnim prikazom; vsestransko za vsako strokovno ali tehnično vlogo."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with an inline three-column entry header (position · organization · period); compact and ATS-friendly, well-suited for Asian resume conventions (CN/JP/KR)."
+msgstr "Enoslojni z vdelanim tristebrnim glavičem (položaj - organizacija - pika); kompakten in prijazen do sistemov ATS, primeren za azijske konvencije življenjepisov (CN/JP/KR)."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column with uppercase section headings and a primary-color top rule on every page; polished for executive, consulting, or startup resumes."
+msgstr "En stolpec z velikimi tiskanimi črkami v naslovih razdelkov in zgornjo črto primarne barve na vsaki strani; dodelano za življenjepise direktorjev, svetovalcev ali zagonskih podjetij."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column; polished and serious for senior or enterprise-level positions."
+msgstr "Enojen stolpec; izpiljeno in resno za višje ali podjetniške položaje."
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Size"
+msgstr "Velikost"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Skills"
+msgstr "Spretnosti"
+
+#: src/libs/locale.ts
+msgid "Slovak"
+msgstr "slovaščina"
+
+#: src/libs/locale.ts
+msgid "Slovenian"
+msgstr "Slovenščina"
+
+#: src/dialogs/resume/index.tsx
+msgid "Slug"
+msgstr "Polž"
+
+#: src/routes/dashboard/experiences/index.tsx
+#: src/routes/dashboard/resumes/index.tsx
+msgid "Sort by"
+msgstr "Razvrsti po"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Spacing (Horizontal)"
+msgstr "Razmik (vodoravno)"
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/page.tsx
+msgid "Spacing (Vertical)"
+msgstr "Razmik (navpično)"
+
+#: src/libs/locale.ts
+msgid "Spanish"
+msgstr "španščina"
+
+#. Preset button for setting picture aspect ratio to square
+#: src/components/level/combobox.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Square"
+msgstr "Kvadrat"
+
+#: src/dialogs/project/index.tsx
+msgid "Stage"
+msgstr ""
+
+#: src/components/input/github-stars-button.tsx
+msgid "Star us on GitHub (opens in new tab)"
+msgstr "Dajte nam zvezdico na GitHubu (odpre se v novem zavihku)"
+
+#: src/dialogs/resume/index.tsx
+msgid "Start building your resume by giving it a name."
+msgstr "Začnite graditi svoj življenjepis tako, da mu dodelite ime."
+
+#: src/routes/dashboard/resumes/-components/cards/create-card.tsx
+#: src/routes/dashboard/resumes/-components/list-view.tsx
+msgid "Start building your resume from scratch"
+msgstr "Začnite graditi svoj življenjepis iz nič"
+
+#: src/hooks/use-form-blocker.tsx
+msgid "Stay"
+msgstr "Ostani"
+
+#: src/components/input/rich-input.tsx
+msgid "Strike"
+msgstr "Prečrtano"
+
+#. Fallback title for a custom summary item in resume builder when content is empty
+#. Fallback title for a custom summary item in resume builder when content is unavailable
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+msgid "Summary"
+msgstr "Povzetek"
+
+#: src/libs/locale.ts
+msgid "Swedish"
+msgstr "švedščina"
+
+#: src/features/theme/toggle-button.tsx
+msgid "Switch to dark theme"
+msgstr "Preklopi na temno temo"
+
+#: src/features/theme/toggle-button.tsx
+msgid "Switch to light theme"
+msgstr "Preklopi na svetlo temo"
+
+#: src/components/input/rich-input.tsx
+msgid "Table"
+msgstr "Tabela"
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/index.tsx
+msgid "Tags"
+msgstr "Oznake"
+
+#: src/dialogs/resume/index.tsx
+msgid "Tags can be used to categorize your resume by keywords."
+msgstr "Oznake lahko uporabite za kategorizacijo svojega življenjepisa po ključnih besedah."
+
+#: src/libs/locale.ts
+msgid "Tamil"
+msgstr "tamilščina"
+
+#: src/dialogs/project/index.tsx
+msgid "Tech & methods"
+msgstr ""
+
+#: src/libs/locale.ts
+msgid "Telugu"
+msgstr "teluguščina"
+
+#: src/libs/resume/section.tsx
+msgid "Template"
+msgstr "Predloga"
+
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Template Gallery"
+msgstr "Galerija predlog"
+
+#: src/components/input/rich-input.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Text Color"
+msgstr "Barva besedila"
+
+#: src/libs/locale.ts
+msgid "Thai"
+msgstr "tajščina"
+
+#. Empty-state message when no command palette results match the search query
+#: src/features/command-palette/index.tsx
+msgid "The command you're looking for doesn't exist."
+msgstr "Ukaz, ki ga iščete, ne obstaja."
+
+#: src/components/input/rich-input.tsx
+msgid "The URL you entered is not valid."
+msgstr "Vneseni URL ni veljaven."
+
+#: src/features/command-palette/pages/preferences/theme.tsx
+msgid "Theme"
+msgstr "Tema"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "There was a problem while generating the DOCX, please try again."
+msgstr "Pri ustvarjanju DOCX je prišlo do težave, poskusite znova."
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
+msgid "There was a problem while generating the PDF, please try again."
+msgstr "Pri ustvarjanju PDF-ja je prišlo do težave. Poskusite znova."
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "This action cannot be undone."
+msgstr "To dejanje ni mogoče razveljaviti."
+
+#: src/dialogs/resume/index.tsx
+msgid "This is a URL-friendly name for your resume."
+msgstr "To je ime vašega življenjepisa, ki je prijazno do URL-jev."
+
+#: src/features/resume/builder/draft.ts
+msgid "This resume is locked and cannot be updated."
+msgstr "Ta življenjepis je zaklenjen in ga ni mogoče posodobiti."
+
+#: src/routes/builder/$resumeId/-sidebar/right/sections/notes.tsx
+msgid "This section is reserved for your personal notes specific to this resume. The content here remains private and is not shared with anyone else."
+msgstr "Ta razdelek je namenjen vašim osebnim opombam, ki se nanašajo na ta življenjepis. Vsebina tukaj ostane zasebna in ni deljena z nikomer."
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "This will remove all items from this section."
+msgstr "S tem boste odstranili vse elemente iz tega razdelka."
+
+#: src/dialogs/resume/index.tsx
+msgid "Tip: You can name the resume referring to the position you are applying for."
+msgstr "Namig: Življenjepis lahko poimenujete glede na delovno mesto, na katerega se prijavljate."
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/custom.tsx
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Title"
+msgstr "Naziv"
+
+#. Screen-reader label for opening or closing the left sidebar in resume builder
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Toggle left sidebar"
+msgstr "Toggle leva stranska vrstica"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Toggle page stacking"
+msgstr "Preklopi zlaganje strani"
+
+#. Screen-reader label for opening or closing the right sidebar in resume builder
+#: src/routes/builder/$resumeId/-components/header.tsx
+msgid "Toggle right sidebar"
+msgstr "Preklapljanje desne stranske vrstice"
+
+#: src/libs/locale.ts
+msgid "Turkish"
+msgstr "turščina"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a bold colored sidebar and skill bars; great for creative or tech roles where visual flair is welcome."
+msgstr "Dvojni stolpec z izrazito barvno stranico in kazalniki veščin; odlično za kreativne ali tehnične vloge, kjer je vizualna pojavnost zaželena."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a dark teal sidebar and skills grid; modern feel for developers, data scientists, or technical PMs."
+msgstr "Dvojni stolpec s temno modro-zeleno stranico in mrežo veščin; sodoben občutek za razvijalce, podatkovne znanstvenike ali tehnične vodje projektov."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a left margin color; simple and approachable for creative, editorial, or junior roles."
+msgstr "Dvojni stolpec z barvnim levim robom; preprosto in prijazno za kreativne, uredniške ali začetniške vloge."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a muted color sidebar; earthy and calm, suits sustainability, healthcare, or nonprofit sectors."
+msgstr "Dvojni stolpec z umirjeno barvno stranico; prizemljen in miren, primeren za trajnost, zdravstvo ali nevladne organizacije."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with a soft header accent and circular profile photo; ideal for marketing, HR, or client-facing roles."
+msgstr "Dvojni stolpec z nežnim poudarkom v glavi in krožno profilno sliko; idealno za marketing, kadrovanje ali vloge s strankami."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column with accent colors and clean typography; balanced choice for business analysts or operations roles."
+msgstr "Dvojni stolpec s poudarjenimi barvami in čisto tipografijo; uravnotežena izbira za poslovne analitike ali operativne vloge."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, clean and professional with subtle section dividers; suits corporate, finance, or consulting positions."
+msgstr "Dvojni stolpec, čist in profesionalen z nežnimi razdelki; primeren za korporativne, finančne ali svetovalne položaje."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, minimal and text-dense with no decorative elements; perfect for traditional industries or ATS-heavy applications."
+msgstr "Dvojni stolpec, minimalistično in z gostim besedilom brez dekorativnih elementov; popolno za tradicionalne panoge ali prijave, kjer je pomembna berljivost za računalniški sistem."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column, minimal with light gray sidebar and subtle icons; professional and understated for legal, finance, or executive roles."
+msgstr "Dvojni stolpec, minimalistično z nežno sivo stranico in subtilnimi ikonami; profesionalno in nevpadljivo za pravne, finančne ali izvršne vloge."
+
+#: src/dialogs/project/index.tsx
+#: src/dialogs/resume/import.tsx
+#: src/routes/builder/$resumeId/-sidebar/right/sections/design.tsx
+msgid "Type"
+msgstr "Vrsta"
+
+#. Placeholder in command palette input on root page
+#. Screen-reader dialog description instructing users how to use the command palette
+#: src/features/command-palette/index.tsx
+msgid "Type a command or search…"
+msgstr "Vnesite ukaz ali poiščite…"
+
+#: src/libs/resume/section.tsx
+msgid "Typography"
+msgstr "Tipografija"
+
+#: src/libs/locale.ts
+msgid "Ukrainian"
+msgstr "ukrajinščina"
+
+#: src/components/input/rich-input.tsx
+msgid "Underline"
+msgstr "Podčrtano"
+
+#. Resume card context menu action to remove edit lock
+#. Resume card dropdown action to remove edit lock
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Unlock"
+msgstr "Odkleni"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
+msgid "Update"
+msgstr "Posodobi"
+
+#: src/dialogs/resume/sections/award.tsx
+msgid "Update an existing award"
+msgstr "Posodobi obstoječo nagrado"
+
+#: src/dialogs/resume/sections/certification.tsx
+msgid "Update an existing certification"
+msgstr "Posodobi obstoječo certifikacijo"
+
+#: src/dialogs/resume/sections/cover-letter.tsx
+msgid "Update an existing cover letter"
+msgstr "Posodobi obstoječe spremno pismo"
+
+#: src/dialogs/resume/sections/custom.tsx
+msgid "Update an existing custom section"
+msgstr "Posodobi obstoječi razdelek po meri"
+
+#: src/dialogs/resume/sections/education.tsx
+msgid "Update an existing education"
+msgstr "Posodobi obstoječo izobrazbo"
+
+#: src/dialogs/resume/sections/experience.tsx
+msgid "Update an existing experience"
+msgstr "Posodobi obstoječe delovne izkušnje"
+
+#: src/dialogs/resume/sections/interest.tsx
+msgid "Update an existing interest"
+msgstr "Posodobi obstoječe zanimanje"
+
+#: src/dialogs/resume/sections/language.tsx
+msgid "Update an existing language"
+msgstr "Posodobi obstoječi jezik"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Update an existing profile"
+msgstr "Posodobi obstoječi profil"
+
+#: src/dialogs/resume/sections/project.tsx
+msgid "Update an existing project"
+msgstr "Posodobi obstoječi projekt"
+
+#: src/dialogs/resume/sections/publication.tsx
+msgid "Update an existing publication"
+msgstr "Posodobi obstoječo publikacijo"
+
+#: src/dialogs/resume/sections/reference.tsx
+msgid "Update an existing reference"
+msgstr "Posodobi obstoječe priporočilo"
+
+#: src/dialogs/resume/sections/skill.tsx
+msgid "Update an existing skill"
+msgstr "Posodobi obstoječo spretnost"
+
+#: src/dialogs/resume/sections/summary-item.tsx
+msgid "Update an existing summary item"
+msgstr "Posodobi obstoječi element povzetka"
+
+#: src/dialogs/resume/sections/volunteer.tsx
+msgid "Update an existing volunteer experience"
+msgstr "Posodobite obstoječo prostovoljsko izkušnjo"
+
+#: src/dialogs/resume/index.tsx
+msgid "Update Resume"
+msgstr "Posodobi življenjepis"
+
+#: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
+msgid "Updated {updatedAt}"
+msgstr ""
+
+#: src/dialogs/resume/index.tsx
+msgid "Updating your resume..."
+msgstr "Posodabljanje vašega življenjepisa..."
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "Upload picture"
+msgstr "Naloži sliko"
+
+#: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
+msgid "URL"
+msgstr "URL"
+
+#: src/components/input/color-picker.tsx
+msgid "Use color {color}"
+msgstr "Uporaba barve {color}"
+
+#: src/dialogs/resume/sections/profile.tsx
+msgid "Username"
+msgstr "Uporabniško ime"
+
+#: src/libs/locale.ts
+msgid "Uzbek"
+msgstr "uzbeščina"
+
+#: src/components/input/rich-input.tsx
+msgid "Valid URLs must start with http:// or https://."
+msgstr "Veljavni URL-ji se morajo začeti z http:// ali https://."
+
+#: src/libs/locale.ts
+msgid "Vietnamese"
+msgstr "vietnamščina"
+
+#: src/dialogs/resume/sections/custom.tsx
+#: src/features/project/labels.ts
+#: src/libs/resume/section-title.ts
+#: src/libs/resume/section.tsx
+msgid "Volunteer"
+msgstr "Prostovoljec"
+
+#: src/dialogs/resume/sections/award.tsx
+#: src/dialogs/resume/sections/certification.tsx
+#: src/dialogs/resume/sections/education.tsx
+#: src/dialogs/resume/sections/experience.tsx
+#: src/dialogs/resume/sections/profile.tsx
+#: src/dialogs/resume/sections/project.tsx
+#: src/dialogs/resume/sections/publication.tsx
+#: src/dialogs/resume/sections/reference.tsx
+#: src/dialogs/resume/sections/volunteer.tsx
+#: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+msgid "Website"
+msgstr "Spletna stran"
+
+#: src/routes/builder/$resumeId/-sidebar/left/shared/section-menu.tsx
+msgid "What do you want to rename this section to?"
+msgstr "Kako želite preimenovati ta razdelek?"
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "When locked, the resume cannot be updated or deleted."
+msgstr "Ko je zaklenjen, življenjepisa ni mogoče posodobiti ali izbrisati."
+
+#: src/features/project/labels.ts
+msgid "Work"
+msgstr ""
+
+#: src/hooks/use-form-blocker.tsx
+msgid "You have unsaved changes that will be lost."
+msgstr "Imate neshranjene spremembe, ki bodo izgubljene."
+
+#: src/routes/builder/$resumeId/-components/preview-page.tsx
+msgid "Your changes are saved automatically."
+msgstr "Vaše spremembe se samodejno shranijo."
+
+#: src/dialogs/project/index.tsx
+msgid "Your experience has been created."
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Your experience has been deleted successfully."
+msgstr ""
+
+#: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
+msgid "Your experience has been duplicated successfully."
+msgstr ""
+
+#: src/dialogs/project/index.tsx
+msgid "Your experience has been saved."
+msgstr ""
+
+#: src/features/resume/builder/draft.ts
+msgid "Your latest changes could not be saved."
+msgstr "Vaših zadnjih sprememb ni bilo mogoče shraniti."
+
+#: src/dialogs/resume/index.tsx
+msgid "Your resume has been created successfully."
+msgstr "Vaš življenjepis je bil uspešno ustvarjen."
+
+#: src/routes/builder/$resumeId/-components/header.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Your resume has been deleted successfully."
+msgstr "Vaš življenjepis je bil uspešno izbrisan."
+
+#: src/dialogs/resume/index.tsx
+#: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
+#: src/routes/dashboard/resumes/-components/menus/dropdown-menu.tsx
+msgid "Your resume has been duplicated successfully."
+msgstr "Vaš življenjepis je bil uspešno podvojen."
+
+#: src/dialogs/resume/import.tsx
+msgid "Your resume has been imported successfully."
+msgstr "Vaš življenjepis je bil uspešno uvožen."
+
+#: src/dialogs/resume/index.tsx
+msgid "Your resume has been updated successfully."
+msgstr "Vaš življenjepis je bil uspešno posodobljen."
+
+#: src/dialogs/project/index.tsx
+msgid "Your role"
+msgstr ""
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Zoom in"
+msgstr "Približaj"
+
+#: src/routes/builder/$resumeId/-components/dock.tsx
+msgid "Zoom out"
+msgstr "Oddalji"
+
+#: src/libs/locale.ts
+msgid "Zulu"
+msgstr "Zuluščina"

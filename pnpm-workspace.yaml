@@ -1,0 +1,23 @@
+packages:
+  - apps/web
+  - packages/config
+  - packages/docx
+  - packages/fonts
+  - packages/import
+  - packages/pdf
+  - packages/resume
+  - packages/schema
+  - packages/ui
+  - packages/utils
+patchedDependencies:
+  '@react-pdf/textkit@6.3.0': patches/@react-pdf__textkit@6.3.0.patch
+minimumReleaseAge: 0
+allowBuilds:
+  electron: true
+  esbuild: true
+  lefthook: true
+  msw: true
+overrides:
+  esbuild@>=0.17.0 <0.28.1: ^0.28.1
+  postcss@<8.5.10: ^8.5.14
+  uuid@<11.1.1: ^11.1.1

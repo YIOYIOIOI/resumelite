@@ -1,0 +1,51 @@
+{
+	"name": "resumelite",
+	"description": "ResumeLite is a local-first resume builder for creating, updating, and exporting resumes.",
+	"version": "1.0.0",
+	"private": true,
+	"license": "MIT",
+	"packageManager": "pnpm@11.9.0",
+	"workspaces": [
+		"apps/web",
+		"packages/config",
+		"packages/docx",
+		"packages/fonts",
+		"packages/import",
+		"packages/pdf",
+		"packages/resume",
+		"packages/schema",
+		"packages/ui",
+		"packages/utils"
+	],
+	"scripts": {
+		"build": "pnpm --filter web build",
+		"check": "biome check --write --unsafe .",
+		"lingui:extract": "turbo run lingui:extract --filter=web",
+		"dev": "pnpm --filter web dev",
+		"dev:web": "pnpm --filter web dev",
+		"start": "pnpm --filter web start",
+		"typecheck": "pnpm --filter web typecheck",
+		"typecheck:strict": "pnpm --filter web typecheck:strict",
+		"test": "pnpm --filter web test",
+		"test:coverage": "pnpm --filter web test:coverage",
+		"test:ci": "pnpm --filter web test:ci"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.1",
+		"@commitlint/cli": "^21.1.0",
+		"@commitlint/config-conventional": "^21.1.0",
+		"@resumelite/config": "workspace:*",
+		"@testing-library/dom": "^10.4.1",
+		"@testing-library/jest-dom": "^6.9.1",
+		"@testing-library/react": "^16.3.2",
+		"@testing-library/user-event": "^14.6.1",
+		"@types/node": "^24.0.1",
+		"@vitest/coverage-v8": "^4.1.9",
+		"happy-dom": "^20.10.6",
+		"lefthook": "^2.1.9",
+		"npm-check-updates": "^22.2.9",
+		"turbo": "^2.10.0",
+		"typescript": "^6.0.3",
+		"vitest": "^4.1.9"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"extends": "@resumelite/config/tsconfig.base.json",
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"paths": {
+			"@resumelite/ui/*": ["./src/*"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"],
+	"exclude": ["node_modules"]
+}

@@ -1,0 +1,46 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: "pnpm"
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Fast native-preview typecheck across every workspace package.
+      - name: Typecheck (tsgo)
+        run: pnpm -r typecheck
+
+      # Authoritative typecheck of the app (and its imported packages) with stable tsc.
+      - name: Typecheck (tsc, authoritative)
+        run: pnpm typecheck:strict
+
+      - name: Test
+        run: pnpm -r test
+
+      - name: Build
+        run: pnpm build

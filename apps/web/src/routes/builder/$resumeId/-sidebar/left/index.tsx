@@ -1,0 +1,108 @@
+import type { LeftSidebarSection } from "@/libs/resume/section";
+import { Fragment, useCallback, useRef } from "react";
+import { match } from "ts-pattern";
+import { Button } from "@resumelite/ui/components/button";
+import { ScrollArea } from "@resumelite/ui/components/scroll-area";
+import { Separator } from "@resumelite/ui/components/separator";
+import { getSectionIcon, getSectionTitle, leftSidebarSections } from "@/libs/resume/section";
+import { BuilderSidebarEdge } from "../../-components/edge";
+import { useBuilderSidebar } from "../../-store/sidebar";
+import { AwardsSectionBuilder } from "./sections/awards";
+import { BasicsSectionBuilder } from "./sections/basics";
+import { CertificationsSectionBuilder } from "./sections/certifications";
+import { CustomSectionBuilder } from "./sections/custom";
+import { EducationSectionBuilder } from "./sections/education";
+import { ExperienceSectionBuilder } from "./sections/experience";
+import { InterestsSectionBuilder } from "./sections/interests";
+import { LanguagesSectionBuilder } from "./sections/languages";
+import { PictureSectionBuilder } from "./sections/picture";
+import { ProfilesSectionBuilder } from "./sections/profiles";
+import { ProjectsSectionBuilder } from "./sections/projects";
+import { PublicationsSectionBuilder } from "./sections/publications";
+import { ReferencesSectionBuilder } from "./sections/references";
+import { SkillsSectionBuilder } from "./sections/skills";
+import { SummarySectionBuilder } from "./sections/summary";
+import { VolunteerSectionBuilder } from "./sections/volunteer";
+
+function getSectionComponent(type: LeftSidebarSection) {
+	return match(type)
+		.with("picture", () => <PictureSectionBuilder />)
+		.with("basics", () => <BasicsSectionBuilder />)
+		.with("summary", () => <SummarySectionBuilder />)
+		.with("profiles", () => <ProfilesSectionBuilder />)
+		.with("experience", () => <ExperienceSectionBuilder />)
+		.with("education", () => <EducationSectionBuilder />)
+		.with("projects", () => <ProjectsSectionBuilder />)
+		.with("skills", () => <SkillsSectionBuilder />)
+		.with("languages", () => <LanguagesSectionBuilder />)
+		.with("interests", () => <InterestsSectionBuilder />)
+		.with("awards", () => <AwardsSectionBuilder />)
+		.with("certifications", () => <CertificationsSectionBuilder />)
+		.with("publications", () => <PublicationsSectionBuilder />)
+		.with("volunteer", () => <VolunteerSectionBuilder />)
+		.with("references", () => <ReferencesSectionBuilder />)
+		.with("custom", () => <CustomSectionBuilder />)
+		.exhaustive();
+}
+
+export function BuilderSidebarLeft() {
+	const scrollAreaRef = useRef<HTMLDivElement | null>(null);
+
+	return (
+		<>
+			<SidebarEdge scrollAreaRef={scrollAreaRef} />
+
+			<ScrollArea ref={scrollAreaRef} className="@container h-[calc(100svh-3.5rem)] bg-background sm:ms-12">
+				<div className="space-y-4 p-4">
+					{leftSidebarSections.map((section) => (
+						<Fragment key={section}>
+							{getSectionComponent(section)}
+							<Separator />
+						</Fragment>
+					))}
+				</div>
+			</ScrollArea>
+		</>
+	);
+}
+
+type SidebarEdgeProps = {
+	scrollAreaRef: React.RefObject<HTMLDivElement | null>;
+};
+
+function SidebarEdge({ scrollAreaRef }: SidebarEdgeProps) {
+	const toggleSidebar = useBuilderSidebar((state) => state.toggleSidebar);
+
+	const scrollToSection = useCallback(
+		(section: LeftSidebarSection) => {
+			if (!scrollAreaRef.current) return;
+			toggleSidebar("left", true);
+
+			const sectionElement = scrollAreaRef.current.querySelector(`#sidebar-${section}`);
+			sectionElement?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+		},
+		[toggleSidebar, scrollAreaRef],
+	);
+
+	return (
+		<BuilderSidebarEdge side="left">
+			<div className="flex min-h-0 w-full flex-1 flex-col items-center gap-y-2 overflow-hidden">
+				<div className="no-scrollbar min-h-0 w-full flex-1 overflow-y-auto overflow-x-hidden">
+					<div className="flex min-h-full flex-col items-center justify-center gap-y-2">
+						{leftSidebarSections.map((section) => (
+							<Button
+								key={section}
+								size="icon"
+								variant="ghost"
+								title={getSectionTitle(section)}
+								onClick={() => scrollToSection(section)}
+							>
+								{getSectionIcon(section)}
+							</Button>
+						))}
+					</div>
+				</div>
+			</div>
+		</BuilderSidebarEdge>
+	);
+}
