@@ -4,6 +4,11 @@
   <p>A local-first resume builder for personal desktop and browser use.</p>
 
   <p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
+
+  <p>
+    <a href="https://github.com/YIOYIOIOI/resumelite/actions/workflows/ci.yml"><img src="https://github.com/YIOYIOIOI/resumelite/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT">
+  </p>
 </div>
 
 ---
