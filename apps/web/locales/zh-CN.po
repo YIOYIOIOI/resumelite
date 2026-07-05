@@ -61,7 +61,7 @@ msgstr "A4"
 
 #: src/features/project/labels.ts
 msgid "Academic"
-msgstr ""
+msgstr "学术"
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
 msgid "Add a custom field"
@@ -136,7 +136,7 @@ msgstr "添加新的志愿者经历"
 #: src/dialogs/project/index.tsx
 #: src/routes/dashboard/experiences/-components/cards/create-card.tsx
 msgid "Add a project experience"
-msgstr ""
+msgstr "添加项目经历"
 
 #: src/components/input/rich-input.tsx
 msgid "Add Column After"
@@ -206,7 +206,7 @@ msgstr "阿拉伯语"
 
 #: src/features/project/labels.ts
 msgid "Archived"
-msgstr ""
+msgstr "已归档"
 
 #: src/hooks/use-form-blocker.tsx
 msgid "Are you sure you want to close this dialog?"
@@ -218,7 +218,7 @@ msgstr "您确定要删除这个自定义部分吗？"
 
 #: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
 msgid "Are you sure you want to delete this experience?"
-msgstr ""
+msgstr "确定要删除这段经历吗？"
 
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
 msgid "Are you sure you want to delete this item?"
@@ -438,7 +438,7 @@ msgstr "从上次中断的地方继续"
 
 #: src/dialogs/resume/import.tsx
 msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
-msgstr ""
+msgstr "导入你用 ResumeLite 或其他简历工具创建的简历，接着上次的进度继续。支持的格式包括 ResumeLite 和 JSON Resume 的 JSON 文件。"
 
 #. Fallback title for a custom cover letter item in resume builder when recipient is empty
 #. Fallback title for a custom cover letter item in resume builder when recipient is unavailable
@@ -547,7 +547,7 @@ msgstr "创建带有选项的简历"
 
 #: src/dialogs/project/index.tsx
 msgid "Creating your experience..."
-msgstr ""
+msgstr "正在创建经历……"
 
 #: src/dialogs/resume/index.tsx
 msgid "Creating your resume..."
@@ -627,7 +627,7 @@ msgstr "删除表格"
 
 #: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
 msgid "Deleting your experience..."
-msgstr ""
+msgstr "正在删除经历……"
 
 #: src/routes/builder/$resumeId/-components/header.tsx
 #: src/routes/dashboard/resumes/-components/menus/context-menu.tsx
@@ -652,7 +652,7 @@ msgstr "设计"
 
 #: src/dialogs/project/index.tsx
 msgid "Details"
-msgstr ""
+msgstr "详情"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
 msgid "Download a copy of your resume as a Word document. Use this file to further customize your resume in Microsoft Word or Google Docs."
@@ -660,7 +660,7 @@ msgstr "以 Word 文档形式下载简历副本。使用此文件在 Microsoft W
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
 msgid "Download a copy of your resume in JSON format. Use this file for backup or to import your resume into other applications."
-msgstr ""
+msgstr "下载 JSON 格式的简历副本。可用于备份，或导入到其他应用中。"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
 msgid "Download a copy of your resume in PDF format. Use this file for printing or to easily share your resume with recruiters."
@@ -733,7 +733,7 @@ msgstr "编辑关键字"
 
 #: src/dialogs/project/index.tsx
 msgid "Edit project experience"
-msgstr ""
+msgstr "编辑项目经历"
 
 #: src/components/input/chip-input.tsx
 msgid "Editing keyword..."
@@ -773,7 +773,7 @@ msgstr "工作经历"
 
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "Experiences"
-msgstr ""
+msgstr "经历"
 
 #: src/libs/resume/section.tsx
 msgid "Export"
@@ -781,7 +781,7 @@ msgstr "导出"
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Failed to load picture. Please try again."
-msgstr ""
+msgstr "图片加载失败，请重试。"
 
 #: src/routes/dashboard/experiences/index.tsx
 #: src/routes/dashboard/resumes/index.tsx
@@ -827,7 +827,7 @@ msgstr "自由形式"
 
 #: src/features/project/labels.ts
 msgid "Freelance"
-msgstr ""
+msgstr "自由职业"
 
 #: src/libs/locale.ts
 msgid "French"
@@ -973,7 +973,7 @@ msgstr "图标"
 
 #: src/features/project/labels.ts
 msgid "Idea"
-msgstr ""
+msgstr "构想"
 
 #: src/dialogs/resume/import.tsx
 msgid "Import"
@@ -995,7 +995,7 @@ msgstr "正在导入…"
 
 #: src/features/project/labels.ts
 msgid "In progress"
-msgstr ""
+msgstr "进行中"
 
 #: src/libs/locale.ts
 msgid "Indonesian"
@@ -1137,7 +1137,7 @@ msgstr "行高"
 
 #: src/dialogs/project/index.tsx
 msgid "Link"
-msgstr ""
+msgstr "链接"
 
 #: src/routes/dashboard/experiences/index.tsx
 #: src/routes/dashboard/resumes/index.tsx
@@ -1150,7 +1150,7 @@ msgstr "立陶宛语"
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Loading picture…"
-msgstr ""
+msgstr "正在加载图片……"
 
 #: src/components/layout/loading-screen.tsx
 #: src/dialogs/project/index.tsx
@@ -1242,12 +1242,12 @@ msgstr "没找到结果。"
 #. Error shown when a local resume import file could not be parsed
 #: src/dialogs/resume/import.tsx
 msgid "No resume data could be parsed from the selected file."
-msgstr ""
+msgstr "无法从所选文件中解析出简历数据。"
 
 #. Error shown when a local backup import file contains no resumes
 #: src/dialogs/resume/import.tsx
 msgid "No resumes were found in the selected backup file."
-msgstr ""
+msgstr "所选备份文件中未找到任何简历。"
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
 msgid "No style rules yet."
@@ -1267,7 +1267,7 @@ msgstr "奥里亚语"
 
 #: src/dialogs/project/index.tsx
 msgid "One or two factual sentences: what it is."
-msgstr ""
+msgstr "一两句客观描述：它是什么。"
 
 #. Resume card context menu action to open the resume editor
 #. Resume card dropdown action to open the resume editor
@@ -1278,11 +1278,11 @@ msgstr "打开"
 
 #: src/features/project/labels.ts
 msgid "Open source"
-msgstr ""
+msgstr "开源"
 
 #: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: src/components/input/rich-input.tsx
 msgid "Ordered List"
@@ -1309,7 +1309,7 @@ msgstr "段落"
 
 #: src/features/project/labels.ts
 msgid "Paused"
-msgstr ""
+msgstr "已暂停"
 
 #: src/dialogs/project/index.tsx
 #: src/dialogs/resume/sections/education.tsx
@@ -1334,7 +1334,7 @@ msgstr "图片"
 
 #: src/dialogs/resume/import.tsx
 msgid "Please do not close the window or refresh the page."
-msgstr ""
+msgstr "请不要关闭窗口或刷新页面。"
 
 #: src/components/input/rich-input.tsx
 msgid "Please enter the URL you want to link to:"
@@ -1404,7 +1404,7 @@ msgstr "进度条"
 
 #: src/routes/dashboard/experiences/index.tsx
 msgid "Project Experiences"
-msgstr ""
+msgstr "项目经历"
 
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
@@ -1428,7 +1428,7 @@ msgstr "收件人"
 
 #: src/dialogs/project/index.tsx
 msgid "Record it factually, with evidence — this is your source of truth for writing resumes."
-msgstr ""
+msgstr "如实记录、附上证据——这是你写简历的事实依据。"
 
 #: src/components/level/combobox.tsx
 msgid "Rectangle"
@@ -1477,22 +1477,22 @@ msgstr "重置样式"
 #. Import source option for current ResumeLite JSON format
 #: src/dialogs/resume/import.tsx
 msgid "ResumeLite (JSON)"
-msgstr ""
+msgstr "ResumeLite (JSON)"
 
 #. Import source option for local ResumeLite backup files
 #: src/dialogs/resume/import.tsx
 msgid "ResumeLite local backup (JSON)"
-msgstr ""
+msgstr "ResumeLite 本地备份 (JSON)"
 
 #. App version label in footer; includes semantic version variable
 #: src/components/ui/copyright.tsx
 msgid "ResumeLite v{__APP_VERSION__}"
-msgstr ""
+msgstr "ResumeLite v{__APP_VERSION__}"
 
 #. Import source option for legacy ResumeLite v4 JSON format
 #: src/dialogs/resume/import.tsx
 msgid "ResumeLite v4 (JSON)"
-msgstr ""
+msgstr "ResumeLite v4 (JSON)"
 
 #: src/features/command-palette/pages/navigation.tsx
 #: src/features/command-palette/pages/resumes.tsx
@@ -1551,7 +1551,7 @@ msgstr "保存更改"
 
 #: src/dialogs/project/index.tsx
 msgid "Saving your experience..."
-msgstr ""
+msgstr "正在保存经历……"
 
 #: src/dialogs/resume/sections/education.tsx
 msgid "School"
@@ -1603,7 +1603,7 @@ msgstr "阴影宽度"
 
 #: src/features/project/labels.ts
 msgid "Shipped"
-msgstr ""
+msgstr "已上线"
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
@@ -1625,7 +1625,7 @@ msgstr "在标题中显示链接"
 
 #: src/features/project/labels.ts
 msgid "Side project"
-msgstr ""
+msgstr "副业项目"
 
 #. Layout editor column label for the secondary sidebar area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
@@ -1638,7 +1638,7 @@ msgstr "侧边栏宽度"
 
 #: src/dialogs/resume/template/data.ts
 msgid "Single-column Chinese AI product resume with a compact header, portrait, gray section bars, and dense project bullets."
-msgstr ""
+msgstr "单栏中文 AI 产品简历，紧凑页眉、头像、灰色分节栏与密集的项目要点。"
 
 #: src/dialogs/resume/template/data.ts
 msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
@@ -1711,7 +1711,7 @@ msgstr "方形"
 
 #: src/dialogs/project/index.tsx
 msgid "Stage"
-msgstr ""
+msgstr "阶段"
 
 #: src/components/input/github-stars-button.tsx
 msgid "Star us on GitHub (opens in new tab)"
@@ -1748,6 +1748,10 @@ msgstr "总结"
 msgid "Swedish"
 msgstr "瑞典语"
 
+#: src/routes/dashboard/-components/language-toggle.tsx
+msgid "Switch language"
+msgstr "切换语言"
+
 #: src/features/theme/toggle-button.tsx
 msgid "Switch to dark theme"
 msgstr "切换到深色主题"
@@ -1775,7 +1779,7 @@ msgstr "泰米尔语"
 
 #: src/dialogs/project/index.tsx
 msgid "Tech & methods"
-msgstr ""
+msgstr "技术与方法"
 
 #: src/libs/locale.ts
 msgid "Telugu"
@@ -2014,7 +2018,7 @@ msgstr "更新简历"
 
 #: src/routes/dashboard/experiences/-components/cards/experience-card.tsx
 msgid "Updated {updatedAt}"
-msgstr ""
+msgstr "更新于 {updatedAt}"
 
 #: src/dialogs/resume/index.tsx
 msgid "Updating your resume..."
@@ -2080,7 +2084,7 @@ msgstr "简历一旦被锁定，就无法更新或删除。"
 
 #: src/features/project/labels.ts
 msgid "Work"
-msgstr ""
+msgstr "工作"
 
 #: src/hooks/use-form-blocker.tsx
 msgid "You have unsaved changes that will be lost."
@@ -2092,19 +2096,19 @@ msgstr "你的更改会自动保存。"
 
 #: src/dialogs/project/index.tsx
 msgid "Your experience has been created."
-msgstr ""
+msgstr "经历已创建。"
 
 #: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
 msgid "Your experience has been deleted successfully."
-msgstr ""
+msgstr "经历已成功删除。"
 
 #: src/routes/dashboard/experiences/-components/menus/dropdown-menu.tsx
 msgid "Your experience has been duplicated successfully."
-msgstr ""
+msgstr "经历已成功复制。"
 
 #: src/dialogs/project/index.tsx
 msgid "Your experience has been saved."
-msgstr ""
+msgstr "经历已保存。"
 
 #: src/features/resume/builder/draft.ts
 msgid "Your latest changes could not be saved."
@@ -2136,7 +2140,7 @@ msgstr "你的简历已成功更新。"
 
 #: src/dialogs/project/index.tsx
 msgid "Your role"
-msgstr ""
+msgstr "你的角色"
 
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgid "Zoom in"

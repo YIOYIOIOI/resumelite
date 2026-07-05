@@ -1748,6 +1748,10 @@ msgstr "ማጠቃለያ"
 msgid "Swedish"
 msgstr "ስዊድንኛ"
 
+#: src/routes/dashboard/-components/language-toggle.tsx
+msgid "Switch language"
+msgstr ""
+
 #: src/features/theme/toggle-button.tsx
 msgid "Switch to dark theme"
 msgstr "ወደ ጨለማ ገጽታ ቀይር"
