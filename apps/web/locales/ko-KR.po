@@ -440,6 +440,10 @@ msgstr "중단한 곳부터 계속하기"
 msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
 msgstr ""
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Could not read that template file."
+msgstr ""
+
 #. Fallback title for a custom cover letter item in resume builder when recipient is empty
 #. Fallback title for a custom cover letter item in resume builder when recipient is unavailable
 #: src/dialogs/resume/sections/custom.tsx
@@ -779,6 +783,10 @@ msgstr ""
 msgid "Export"
 msgstr "내보내기"
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Export as template"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Failed to load picture. Please try again."
 msgstr ""
@@ -984,6 +992,10 @@ msgstr "가져오기"
 #: src/routes/dashboard/resumes/-components/list-view.tsx
 msgid "Import an existing resume"
 msgstr "기존 이력서 가져오기"
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Import template"
+msgstr ""
 
 #: src/dialogs/resume/import.tsx
 msgid "Importing your resume..."
@@ -1789,6 +1801,14 @@ msgstr "텔루구어"
 msgid "Template"
 msgstr "템플릿"
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Template applied."
+msgstr ""
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Template exported."
+msgstr ""
+
 #: src/dialogs/resume/template/gallery.tsx
 msgid "Template Gallery"
 msgstr "템플릿 갤러리"
@@ -1801,6 +1821,10 @@ msgstr "텍스트 색상"
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "태국어"
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "That file isn't a valid ResumeLite template."
+msgstr ""
 
 #. Empty-state message when no command palette results match the search query
 #: src/features/command-palette/index.tsx
