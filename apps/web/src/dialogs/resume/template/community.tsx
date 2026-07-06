@@ -59,7 +59,7 @@ export function CommunityTemplateGallery() {
 				<p className="max-w-sm text-sm leading-relaxed">
 					<Trans>Couldn't reach the community gallery. Check your connection, or import a template file instead.</Trans>
 				</p>
-				<Button variant="outline" size="sm" onClick={() => templatesQuery.refetch()}>
+				<Button variant="outline" size="sm" onClick={() => void templatesQuery.refetch()}>
 					<Trans>Retry</Trans>
 				</Button>
 			</div>
@@ -79,7 +79,15 @@ export function CommunityTemplateGallery() {
 			{templatesQuery.data.map((template) => (
 				<div key={template.slug} className="flex flex-col gap-2">
 					<div className="relative aspect-page overflow-hidden rounded-md bg-popover">
-						<img src={template.preview} alt={template.name} className="size-full object-cover" loading="lazy" />
+						<img
+							src={template.preview}
+							alt={template.name}
+							className="size-full object-cover"
+							loading="lazy"
+							onError={(event) => {
+								event.currentTarget.style.visibility = "hidden";
+							}}
+						/>
 					</div>
 
 					<div className="flex items-start justify-between gap-2">
@@ -91,7 +99,7 @@ export function CommunityTemplateGallery() {
 								</p>
 							) : null}
 						</div>
-						<Button size="sm" disabled={applyingSlug === template.slug} onClick={() => onUse(template.slug)}>
+						<Button size="sm" disabled={applyingSlug !== null} onClick={() => onUse(template.slug)}>
 							{applyingSlug === template.slug ? <Spinner /> : <Trans>Use</Trans>}
 						</Button>
 					</div>
