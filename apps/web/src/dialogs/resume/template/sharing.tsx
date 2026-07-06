@@ -19,7 +19,8 @@ export function TemplateSharingActions() {
 	function onExport() {
 		const preset = extractPreset(resume.data.metadata, { name: resume.name, tags: resume.tags });
 		const blob = new Blob([JSON.stringify(preset, null, 2)], { type: "application/json" });
-		downloadWithAnchor(blob, generateFilename(`${resume.name}-template`, "json"));
+		const filename = generateFilename(`${resume.name}-template`, "json");
+		downloadWithAnchor(blob, filename.startsWith(".") ? "resume-template.json" : filename);
 		toast.success(t`Template exported.`);
 	}
 
@@ -27,6 +28,11 @@ export function TemplateSharingActions() {
 		const file = event.target.files?.[0];
 		event.target.value = "";
 		if (!file) return;
+
+		if (file.size > 512 * 1024) {
+			toast.error(t`That template file is too large.`);
+			return;
+		}
 
 		try {
 			const parsed = templatePresetSchema.safeParse(JSON.parse(await file.text()));

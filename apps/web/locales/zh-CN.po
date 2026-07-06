@@ -1826,6 +1826,10 @@ msgstr "泰语"
 msgid "That file isn't a valid ResumeLite template."
 msgstr "该文件不是有效的 ResumeLite 模板。"
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "That template file is too large."
+msgstr "该模板文件太大了。"
+
 #. Empty-state message when no command palette results match the search query
 #: src/features/command-palette/index.tsx
 msgid "The command you're looking for doesn't exist."
