@@ -14,7 +14,7 @@ import { CometCard } from "@/components/animation/comet-card";
 import { useDialogStore } from "@/dialogs/store";
 import { useCurrentResume, useUpdateResumeData } from "@/features/resume/builder/draft";
 import { CommunityTemplateGallery } from "./community";
-import { templates } from "./data";
+import { templateAccent, templates } from "./data";
 import { TemplateSharingActions } from "./sharing";
 
 export function TemplateGalleryDialog(_: DialogProps<"resume.template.gallery">) {
@@ -26,6 +26,7 @@ export function TemplateGalleryDialog(_: DialogProps<"resume.template.gallery">)
 	function onSelectTemplate(template: Template) {
 		updateResumeData((draft) => {
 			draft.metadata.template = template;
+			draft.metadata.design.colors.primary = templateAccent[template];
 		});
 
 		closeDialog();

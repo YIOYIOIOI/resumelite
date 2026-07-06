@@ -10,6 +10,28 @@ export type TemplateMetadata = {
 	sidebarPosition: "left" | "right" | "none";
 };
 
+// Recommended accent color per template, matched to each preview image so picking a template
+// gives roughly what the gallery shows. Monochrome templates (onyx/bronzor/rhyhorn) use black;
+// Slate renders its own gray internally so its value is moot.
+export const templateAccent: Record<Template, string> = {
+	"ai-product": "rgba(89, 88, 85, 1)",
+	azurill: "rgba(0, 132, 209, 1)",
+	bronzor: "rgba(0, 0, 0, 1)",
+	chikorita: "rgba(22, 128, 60, 1)",
+	ditgar: "rgba(37, 99, 235, 1)",
+	ditto: "rgba(219, 39, 119, 1)",
+	gengar: "rgba(124, 58, 237, 1)",
+	glalie: "rgba(90, 130, 165, 1)",
+	kakuna: "rgba(180, 140, 20, 1)",
+	lapras: "rgba(37, 99, 235, 1)",
+	leafish: "rgba(34, 139, 34, 1)",
+	meowth: "rgba(79, 70, 229, 1)",
+	onyx: "rgba(0, 0, 0, 1)",
+	pikachu: "rgba(180, 140, 20, 1)",
+	rhyhorn: "rgba(0, 0, 0, 1)",
+	scizor: "rgba(0, 132, 209, 1)",
+};
+
 export const templates = {
 	"ai-product": {
 		name: "Slate",

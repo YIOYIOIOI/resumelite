@@ -64,9 +64,12 @@ describe("TemplateGalleryDialog", () => {
 		fireEvent.click(button);
 
 		expect(updateResumeData).toHaveBeenCalledTimes(1);
-		const recipe = updateResumeData.mock.calls[0]?.[0] as (draft: { metadata: { template: string } }) => void;
-		const draft = { metadata: { template: "ditto" } };
+		const recipe = updateResumeData.mock.calls[0]?.[0] as (draft: {
+			metadata: { template: string; design: { colors: { primary: string } } };
+		}) => void;
+		const draft = { metadata: { template: "ditto", design: { colors: { primary: "" } } } };
 		recipe(draft);
 		expect(draft.metadata.template).toBe("onyx");
+		expect(draft.metadata.design.colors.primary).toBe("rgba(0, 0, 0, 1)");
 	});
 });

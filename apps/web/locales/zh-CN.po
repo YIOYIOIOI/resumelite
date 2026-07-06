@@ -1683,7 +1683,7 @@ msgstr "侧边栏宽度"
 
 #: src/dialogs/resume/template/data.ts
 msgid "Single-column Chinese resume with a compact header, portrait, gray section bars, and dense project bullets."
-msgstr ""
+msgstr "单栏中文简历，紧凑页眉、头像、灰色分节栏与密集的项目要点。"
 
 #: src/dialogs/resume/template/data.ts
 msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."

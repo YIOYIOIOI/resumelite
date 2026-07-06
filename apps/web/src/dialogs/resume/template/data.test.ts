@@ -50,9 +50,11 @@ describe("templates metadata", () => {
 		expect(new Set(urls).size).toBe(urls.length);
 	});
 
-	it("uses lowercase ids that match the kebab-case slug of the display name", () => {
+	it("uses lowercase ids, and names that kebab-case to the id (except the legacy ai-product id)", () => {
 		for (const [id, meta] of entries) {
 			expect(id).toBe(id.toLowerCase());
+			// ai-product keeps its historical id for backwards-compat while displaying as "Slate".
+			if (id === "ai-product") continue;
 			expect(meta.name.toLowerCase().replace(/\s+/g, "-")).toBe(id);
 		}
 	});
