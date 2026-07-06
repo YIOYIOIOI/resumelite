@@ -46,20 +46,18 @@ pnpm --filter web package:desktop
 - **项目经历库**（`/dashboard/experiences`）：记录你做过的项目，作为定制简历时可复用的素材。
 - 双语界面——在侧边栏一键切换中英文（基于 Lingui）。
 
-## 用 AI 助手安装并使用
+## 用 AI 助手安装
 
-有编码助手（Claude Code、Cursor、Codex 等）？把下面这段粘贴给它——它会自动克隆、安装、启动，然后帮你写简历：
+有编码助手（Claude Code、Cursor、Codex 等）？把下面这段粘贴给它，让它帮你克隆、安装并启动项目：
 
 ```text
-帮我安装并使用 ResumeLite：
+帮我安装 ResumeLite：
 1. 克隆 https://github.com/YIOYIOIOI/resumelite 并进入该目录。
 2. 运行 "pnpm install"，然后用 "pnpm dev" 在后台启动并保持运行——应用通过本地服务器中间件保存数据，必须保持运行。
-3. 确认 http://localhost:3000 能打开面板。
-4. 阅读 AGENTS.md 和 .claude/skills/resumelite-workspace/SKILL.md，了解本地简历/经历 API 的用法。
-5. 帮我在 /dashboard/experiences 录入项目经历，然后根据我给你的职位描述定制一份简历。
+3. 打开 http://localhost:3000 确认面板能加载，并简单介绍一下这个项目是做什么的。
 ```
 
-原理：本地 API 是纯 HTTP，助手可以直接读取你的经历库并写出定制简历。内置技能 `.claude/skills/resumelite-workspace/` 面向 Claude Code 说明了机制；`AGENTS.md` 为其他助手提供了相同的指引。
+跑起来之后，再让助手读 `AGENTS.md` 和 `.claude/skills/resumelite-workspace/`，它就能帮你录入经历、定制简历。
 
 ## 命令
 
