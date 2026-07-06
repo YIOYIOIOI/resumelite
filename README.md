@@ -1,7 +1,7 @@
 <div align="center">
   <h1>ResumeLite</h1>
 
-  <p>A local-first resume builder for personal desktop and browser use.</p>
+  <p>A local-first personal resume manager — keep a library of everything you've done, and build tailored resumes from it.</p>
 
   <p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
@@ -13,9 +13,9 @@
 
 ---
 
-ResumeLite is a resume builder that runs entirely on your own machine. You get a full editor, multiple templates, imports, and PDF/DOCX/JSON export — and every resume is saved to a local JSON file at `data/local/resumes.json` that never leaves your computer.
+ResumeLite is more than a resume editor — it's a personal resume management system. Keep a **library of your project experiences** (the single source of truth for what you've actually done), then draw on it to build tailored resumes for each role you apply to. Everything runs on your own machine, and every resume and experience is saved to local JSON files that never leave your computer.
 
-That file is read and written by the local server, so start the app with `pnpm dev` or `pnpm start` (vite preview) and it saves as you edit. Export a JSON backup now and then, especially before switching machines.
+Your data is read and written by the local server, so start the app with `pnpm dev` or `pnpm start` (vite preview) and it saves as you edit. Export a JSON backup now and then, especially before switching machines.
 
 ## Quick Start
 
@@ -38,12 +38,12 @@ The packaged app lands in `apps/web/release-desktop/ResumeLite-<version>-win-x64
 
 ## Features
 
-- Local resume dashboard: create, edit, duplicate, lock/unlock, delete, sort, and tag resumes.
-- Autosave into the local JSON file, with live reload when the data changes on disk.
-- JSON import for Reactive Resume and JSON Resume data.
-- PDF, DOCX, and JSON export.
+- **Project experience library** (`/dashboard/experiences`) — record every project you've worked on in one place: your factual source of truth for writing resumes.
+- **Tailored resumes** — spin up a resume for a specific role, reusing the experiences you've already recorded.
+- Resume dashboard: create, edit, duplicate, lock/unlock, delete, sort, and tag.
 - Multiple templates, page settings, typography, layout, notes, custom sections, rich text, and custom CSS.
-- A **project experience library** (`/dashboard/experiences`) for recording the projects you have worked on as reusable source material for tailoring resumes.
+- Autosave into local JSON files, with live reload when data changes on disk.
+- Import from Reactive Resume and JSON Resume; export to PDF, DOCX, and JSON.
 - Bilingual UI — switch between English and Chinese from the sidebar (powered by Lingui).
 
 ## Set up with an AI agent
