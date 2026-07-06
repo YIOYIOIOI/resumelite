@@ -7,7 +7,9 @@ import { designSchema, layoutSchema, pageSchema, sectionsSchema, styleRulesSchem
 // shared template captures. It deliberately excludes `notes` (private, author-only) and
 // all resume content (basics, sections, summary, picture, …).
 export const templateAppearanceSchema = z.object({
-	template: templateSchema.catch("onyx"),
+	// Strict on import: a preset naming a template this build doesn't have should be rejected
+	// (as "not a valid template") rather than silently coerced to a default base template.
+	template: templateSchema,
 	layout: layoutSchema,
 	page: pageSchema,
 	design: designSchema,
