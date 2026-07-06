@@ -13,9 +13,9 @@
 
 ---
 
-ResumeLite 是一个把一切都留在你本机的简历生成器。它有编辑器、模板、导入以及 PDF/DOCX/JSON 导出——但没有登录、没有后端 API、没有数据库，也没有托管服务。你的简历保存在本地 JSON 文件 `data/local/resumes.json` 中，由 Vite 服务器中间件读写（不在浏览器里）。
+ResumeLite 是一个完全在你自己机器上运行的简历生成器。它有完整的编辑器、多套模板、导入以及 PDF/DOCX/JSON 导出——每一份简历都保存在本地 JSON 文件 `data/local/resumes.json` 中，绝不离开你的电脑。
 
-因为持久化依赖该中间件，请用 `pnpm dev` 或 `pnpm start`（vite preview）运行——纯静态构建没有 `/api/local` 接口，无法保存。请定期导出 JSON 备份，尤其是在换机器之前。
+这个文件由本地服务器读写，所以用 `pnpm dev` 或 `pnpm start`（vite preview）启动，编辑时会随手保存。记得偶尔导出一份 JSON 备份，尤其是在换机器之前。
 
 ## 快速开始
 
@@ -24,11 +24,11 @@ pnpm install
 pnpm dev
 ```
 
-打开 [http://localhost:3000](http://localhost:3000)。日常本地使用不需要任何 `.env`、Docker、数据库或云凭证。
+打开 [http://localhost:3000](http://localhost:3000) 即可开始——本地开箱即用，无需额外配置。
 
 ## 桌面版
 
-ResumeLite 提供自包含的 Windows 桌面版——双击即可运行，无需手动启动服务器。数据存放在可执行文件同目录下的 `data` 文件夹里，所以整个程序是便携的：解压到任意位置、运行，删除文件夹即卸载。
+ResumeLite 提供自包含的 Windows 桌面版——双击即可运行。数据存放在可执行文件同目录下的 `data` 文件夹里，所以整个程序是便携的：解压到任意位置、运行，删除文件夹即卸载。
 
 ```bash
 pnpm --filter web package:desktop
@@ -91,4 +91,4 @@ pnpm --filter web package:desktop
 
 ## 致谢与许可
 
-ResumeLite 是 [Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume)（作者 Amruth Pillai）的本地优先分支。它保留了简历编辑器和模板，去掉了托管服务栈（登录、数据库、服务端 API、Docker 以及公开分享层）。项目沿用原始的 [MIT 许可证](./LICENSE)——再分发修改版时请保留上游署名。
+ResumeLite 是 [Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume)（作者 Amruth Pillai）的本地优先分支，专注于在你自己的机器上私密运行。项目沿用原始的 [MIT 许可证](./LICENSE)——再分发修改版时请保留上游署名。
