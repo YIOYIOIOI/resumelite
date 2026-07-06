@@ -435,6 +435,10 @@ msgstr "Continue where you left off"
 msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
 msgstr "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Could not read that template file."
+msgstr "Could not read that template file."
+
 #. Fallback title for a custom cover letter item in resume builder when recipient is empty
 #. Fallback title for a custom cover letter item in resume builder when recipient is unavailable
 #: src/dialogs/resume/sections/custom.tsx
@@ -774,6 +778,10 @@ msgstr "Experiences"
 msgid "Export"
 msgstr "Export"
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Export as template"
+msgstr "Export as template"
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Failed to load picture. Please try again."
 msgstr "Failed to load picture. Please try again."
@@ -979,6 +987,10 @@ msgstr "Import"
 #: src/routes/dashboard/resumes/-components/list-view.tsx
 msgid "Import an existing resume"
 msgstr "Import an existing resume"
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Import template"
+msgstr "Import template"
 
 #: src/dialogs/resume/import.tsx
 msgid "Importing your resume..."
@@ -1784,6 +1796,14 @@ msgstr "Telugu"
 msgid "Template"
 msgstr "Template"
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Template applied."
+msgstr "Template applied."
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Template exported."
+msgstr "Template exported."
+
 #: src/dialogs/resume/template/gallery.tsx
 msgid "Template Gallery"
 msgstr "Template Gallery"
@@ -1796,6 +1816,10 @@ msgstr "Text Color"
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "Thai"
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "That file isn't a valid ResumeLite template."
+msgstr "That file isn't a valid ResumeLite template."
 
 #. Empty-state message when no command palette results match the search query
 #: src/features/command-palette/index.tsx

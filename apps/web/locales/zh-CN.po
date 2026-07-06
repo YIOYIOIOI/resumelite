@@ -440,6 +440,10 @@ msgstr "从上次中断的地方继续"
 msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
 msgstr "导入你用 ResumeLite 或其他简历工具创建的简历，接着上次的进度继续。支持的格式包括 ResumeLite 和 JSON Resume 的 JSON 文件。"
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Could not read that template file."
+msgstr "无法读取该模板文件。"
+
 #. Fallback title for a custom cover letter item in resume builder when recipient is empty
 #. Fallback title for a custom cover letter item in resume builder when recipient is unavailable
 #: src/dialogs/resume/sections/custom.tsx
@@ -779,6 +783,10 @@ msgstr "经历"
 msgid "Export"
 msgstr "导出"
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Export as template"
+msgstr "导出为模板"
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Failed to load picture. Please try again."
 msgstr "图片加载失败，请重试。"
@@ -984,6 +992,10 @@ msgstr "导入"
 #: src/routes/dashboard/resumes/-components/list-view.tsx
 msgid "Import an existing resume"
 msgstr "导入现有简历"
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Import template"
+msgstr "导入模板"
 
 #: src/dialogs/resume/import.tsx
 msgid "Importing your resume..."
@@ -1789,6 +1801,14 @@ msgstr "泰卢固语"
 msgid "Template"
 msgstr "模板"
 
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Template applied."
+msgstr "模板已套用。"
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "Template exported."
+msgstr "模板已导出。"
+
 #: src/dialogs/resume/template/gallery.tsx
 msgid "Template Gallery"
 msgstr "模板库"
@@ -1801,6 +1821,10 @@ msgstr "文本颜色"
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "泰语"
+
+#: src/dialogs/resume/template/sharing.tsx
+msgid "That file isn't a valid ResumeLite template."
+msgstr "该文件不是有效的 ResumeLite 模板。"
 
 #. Empty-state message when no command palette results match the search query
 #: src/features/command-palette/index.tsx

@@ -13,6 +13,7 @@ import { CometCard } from "@/components/animation/comet-card";
 import { useDialogStore } from "@/dialogs/store";
 import { useCurrentResume, useUpdateResumeData } from "@/features/resume/builder/draft";
 import { templates } from "./data";
+import { TemplateSharingActions } from "./sharing";
 
 export function TemplateGalleryDialog(_: DialogProps<"resume.template.gallery">) {
 	const closeDialog = useDialogStore((state) => state.closeDialog);
@@ -43,6 +44,8 @@ export function TemplateGalleryDialog(_: DialogProps<"resume.template.gallery">)
 					</Trans>
 				</DialogDescription>
 			</DialogHeader>
+
+			<TemplateSharingActions />
 
 			<ScrollArea className="max-h-[80svh] pb-8">
 				<div className="grid grid-cols-2 gap-6 p-4 md:grid-cols-3 lg:grid-cols-4">
