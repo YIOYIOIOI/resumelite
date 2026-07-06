@@ -11,7 +11,7 @@ afterEach(() => {
 });
 
 function jsonResponse(data: unknown, ok = true, status = 200) {
-	return { ok, status, json: async () => data };
+	return { ok, status, text: async () => JSON.stringify(data) };
 }
 
 describe("fetchCommunityTemplates", () => {
@@ -29,14 +29,12 @@ describe("fetchCommunityTemplates", () => {
 		expect(result[0]?.preview).toMatch(/^https:\/\/.+\/templates\/clean\/preview\.jpg$/);
 	});
 
-	it("keeps absolute preview URLs as-is", async () => {
+	it("rejects an entry whose preview is an absolute URL (no third-party images)", async () => {
 		fetchMock.mockResolvedValue(
 			jsonResponse({ templates: [{ slug: "x", name: "X", tags: [], preview: "https://cdn.example/x.png" }] }),
 		);
 
-		const result = await fetchCommunityTemplates();
-
-		expect(result[0]?.preview).toBe("https://cdn.example/x.png");
+		await expect(fetchCommunityTemplates()).rejects.toThrow();
 	});
 
 	it("throws on a non-ok response", async () => {
