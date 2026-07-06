@@ -297,6 +297,10 @@ msgstr "ಗಡಿಯ ಅಗಲ"
 msgid "Builder Command Palette"
 msgstr "ಬಿಲ್ಡರ್ ಕಮಾಂಡ್ ಪ್ಯಾಲೆಟ್"
 
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Built-in"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Bulgarian"
 msgstr "ಬಲ್ಗೇರಿಯನ್"
@@ -304,6 +308,11 @@ msgstr "ಬಲ್ಗೇರಿಯನ್"
 #: src/components/input/rich-input.tsx
 msgid "Bullet List"
 msgstr "ಬುಲೆಟ್ ಪಟ್ಟ್ತಿ"
+
+#. placeholder {0}: template.author
+#: src/dialogs/resume/template/community.tsx
+msgid "by {0}"
+msgstr ""
 
 #. Tagline shown in app footer/about area
 #: src/components/ui/copyright.tsx
@@ -418,6 +427,10 @@ msgstr "ಕಮಾಂಡ್ ಪ್ಯಾಲೆಟ್"
 msgid "Command Palette - {currentPage}"
 msgstr "ಕಮಾಂಡ್ ಪ್ಯಾಲೆಟ್ - {currentPage}"
 
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Community"
+msgstr ""
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Company"
 msgstr "ಕಂಪನಿ"
@@ -440,8 +453,16 @@ msgstr "ನೀವು ನಿಲ್ಲಿಸಿದ ಜಾಗದಿಂದ ಮುಂ
 msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
 msgstr ""
 
+#: src/dialogs/resume/template/community.tsx
+msgid "Could not load that template."
+msgstr ""
+
 #: src/dialogs/resume/template/sharing.tsx
 msgid "Could not read that template file."
+msgstr ""
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Couldn't reach the community gallery. Check your connection, or import a template file instead."
 msgstr ""
 
 #. Fallback title for a custom cover letter item in resume builder when recipient is empty
@@ -1160,6 +1181,10 @@ msgstr "ಪಟ್ಟಿ"
 msgid "Lithuanian"
 msgstr "ಲಿಥುವೇನಿಯನ್"
 
+#: src/dialogs/resume/template/community.tsx
+msgid "Loading community templates…"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Loading picture…"
 msgstr ""
@@ -1246,6 +1271,10 @@ msgstr "ಹೊಸ ಪುಟ"
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
 msgid "New Section"
 msgstr "ಹೊಸ ವಿಭಾಗ"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "No community templates yet."
+msgstr ""
 
 #: src/components/ui/combobox.tsx
 msgid "No results found."
@@ -1512,6 +1541,10 @@ msgstr ""
 #: src/routes/dashboard/resumes/index.tsx
 msgid "Resumes"
 msgstr "ರೆಸ್ಯೂಮೇ"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Retry"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Right Align"
@@ -1801,6 +1834,7 @@ msgstr "ತೆಲುಗು"
 msgid "Template"
 msgstr "ಮಾದರಿ"
 
+#: src/dialogs/resume/template/community.tsx
 #: src/dialogs/resume/template/sharing.tsx
 msgid "Template applied."
 msgstr ""
@@ -2059,6 +2093,10 @@ msgstr "ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "URL"
 msgstr "URL"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Use"
+msgstr ""
 
 #: src/components/input/color-picker.tsx
 msgid "Use color {color}"

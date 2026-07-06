@@ -297,6 +297,10 @@ msgstr "सीमेची जाडी"
 msgid "Builder Command Palette"
 msgstr "बिल्डर कमांड पॅलेट"
 
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Built-in"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Bulgarian"
 msgstr "बल्गेरियन"
@@ -304,6 +308,11 @@ msgstr "बल्गेरियन"
 #: src/components/input/rich-input.tsx
 msgid "Bullet List"
 msgstr "बुलेट यादी"
+
+#. placeholder {0}: template.author
+#: src/dialogs/resume/template/community.tsx
+msgid "by {0}"
+msgstr ""
 
 #. Tagline shown in app footer/about area
 #: src/components/ui/copyright.tsx
@@ -418,6 +427,10 @@ msgstr "आदेश पॅलेट"
 msgid "Command Palette - {currentPage}"
 msgstr "आदेश पॅलेट - {currentPage}"
 
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Community"
+msgstr ""
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Company"
 msgstr "कंपनी"
@@ -440,8 +453,16 @@ msgstr "जिथे थांबला होतात तिथूनच स�
 msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
 msgstr ""
 
+#: src/dialogs/resume/template/community.tsx
+msgid "Could not load that template."
+msgstr ""
+
 #: src/dialogs/resume/template/sharing.tsx
 msgid "Could not read that template file."
+msgstr ""
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Couldn't reach the community gallery. Check your connection, or import a template file instead."
 msgstr ""
 
 #. Fallback title for a custom cover letter item in resume builder when recipient is empty
@@ -1160,6 +1181,10 @@ msgstr "यादी"
 msgid "Lithuanian"
 msgstr "लिथुआनियन"
 
+#: src/dialogs/resume/template/community.tsx
+msgid "Loading community templates…"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Loading picture…"
 msgstr ""
@@ -1246,6 +1271,10 @@ msgstr "नवीन पान"
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
 msgid "New Section"
 msgstr "नवीन विभाग"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "No community templates yet."
+msgstr ""
 
 #: src/components/ui/combobox.tsx
 msgid "No results found."
@@ -1512,6 +1541,10 @@ msgstr ""
 #: src/routes/dashboard/resumes/index.tsx
 msgid "Resumes"
 msgstr "रेझ्युमे"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Retry"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Right Align"
@@ -1801,6 +1834,7 @@ msgstr "तेलगू"
 msgid "Template"
 msgstr "साचा"
 
+#: src/dialogs/resume/template/community.tsx
 #: src/dialogs/resume/template/sharing.tsx
 msgid "Template applied."
 msgstr ""
@@ -2059,6 +2093,10 @@ msgstr "चित्र अपलोड करा"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "URL"
 msgstr "यूआरएल"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Use"
+msgstr ""
 
 #: src/components/input/color-picker.tsx
 msgid "Use color {color}"
