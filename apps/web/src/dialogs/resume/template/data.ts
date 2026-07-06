@@ -12,10 +12,10 @@ export type TemplateMetadata = {
 
 export const templates = {
 	"ai-product": {
-		name: "AI Product",
-		description: msg`Single-column Chinese AI product resume with a compact header, portrait, gray section bars, and dense project bullets.`,
+		name: "Slate",
+		description: msg`Single-column Chinese resume with a compact header, portrait, gray section bars, and dense project bullets.`,
 		imageUrl: "/templates/jpg/ai-product.jpg",
-		tags: ["Single-column", "Chinese", "AI product", "Compact", "Portrait"],
+		tags: ["Single-column", "Chinese", "Compact", "Portrait"],
 		sidebarPosition: "none",
 	},
 	azurill: {

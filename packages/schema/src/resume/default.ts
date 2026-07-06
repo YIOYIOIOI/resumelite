@@ -141,7 +141,7 @@ export const defaultResumeData: ResumeData = {
 		},
 		design: {
 			colors: {
-				primary: "rgba(220, 38, 38, 1)",
+				primary: "rgba(0, 132, 209, 1)",
 				text: "rgba(0, 0, 0, 1)",
 				background: "rgba(255, 255, 255, 1)",
 			},

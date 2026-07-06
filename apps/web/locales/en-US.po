@@ -1677,8 +1677,8 @@ msgid "Sidebar Width"
 msgstr "Sidebar Width"
 
 #: src/dialogs/resume/template/data.ts
-msgid "Single-column Chinese AI product resume with a compact header, portrait, gray section bars, and dense project bullets."
-msgstr "Single-column Chinese AI product resume with a compact header, portrait, gray section bars, and dense project bullets."
+msgid "Single-column Chinese resume with a compact header, portrait, gray section bars, and dense project bullets."
+msgstr "Single-column Chinese resume with a compact header, portrait, gray section bars, and dense project bullets."
 
 #: src/dialogs/resume/template/data.ts
 msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
