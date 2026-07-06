@@ -18,6 +18,7 @@ import { DialogManager } from "@/dialogs/manager";
 import { CommandPalette } from "@/features/command-palette";
 import { LocalDataLiveReload } from "@/features/local-data-events/live-reload";
 import { ThemeProvider } from "@/features/theme/provider";
+import { useUpdateNotice } from "@/features/update-notice/use-update-notice";
 import { ConfirmDialogProvider } from "@/hooks/use-confirm";
 import { PromptDialogProvider } from "@/hooks/use-prompt";
 import { getLocale, isRTL, loadLocale } from "@/libs/locale";
@@ -89,6 +90,8 @@ function RootComponent() {
 	const dir = isRTL(locale) ? "rtl" : "ltr";
 
 	const iconContextValue = useMemo<IconProps>(() => ({ size: 16, weight: "regular" }), []);
+
+	useUpdateNotice();
 
 	useEffect(() => {
 		document.documentElement.lang = locale;

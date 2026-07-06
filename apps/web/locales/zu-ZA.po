@@ -1312,6 +1312,10 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
+#: src/features/update-notice/use-update-notice.ts
+msgid "Open GitHub"
+msgstr ""
+
 #: src/features/project/labels.ts
 msgid "Open source"
 msgstr ""
@@ -1525,6 +1529,11 @@ msgstr ""
 msgid "ResumeLite v{__APP_VERSION__}"
 msgstr ""
 
+#. placeholder {0}: latest.version
+#: src/features/update-notice/use-update-notice.ts
+msgid "ResumeLite v{0} is available"
+msgstr ""
+
 #. Import source option for legacy ResumeLite v4 JSON format
 #: src/dialogs/resume/import.tsx
 msgid "ResumeLite v4 (JSON)"
@@ -1563,6 +1572,10 @@ msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
 msgid "rules"
+msgstr ""
+
+#: src/features/update-notice/use-update-notice.ts
+msgid "Run \"git pull\" to get the latest, or open the release on GitHub."
 msgstr ""
 
 #: src/libs/locale.ts

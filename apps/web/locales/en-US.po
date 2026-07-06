@@ -1312,6 +1312,10 @@ msgstr "One or two factual sentences: what it is."
 msgid "Open"
 msgstr "Open"
 
+#: src/features/update-notice/use-update-notice.ts
+msgid "Open GitHub"
+msgstr "Open GitHub"
+
 #: src/features/project/labels.ts
 msgid "Open source"
 msgstr "Open source"
@@ -1525,6 +1529,11 @@ msgstr "ResumeLite local backup (JSON)"
 msgid "ResumeLite v{__APP_VERSION__}"
 msgstr "ResumeLite v{__APP_VERSION__}"
 
+#. placeholder {0}: latest.version
+#: src/features/update-notice/use-update-notice.ts
+msgid "ResumeLite v{0} is available"
+msgstr "ResumeLite v{0} is available"
+
 #. Import source option for legacy ResumeLite v4 JSON format
 #: src/dialogs/resume/import.tsx
 msgid "ResumeLite v4 (JSON)"
@@ -1564,6 +1573,10 @@ msgstr "rule"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
 msgid "rules"
 msgstr "rules"
+
+#: src/features/update-notice/use-update-notice.ts
+msgid "Run \"git pull\" to get the latest, or open the release on GitHub."
+msgstr "Run \"git pull\" to get the latest, or open the release on GitHub."
 
 #: src/libs/locale.ts
 msgid "Russian"

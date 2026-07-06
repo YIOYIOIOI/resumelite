@@ -1317,6 +1317,10 @@ msgstr "一两句客观描述：它是什么。"
 msgid "Open"
 msgstr "打开"
 
+#: src/features/update-notice/use-update-notice.ts
+msgid "Open GitHub"
+msgstr "打开 GitHub"
+
 #: src/features/project/labels.ts
 msgid "Open source"
 msgstr "开源"
@@ -1530,6 +1534,11 @@ msgstr "ResumeLite 本地备份 (JSON)"
 msgid "ResumeLite v{__APP_VERSION__}"
 msgstr "ResumeLite v{__APP_VERSION__}"
 
+#. placeholder {0}: latest.version
+#: src/features/update-notice/use-update-notice.ts
+msgid "ResumeLite v{0} is available"
+msgstr "ResumeLite v{0} 可用"
+
 #. Import source option for legacy ResumeLite v4 JSON format
 #: src/dialogs/resume/import.tsx
 msgid "ResumeLite v4 (JSON)"
@@ -1569,6 +1578,10 @@ msgstr "规则"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/custom-styles.tsx
 msgid "rules"
 msgstr "规则"
+
+#: src/features/update-notice/use-update-notice.ts
+msgid "Run \"git pull\" to get the latest, or open the release on GitHub."
+msgstr "运行 \"git pull\" 拉取最新版本，或在 GitHub 上查看。"
 
 #: src/libs/locale.ts
 msgid "Russian"
