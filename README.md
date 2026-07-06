@@ -46,20 +46,18 @@ The packaged app lands in `apps/web/release-desktop/ResumeLite-<version>-win-x64
 - A **project experience library** (`/dashboard/experiences`) for recording the projects you have worked on as reusable source material for tailoring resumes.
 - Bilingual UI — switch between English and Chinese from the sidebar (powered by Lingui).
 
-## Set up & use with an AI agent
+## Set up with an AI agent
 
-Got a coding agent (Claude Code, Cursor, Codex, …)? Paste the prompt below — it will clone, install, launch, and then help you build resumes:
+Got a coding agent (Claude Code, Cursor, Codex, …)? Paste this to have it clone, install, and launch the project for you:
 
 ```text
-Set up ResumeLite and help me use it:
+Set up ResumeLite for me:
 1. Clone https://github.com/YIOYIOIOI/resumelite and cd into it.
-2. Run "pnpm install", then "pnpm dev" and keep it running in the background — the app saves through a local server middleware, so it must stay up.
-3. Confirm http://localhost:3000 loads the dashboard.
-4. Read AGENTS.md and .claude/skills/resumelite-workspace/SKILL.md to learn how the local resume/experience API works.
-5. Help me record my project experiences at /dashboard/experiences, then tailor a resume from a job description I give you.
+2. Run "pnpm install", then start it with "pnpm dev" and keep it running in the background — the app saves through a local server middleware, so it must stay up.
+3. Open http://localhost:3000, confirm the dashboard loads, and give me a short overview of what this project does.
 ```
 
-Under the hood the local API is plain HTTP, so the agent reads your experience library and writes tailored resumes directly. The bundled skill at `.claude/skills/resumelite-workspace/` documents the mechanics for Claude Code; `AGENTS.md` gives other agents the same pointers.
+Once it's running, point the agent at `AGENTS.md` and `.claude/skills/resumelite-workspace/` and it can help you record experiences and write tailored resumes.
 
 ## Commands
 
