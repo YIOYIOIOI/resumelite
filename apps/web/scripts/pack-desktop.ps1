@@ -76,4 +76,11 @@ $appPkg = [ordered]@{ name = 'resumelite'; version = $appVersion; main = 'electr
 $zipOut = Join-Path $release "ResumeLite-$appVersion-win-x64.zip"
 Compress-Archive -Path $appFolder -DestinationPath $zipOut -Force
 $size = [math]::Round((Get-Item $zipOut).Length / 1MB, 1)
+
+# 6) Emit a SHA-256 sidecar (sha256sum format) that the in-app updater verifies against.
+#    Upload both the zip and this .sha256 to the GitHub release.
+$hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $zipOut).Hash.ToLower()
+$shaOut = "$zipOut.sha256"
+[System.IO.File]::WriteAllText($shaOut, "$hash  $(Split-Path $zipOut -Leaf)`n")
 Write-Host "DONE -> $zipOut ($size MB)"
+Write-Host "SHA256 -> $shaOut"
