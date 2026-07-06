@@ -42,6 +42,7 @@ The packaged app lands in `apps/web/release-desktop/ResumeLite-<version>-win-x64
 - **Tailored resumes** — spin up a resume for a specific role, reusing the experiences you've already recorded.
 - Resume dashboard: create, edit, duplicate, lock/unlock, delete, sort, and tag.
 - Multiple templates, page settings, typography, layout, notes, custom sections, rich text, and custom CSS.
+- **Share templates** — export a resume's look as a file, import someone else's, or browse a community gallery of shared designs.
 - Autosave into local JSON files, with live reload when data changes on disk.
 - Import from Reactive Resume and JSON Resume; export to PDF, DOCX, and JSON.
 - Bilingual UI — switch between English and Chinese from the sidebar (powered by Lingui).
