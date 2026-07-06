@@ -297,6 +297,10 @@ msgstr "테두리 두께"
 msgid "Builder Command Palette"
 msgstr "빌더 명령 팔레트"
 
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Built-in"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Bulgarian"
 msgstr "불가리아어"
@@ -304,6 +308,11 @@ msgstr "불가리아어"
 #: src/components/input/rich-input.tsx
 msgid "Bullet List"
 msgstr "글머리 기호 목록"
+
+#. placeholder {0}: template.author
+#: src/dialogs/resume/template/community.tsx
+msgid "by {0}"
+msgstr ""
 
 #. Tagline shown in app footer/about area
 #: src/components/ui/copyright.tsx
@@ -418,6 +427,10 @@ msgstr "명령 팔레트"
 msgid "Command Palette - {currentPage}"
 msgstr "명령 팔레트 - {currentPage}"
 
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Community"
+msgstr ""
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Company"
 msgstr "회사"
@@ -440,8 +453,16 @@ msgstr "중단한 곳부터 계속하기"
 msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
 msgstr ""
 
+#: src/dialogs/resume/template/community.tsx
+msgid "Could not load that template."
+msgstr ""
+
 #: src/dialogs/resume/template/sharing.tsx
 msgid "Could not read that template file."
+msgstr ""
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Couldn't reach the community gallery. Check your connection, or import a template file instead."
 msgstr ""
 
 #. Fallback title for a custom cover letter item in resume builder when recipient is empty
@@ -1160,6 +1181,10 @@ msgstr "목록"
 msgid "Lithuanian"
 msgstr "리투아니아어"
 
+#: src/dialogs/resume/template/community.tsx
+msgid "Loading community templates…"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Loading picture…"
 msgstr ""
@@ -1246,6 +1271,10 @@ msgstr "새 페이지"
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
 msgid "New Section"
 msgstr "새 섹션"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "No community templates yet."
+msgstr ""
 
 #: src/components/ui/combobox.tsx
 msgid "No results found."
@@ -1512,6 +1541,10 @@ msgstr ""
 #: src/routes/dashboard/resumes/index.tsx
 msgid "Resumes"
 msgstr "이력서"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Retry"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Right Align"
@@ -1801,6 +1834,7 @@ msgstr "텔루구어"
 msgid "Template"
 msgstr "템플릿"
 
+#: src/dialogs/resume/template/community.tsx
 #: src/dialogs/resume/template/sharing.tsx
 msgid "Template applied."
 msgstr ""
@@ -2059,6 +2093,10 @@ msgstr "사진 업로드"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "URL"
 msgstr "URL"
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Use"
+msgstr ""
 
 #: src/components/input/color-picker.tsx
 msgid "Use color {color}"

@@ -8,10 +8,12 @@ import { Badge } from "@resumelite/ui/components/badge";
 import { DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@resumelite/ui/components/dialog";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@resumelite/ui/components/hover-card";
 import { ScrollArea } from "@resumelite/ui/components/scroll-area";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@resumelite/ui/components/tabs";
 import { cn } from "@resumelite/utils/style";
 import { CometCard } from "@/components/animation/comet-card";
 import { useDialogStore } from "@/dialogs/store";
 import { useCurrentResume, useUpdateResumeData } from "@/features/resume/builder/draft";
+import { CommunityTemplateGallery } from "./community";
 import { templates } from "./data";
 import { TemplateSharingActions } from "./sharing";
 
@@ -47,19 +49,36 @@ export function TemplateGalleryDialog(_: DialogProps<"resume.template.gallery">)
 
 			<TemplateSharingActions />
 
-			<ScrollArea className="max-h-[80svh] pb-8">
-				<div className="grid grid-cols-2 gap-6 p-4 md:grid-cols-3 lg:grid-cols-4">
-					{Object.entries(templates).map(([template, metadata]) => (
-						<TemplateCard
-							key={template}
-							metadata={metadata}
-							id={template as Template}
-							isActive={template === selectedTemplate}
-							onSelect={onSelectTemplate}
-						/>
-					))}
-				</div>
-			</ScrollArea>
+			<Tabs defaultValue="builtin">
+				<TabsList className="mx-4">
+					<TabsTrigger value="builtin">
+						<Trans>Built-in</Trans>
+					</TabsTrigger>
+					<TabsTrigger value="community">
+						<Trans>Community</Trans>
+					</TabsTrigger>
+				</TabsList>
+
+				<ScrollArea className="max-h-[70svh] pb-8">
+					<TabsContent value="builtin">
+						<div className="grid grid-cols-2 gap-6 p-4 md:grid-cols-3 lg:grid-cols-4">
+							{Object.entries(templates).map(([template, metadata]) => (
+								<TemplateCard
+									key={template}
+									metadata={metadata}
+									id={template as Template}
+									isActive={template === selectedTemplate}
+									onSelect={onSelectTemplate}
+								/>
+							))}
+						</div>
+					</TabsContent>
+
+					<TabsContent value="community">
+						<CommunityTemplateGallery />
+					</TabsContent>
+				</ScrollArea>
+			</Tabs>
 		</DialogContent>
 	);
 }

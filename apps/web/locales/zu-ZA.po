@@ -292,12 +292,21 @@ msgstr ""
 msgid "Builder Command Palette"
 msgstr ""
 
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Built-in"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Bulgarian"
 msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Bullet List"
+msgstr ""
+
+#. placeholder {0}: template.author
+#: src/dialogs/resume/template/community.tsx
+msgid "by {0}"
 msgstr ""
 
 #. Tagline shown in app footer/about area
@@ -413,6 +422,10 @@ msgstr ""
 msgid "Command Palette - {currentPage}"
 msgstr ""
 
+#: src/dialogs/resume/template/gallery.tsx
+msgid "Community"
+msgstr ""
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Company"
 msgstr ""
@@ -435,8 +448,16 @@ msgstr ""
 msgid "Continue where you left off by importing an existing resume you created using ResumeLite or any another resume builder. Supported formats include JSON files from ResumeLite and JSON Resume."
 msgstr ""
 
+#: src/dialogs/resume/template/community.tsx
+msgid "Could not load that template."
+msgstr ""
+
 #: src/dialogs/resume/template/sharing.tsx
 msgid "Could not read that template file."
+msgstr ""
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Couldn't reach the community gallery. Check your connection, or import a template file instead."
 msgstr ""
 
 #. Fallback title for a custom cover letter item in resume builder when recipient is empty
@@ -1155,6 +1176,10 @@ msgstr ""
 msgid "Lithuanian"
 msgstr ""
 
+#: src/dialogs/resume/template/community.tsx
+msgid "Loading community templates…"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Loading picture…"
 msgstr ""
@@ -1240,6 +1265,10 @@ msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/left/shared/section-item.tsx
 msgid "New Section"
+msgstr ""
+
+#: src/dialogs/resume/template/community.tsx
+msgid "No community templates yet."
 msgstr ""
 
 #: src/components/ui/combobox.tsx
@@ -1506,6 +1535,10 @@ msgstr ""
 #: src/routes/dashboard/-components/sidebar.tsx
 #: src/routes/dashboard/resumes/index.tsx
 msgid "Resumes"
+msgstr ""
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Retry"
 msgstr ""
 
 #: src/components/input/rich-input.tsx
@@ -1796,6 +1829,7 @@ msgstr ""
 msgid "Template"
 msgstr ""
 
+#: src/dialogs/resume/template/community.tsx
 #: src/dialogs/resume/template/sharing.tsx
 msgid "Template applied."
 msgstr ""
@@ -2053,6 +2087,10 @@ msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "URL"
+msgstr ""
+
+#: src/dialogs/resume/template/community.tsx
+msgid "Use"
 msgstr ""
 
 #: src/components/input/color-picker.tsx
