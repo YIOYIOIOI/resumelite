@@ -78,8 +78,12 @@ Compress-Archive -Path $appFolder -DestinationPath $zipOut -Force
 $size = [math]::Round((Get-Item $zipOut).Length / 1MB, 1)
 
 # 6) Emit a SHA-256 sidecar (sha256sum format) that the in-app updater verifies against.
-#    Upload both the zip and this .sha256 to the GitHub release.
-$hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $zipOut).Hash.ToLower()
+#    Upload both the zip and this .sha256 to the GitHub release. Compute via .NET rather than
+#    Get-FileHash — that cmdlet isn't present in every PowerShell host this script runs under.
+$sha = [System.Security.Cryptography.SHA256]::Create()
+$stream = [System.IO.File]::OpenRead($zipOut)
+try { $hashBytes = $sha.ComputeHash($stream) } finally { $stream.Dispose(); $sha.Dispose() }
+$hash = ([System.BitConverter]::ToString($hashBytes) -replace '-', '').ToLower()
 $shaOut = "$zipOut.sha256"
 [System.IO.File]::WriteAllText($shaOut, "$hash  $(Split-Path $zipOut -Leaf)`n")
 Write-Host "DONE -> $zipOut ($size MB)"
