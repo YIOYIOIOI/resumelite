@@ -13,9 +13,9 @@
 
 ---
 
-ResumeLite is a resume builder that keeps everything on your machine. It has the editor, templates, imports, and PDF/DOCX/JSON export — but no login, no backend API, no database, and no hosted service. Your resumes live in a local JSON file at `data/local/resumes.json`, read and written by the Vite server middleware (not in the browser).
+ResumeLite is a resume builder that runs entirely on your own machine. You get a full editor, multiple templates, imports, and PDF/DOCX/JSON export — and every resume is saved to a local JSON file at `data/local/resumes.json` that never leaves your computer.
 
-Because persistence lives in that middleware, run the app with `pnpm dev` or `pnpm start` (vite preview) — a plain static build has no `/api/local` endpoint and cannot save. Export JSON backups regularly, especially before moving to another machine.
+That file is read and written by the local server, so start the app with `pnpm dev` or `pnpm start` (vite preview) and it saves as you edit. Export a JSON backup now and then, especially before switching machines.
 
 ## Quick Start
 
@@ -24,11 +24,11 @@ pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). No `.env`, Docker, database, or cloud credentials are required for normal local use.
+Open [http://localhost:3000](http://localhost:3000) and start building — everything works locally out of the box.
 
 ## Desktop App
 
-ResumeLite ships as a self-contained Windows desktop build — double-click to run, no server to start manually. It stores its data in a `data` folder next to the executable, so the whole thing is portable: unzip anywhere, run, delete the folder to uninstall.
+ResumeLite ships as a self-contained Windows desktop build — just double-click to run. It stores its data in a `data` folder next to the executable, so the whole thing is portable: unzip anywhere, run, delete the folder to uninstall.
 
 ```bash
 pnpm --filter web package:desktop
@@ -91,4 +91,4 @@ Once it's running, point the agent at `AGENTS.md` and `.claude/skills/resumelite
 
 ## Credits & License
 
-ResumeLite is a local-first fork of [Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume) by Amruth Pillai. It keeps the resume editor and templates while dropping the hosted-service stack (auth, database, server API, Docker, and the public sharing layer). It stays under the original [MIT license](./LICENSE) — keep the upstream attribution when redistributing.
+ResumeLite is a local-first fork of [Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume) by Amruth Pillai, reworked to run privately on your own machine. It stays under the original [MIT license](./LICENSE) — keep the upstream attribution when redistributing.
